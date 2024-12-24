@@ -1,0 +1,20 @@
+{
+  "name": "css_wbesite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/input.css -o ./Route/style.css --watch"
+  },
+  "author": "Binary Bond",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "flowbite": "^2.5.2",
+    "font-awesome": "^4.7.0"
+  }
+}
