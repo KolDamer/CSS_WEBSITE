@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tailwindcss -i ./src/input.css -o ./Route/style.css --watch"
+    "dev": "tailwindcss -i ./src/input.css -o ./Route/css/style.css --watch"
   },
   "author": "Binary Bond",
   "license": "ISC",
