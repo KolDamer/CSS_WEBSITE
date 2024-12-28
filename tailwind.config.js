@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     "./html/*.html", // Scans all HTML files in the html folder
+    "./*.html",//Scans main folder for other html files
     "./js/*.js", // Scans all JS files in the js folder
     "./css/*.css", // Ensures all relevant CSS files are included
   ],
