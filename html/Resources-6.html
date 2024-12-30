@@ -8,8 +8,207 @@
 <link rel="stylesheet" href="../css/flowbite.min.css">
 <link rel="stylesheet" href="../css/style.css">
 <link rel="stylesheet" href="../css/aos.css">
+    <!-- Font awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
 </head>
 <body>
+    <!-- NAVBAR -->
+    <nav 
+      class="navbar bg-transparent bg-opacity-60 backdrop-blur-[1px] fixed w-full z-20 top-0 start-0 mx-auto md:px-5"
+    >
+      <div
+        class="navinner max-w-screen-xl min-w-[320px] flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <!-- navlogo -->
+        <a
+          href="../index.html"
+          class="h-full flex items-center space-x-3 rtl:space-x-reverse"
+        >
+          <img
+            src="../Images/csslogo.svg"
+            alt="CSS Logo"
+            class="items-center w-14 md:hidden"
+          />
+          <img
+            src="../Images/csslogo.svg"
+            alt="CSS Logo"
+            class="items-center w-[68px] hidden md:flex"
+          />
+        </a>
+
+        <!-- dark mode, join us & button -->
+        <div
+          class="flex items-center lg:order-2 space-x-2 md:space-x-4 lg:space-x-0 rtl:space-x-reverse"
+        >
+          <!-- darkmode -->
+          <a href="./">
+            <img
+              src="../Images/CloudMoon.svg"
+              alt="dark mode img"
+              class="w-[21px] md:w-[27px]"
+          /></a>
+          <!--JOIN US lg -->
+          <a href="./membership.html"
+            ><button
+              class="hidden md:flex gap-2 text-white font-[900] font-dmsans transition ease-in-out rounded-[3px] items-center justify-center border-2 border-primary hover:bg-primary h-[47px] px-3"
+            >
+              JOIN US
+              <span>
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              </span></button
+          ></a>
+          <!-- hamburger button -->
+          <button
+            data-collapse-toggle="navbar-sticky"
+            type="button"
+            class="inline-flex items-center p-2 w-auto h-auto justify-center text-sm text-gray-500 rounded-md lg:hidden hover:bg-blue-50 hover:bg-opacity-15"
+            aria-controls="navbar-sticky"
+            aria-expanded="false"
+            id="menu-toggle"
+          >
+            <span class="sr-only">Open main menu</span>
+            <img
+              src="../Images/Hamburger navbar.svg"
+              alt="Hamburger"
+              class="w-6"
+            />
+          </button>
+        </div>
+        <!-- Nav-Link -->
+        <div
+          class="items-center justify-between lg:pl-40 hidden w-full lg:flex lg:w-auto lg:order-1"
+          id="navbar-sticky"
+        >
+          <ul
+            class="rounded-md navlinks text-white text-[14px] md:text-[16px] lg:text-[16.5px] font-dmsans text-center flex flex-col p-4 lg:p-0 mt-4 font-normal bg-primary lg:bg-transparent lg:space-x-10 rtl:space-x-reverse lg:flex-row lg:mt-0"
+          >
+            <!-- Home -->
+            <li>
+              <a
+                href="../index.html"
+                class="block w-fit mx-auto transition ease-in-out hover:scale-110 lg:hover:scale-105 py-2 px-3 lg:p-0 rounded"
+                >Home
+                <svg
+                  width="16"
+                  height="3"
+                  viewBox="0 0 21 3"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="place-self-center hidden"
+                >
+                  <path
+                    d="M0 1.3125C0 0.964403 0.138281 0.630564 0.384423 0.384423C0.630564 0.138281 0.964403 0 1.3125 0H19.6875C20.0356 0 20.3694 0.138281 20.6156 0.384423C20.8617 0.630564 21 0.964403 21 1.3125C21 1.6606 20.8617 1.99444 20.6156 2.24058C20.3694 2.48672 20.0356 2.625 19.6875 2.625H1.3125C0.964403 2.625 0.630564 2.48672 0.384423 2.24058C0.138281 1.99444 0 1.6606 0 1.3125Z"
+                    class="fill-[white] lg:fill-[#3366FF]"
+                  />
+                </svg>
+              </a>
+            </li>
+            <!-- Events -->
+            <li>
+              <a
+                href="./events.html"
+                class="block w-fit mx-auto transition ease-in-out hover:scale-110 lg:hover:scale-105 py-2 px-3 lg:p-0"
+                >Events
+                <svg
+                  width="16"
+                  height="3"
+                  viewBox="0 0 21 3"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="place-self-center hidden"
+                >
+                  <path
+                    d="M0 1.3125C0 0.964403 0.138281 0.630564 0.384423 0.384423C0.630564 0.138281 0.964403 0 1.3125 0H19.6875C20.0356 0 20.3694 0.138281 20.6156 0.384423C20.8617 0.630564 21 0.964403 21 1.3125C21 1.6606 20.8617 1.99444 20.6156 2.24058C20.3694 2.48672 20.0356 2.625 19.6875 2.625H1.3125C0.964403 2.625 0.630564 2.48672 0.384423 2.24058C0.138281 1.99444 0 1.6606 0 1.3125Z"
+                    class="fill-[white] lg:fill-[#3366FF]"
+                  />
+                </svg>
+              </a>
+            </li>
+            <!-- Resources -->
+            <li>
+              <a
+                href="./Resouces-1.html"
+                class="block lg:flex lg:flex-col items-center w-fit mx-auto scale-110 lg:scale-100 py-2 px-3 lg:p-0 lg:bg-transparent"
+                aria-current="page"
+                >Resources
+                <svg
+                  width="16"
+                  height="3"
+                  viewBox="0 0 21 3"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="place-self-center"
+                >
+                  <path
+                    d="M0 1.3125C0 0.964403 0.138281 0.630564 0.384423 0.384423C0.630564 0.138281 0.964403 0 1.3125 0H19.6875C20.0356 0 20.3694 0.138281 20.6156 0.384423C20.8617 0.630564 21 0.964403 21 1.3125C21 1.6606 20.8617 1.99444 20.6156 2.24058C20.3694 2.48672 20.0356 2.625 19.6875 2.625H1.3125C0.964403 2.625 0.630564 2.48672 0.384423 2.24058C0.138281 1.99444 0 1.6606 0 1.3125Z"
+                    class="fill-[white] lg:fill-[#3366FF]"
+                  />
+                </svg>
+              </a>
+            </li>
+            <!-- Contact -->
+            <li>
+              <a
+                href="./contact.html"
+                class="block w-fit mx-auto transition ease-in-out hover:scale-110 lg:hover:scale-105 py-2 px-3 lg:p-0"
+                >Contact
+                <svg
+                  width="16"
+                  height="3"
+                  viewBox="0 0 21 3"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="place-self-center hidden"
+                >
+                  <path
+                    d="M0 1.3125C0 0.964403 0.138281 0.630564 0.384423 0.384423C0.630564 0.138281 0.964403 0 1.3125 0H19.6875C20.0356 0 20.3694 0.138281 20.6156 0.384423C20.8617 0.630564 21 0.964403 21 1.3125C21 1.6606 20.8617 1.99444 20.6156 2.24058C20.3694 2.48672 20.0356 2.625 19.6875 2.625H1.3125C0.964403 2.625 0.630564 2.48672 0.384423 2.24058C0.138281 1.99444 0 1.6606 0 1.3125Z"
+                    class="fill-[white] lg:fill-[#3366FF]"
+                  />
+                </svg>
+              </a>
+            </li>
+            <!-- Membership -->
+            <li>
+              <a
+                href="./membership.html"
+                class="block w-fit mx-auto transition ease-in-out hover:scale-110 lg:hover:scale-105 py-2 px-3 lg:p-0 rounded"
+                >Membership
+                <svg
+                  width="16"
+                  height="3"
+                  viewBox="0 0 21 3"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="place-self-center hidden"
+                >
+                  <path
+                    d="M0 1.3125C0 0.964403 0.138281 0.630564 0.384423 0.384423C0.630564 0.138281 0.964403 0 1.3125 0H19.6875C20.0356 0 20.3694 0.138281 20.6156 0.384423C20.8617 0.630564 21 0.964403 21 1.3125C21 1.6606 20.8617 1.99444 20.6156 2.24058C20.3694 2.48672 20.0356 2.625 19.6875 2.625H1.3125C0.964403 2.625 0.630564 2.48672 0.384423 2.24058C0.138281 1.99444 0 1.6606 0 1.3125Z"
+                    class="fill-[white] lg:fill-[#3366FF]"
+                  />
+                </svg>
+              </a>
+            </li>
+            <!-- JOIN US sm  and md -->
+            <li>
+              <a
+                href="./membership.html"
+                class="md:hidden block lg:hover:bg-transparent lg:text-white lg:text-opacity-60 lg:hover:text-white lg:hover:text-opacity-85 lg:p-0"
+                ><button
+                  class="mt-2 text-white transition ease-in-out rounded-[3px] flex gap-3 items-center justify-center border-2 border-white hover:bg-white hover:text-primary py-2 w-full"
+                >
+                  JOIN US
+                  <span>
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                  </span></button
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 <script src="../js/aos.js"></script>
 <script src="../js/flowbite.min.js"></script>
 <script src="../js/scripts.js"></script>
