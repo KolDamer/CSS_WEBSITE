@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../css/aos.css">
 </head>
 
-<body>
+<body class="text-deepgrey">
     <!-- NAV -->
     <!-- END OF NAV -->
     <!-- HERO-SECTION -->
@@ -21,40 +21,105 @@
             <div class=" bg-black bg-opacity-50 absolute h-full w-full"></div>
             <div
                 class="absolute  text-white top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 space-y-[10px]   text-center">
-                <h1 class="  font-dmsans w-[240px] md:w-full font-black text-fluid1">Reach Us
+                <h1 class="  font-dmsans w-full font-black text-fluid1">Reach Us
                     Directly</h1>
                 <p class="font-montserrat w-[228px] md:w-full   text-fluid3 font-semibold leading-[13.41px] ">
                     Feel free to ask your
                     questions, we’re here to assist you.</p>
             </div>
 
-            <img id="responsive-image" class="w-full h-full" src="" alt="Responsive Image">
+            <img class="h-full object-cover w-full" src="../Images/Contact-banner.png" alt="Image">
         </div>
     </section>
 
     <!-- END OF HERO SECTION -->
     <!--  -->
-    <section class="py-12 text-white ">
-        <div class="text-center text-black space-y-[3px]">
-            <h1 class="font-dmsans font-black text-fluid2 ">Contact Us</h1>
-            <div class=" w-[19.27px] h-[3.39px] bg-primary mx-auto"></div>
-            <p class="font-montserrat font-semibold text-fluid3 mx-auto max-w-[238px] md:min-w-[294px]">We’re here to
+    <section class="py-12 space-y-7 ">
+        <div class="text-center text-deepgrey space-y-[3px]">
+            <h1 class="font-dmsans  font-black text-fluid2 ">Contact Us</h1>
+            <div class=" w-[19.27px] h-[3.39px] rounded-full bg-primary mx-auto"></div>
+            <p class="font-montserrat  font-semibold text-fluid3 mx-auto max-w-[238px] md:min-w-[294px]">We’re here to
                 help! Reach out to us
                 with your questions or feedback</p>
         </div>
-        <!--  -->
-        <div class="grid grid-cols-1 md:flex px-3  md:flex-wrap   md:flex-row-reverse justify-center ">
+        <!-- Blue Card & Form -->
+        <div class="grid grid-cols-1 md:flex px-3 gap-7 md:flex-wrap   md:flex-row-reverse justify-center ">
             <!-- FORM -->
-            <div class="  min-w-[298px] max-w-[646px] md:min-w-[646px] md:max-w-[710px] ">
-                <div id="ff-compose"></div>
-                <script async defer
-                    src="https://formfacade.com/include/112295304103582421220/form/1FAIpQLSdlkGdFWLOPYb1zPdyeIF85FySqTWcYEolYMNKrHfZU5t0GeQ/classic.js?div=ff-compose"></script>
+
+            <div
+                class="  py-[11px] px-[30px] min-w-[298px] max-w-[646px] md:min-w-[646px] md:max-w-[710px] h-fluid10 relative top-3 bg-white rounded-[2px] shadow-custom2 ">
+
+                <div class="w-full   mx-auto">
+
+                    <form id="contactForm" class="space-y-4">
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 flex-wrap gap-[12px]">
+                            <!-- Full Name -->
+                            <div>
+
+                                <input type="text" id="fullName" name="FullName" placeholder="Full Name" required
+                                    class="  placeholder:text-fluid3 placeholder:text-[#C0C0C0] placeholder:font-dmsans block w-full rounded-md border-gray-300 shadow-sm focus:ring-primary focus:border-primary sm:text-sm">
+                            </div>
+
+                            <!-- Email -->
+                            <div>
+
+                                <input type="email" id="email" name="Email" placeholder="Email" required
+                                    class=" placeholder:text-fluid3 placeholder:text-[#C0C0C0] placeholder:font-dmsans block w-full rounded-md border-gray-300 shadow-sm focus:ring-primary focus:border-primary sm:text-sm">
+                            </div>
+                        </div>
+
+                        <!-- Subject -->
+                        <div>
+
+                            <input type="text" id="subject" name="Subject" placeholder="Subject" required
+                                class=" placeholder:text-fluid3 w-[100%] placeholder:text-[#C0C0C0] placeholder:font-dmsans block md:w-[50%]  rounded-md border-gray-300 shadow-sm focus:ring-primary focus:border-primary sm:text-sm">
+                        </div>
+
+                        <!-- Message -->
+                        <div>
+
+                            <textarea id="message" name="Message" placeholder="Tell us something..." required
+                                class=" placeholder:text-fluid3 placeholder:text-[#C0C0C0] placeholder:font-dmsans block w-full rounded-md border-gray-300 shadow-sm focus:ring-primary focus:border-primary sm:text-sm h-fluid8"></textarea>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="flex justify-center">
+                            <button type="submit" id="submit"
+                                class="w-fluid10 h-fluid11 bg-blue-600 hover:bg-primaryhover transition ease-in-out   text-white font-semibold py-2 px-4 rounded-[2px]  ">
+                                <span class="flex justify-center text-fluid8 ">Send Message
+                            <svg class="w-fluid8 h-fluid7 ml-1" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_708_1426)">
+                                    <path
+                                        d="M13.8723 0.127027C13.9329 0.187692 13.9743 0.264817 13.9914 0.348819C14.0085 0.432822 14.0005 0.520001 13.9685 0.599527L8.87691 13.3282C8.83204 13.4402 8.75711 13.5378 8.66037 13.61C8.56363 13.6823 8.44884 13.7265 8.32862 13.7377C8.2084 13.7489 8.08741 13.7267 7.97898 13.6736C7.87054 13.6205 7.77886 13.5385 7.71403 13.4367L4.93328 9.06603L0.562657 6.28528C0.46056 6.22051 0.378339 6.1288 0.325068 6.02026C0.271796 5.91173 0.249545 5.79058 0.260769 5.6702C0.271992 5.54981 0.316255 5.43487 0.388673 5.33805C0.46109 5.24123 0.558847 5.1663 0.671157 5.12153L13.3998 0.0316515C13.4793 -0.000362719 13.5665 -0.00830748 13.6505 0.00880418C13.7345 0.0259158 13.8116 0.0673298 13.8723 0.127902V0.127027ZM5.80653 8.81053L8.22241 12.6063L12.3638 2.25328L5.80653 8.81053ZM11.7452 1.63465L1.39216 5.77603L5.18878 8.19103L11.7452 1.63465Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_708_1426">
+                                        <rect width="14" height="14" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+</span>
+
+                            </button>
+                        </div>
+                    </form>
+
+                    <!-- Status Message -->
+                    <p id="contactStatusMessage" class="text-center mt-4 text-sm"></p>
+                </div>
+
+
+
+
             </div>
             <!-- BLUE CARD -->
-            <div class=" max-w-[456px] min-w-[298px] md:min-w-[456px] place-self-center content-center md:max-w-[456px] py-6">
+            <div
+                class=" max-w-[456px] h-fluid9 min-w-[298px] md:min-w-[456px] place-self-center content-center md:max-w-[456px] ">
                 <div class="bg-primary space-y-[30px] px-7 md:px-14 py-10">
-                    <div class="bg-[#5881FE]  py-[18px] px-[14px] text-white ">
-                        <a href="">
+                    <div class="bg-[#5881FE]  py-[18px] hover:scale-105 transition ease-in-out px-[14px] text-white ">
+                        <a href="https://maps.app.goo.gl/wpnfKH4GK8h623wp8" target="_blank">
                             <div class="flex space-x-4 ">
                                 <img src="../Images/Location-Blue.svg" alt="">
                                 <div class="font-dmsans w-auto">
@@ -64,8 +129,8 @@
                             </div>
                         </a>
                     </div>
-                    <div class="bg-[#5881FE]  py-[18px] px-[14px] text-white ">
-                        <a href="">
+                    <div class="bg-[#5881FE]  py-[18px] hover:scale-105 transition ease-in-out px-[14px] text-white ">
+                        <a href="mailto:thecssknust@gmail.com">
                             <div class="flex space-x-4 ">
                                 <img src="../Images/Mail-Blue.svg" alt="">
                                 <div class="font-dmsans w-auto">
@@ -75,10 +140,12 @@
                             </div>
                         </a>
                     </div>
-                    <div class="bg-[#5881FE]  py-[18px] px-[14px] text-white ">
-                        <a href="">
+                    <div class="bg-[#5881FE]  py-[18px] hover:scale-105 transition ease-in-out px-[14px] text-white ">
+                        <a href="tel:+233592348760">
                             <div class="flex space-x-4 ">
-                                <img src="../Images/Telephone-Blue.svg" alt="">
+                                <img class="" src="../Images/Telephone-Blue.svg" alt="">
+
+
                                 <div class="font-dmsans w-auto">
                                     <h2 class="font-black text-fluid4 ">Call Us</h2>
                                     <h3 class="font-black text-fluid3 ">(+233)59 234 8760</h3>
@@ -89,91 +156,96 @@
                 </div>
             </div>
         </div>
-        <div class="w-full bg-primary font-montserrat font-medium text-fluid5 py-3 my-[75px] ">
-            <p class="w-[270px] mx-auto text-center">Contact us via phone for urgent enquiries. Open hours: Weekdays
+        <div class="w-full bg-primary font-montserrat font-medium text-fluid5 py-3 px-7 relative top-9">
+            <p class="text-white mx-auto text-center">Contact us via phone for urgent enquiries. Open hours: Weekdays
                 10AM - 5PM</p>
         </div>
     </section>
     <!-- Socials -->
-    <section class="px-3 space-y-16">
+    <section style="background-image: url(../Images/background\ element-socials.png);"
+        class="px-3 text-deepgrey space-y-16 py-[60px]">
         <div class="text-center space-y-[6px]">
-            <h1 class="font-dmsans font-black text-xl leading-6 ">Stay Updated With Us</h1>
-            <div class=" w-[19.27px] h-[3.39px] bg-primary mx-auto"></div>
-            <p class="font-montserrat leading-[13.41px] font-semibold text-[11px] mx-auto w-[238px]">Follow us on all
+            <h1 class="font-dmsans font-black text-fluid2  leading-6 ">Stay Updated With Us</h1>
+            <div class=" w-[19.27px] h-[3.39px] bg-primary rounded-full mx-auto"></div>
+            <p class="font-montserrat leading-[13.41px] text-deepgrey font-semibold text-fluid3 mx-auto w-[238px]">Follow us on all
                 our socials for the latest news internally and externally</p>
         </div>
         <div>
             <!-- Cards -->
-            <div class="grid-cols-1 grid gap-[23px]">
+            <div class="flex flex-wrap gap-[13px] mx-auto text-deepgrey   max-w-[1270px]">
                 <!-- 1 -->
-                <div class="mx-auto max-w-[275px]  p-[33px]  bg-white border border-white rounded-[9px] shadow-custom1">
+                <div
+                    class="mx-auto w-[275px] h-fluid1  p-[33px]  bg-white border border-white rounded-[9px] shadow-custom1">
 
                     <div class="flex flex-col items-center space-y-[15px] ">
                         <img src="../Images/social-instagram.svg" alt="image" />
-                        <h5 class=" text-[15px] font-semibold leading-[18.29px] font-montserrat text-deepgrey ">
+                        <h5 class=" text-fluid6 font-semibold leading-[18.29px] font-montserrat text-deepgrey ">
                             Instagram</h5>
                         <span
-                            class="text-[11px] w-[203px] font-medium leading-[13.41px] text-center text-deepgrey  font-montserrat">Get
+                            class="text-fluid3 w-[203px] font-medium leading-[13.41px] text-center text-deepgrey  font-montserrat">Get
                             all event highlights,
                             community updates,
                             and tech inspiration</span>
 
 
-                        <a href="#"
-                            class="py-[10px] w-[91px]  px-[22px] ms-2 text-[15px] leading-5 font-bold  bg-white rounded-[3px] border border-primary hover:bg-whitehover text-primary ">Follow</a>
+                        <a href="https://www.instagram.com/thecssknust?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                            class="py-[10px]   px-[22px] ms-2 text-fluid6 leading-5 font-bold  bg-white rounded-[3px] border border-primary hover:bg-whitehover text-primary ">Follow</a>
 
                     </div>
                 </div>
                 <!-- 2 -->
-                <div class="mx-auto max-w-[275px]  p-[33px]  bg-white border border-white rounded-[9px] shadow-custom1">
+                <div
+                    class="mx-auto w-[275px] h-fluid1  p-[33px]  bg-white border border-white rounded-[9px] shadow-custom1">
 
                     <div class="flex flex-col items-center space-y-[15px] ">
                         <img src="../Images/social-x.svg" alt="image" />
-                        <h5 class="  text-[15px] font-semibold leading-[18.29px] font-montserrat text-deepgrey ">X</h5>
+                        <h5 class="  text-fluid6 font-semibold leading-[18.29px] font-montserrat text-deepgrey ">X</h5>
                         <span
-                            class="text-[11px] w-[203px] font-medium leading-[13.41px]  text-center text-deepgrey  font-montserrat">Follow
+                            class="text-fluid3 w-[203px] font-medium leading-[13.41px]  text-center text-deepgrey  font-montserrat">Follow
                             us on X for
                             essential daily updates news, and upcoming events</span>
 
 
-                        <a href="#"
-                            class="py-[10px] w-[91px]  px-[22px] ms-2 text-[15px] leading-5 font-bold  bg-white rounded-[3px] border border-primary hover:bg-whitehover text-primary ">Follow</a>
+                        <a href="https://x.com/thecssknust"
+                            class="py-[10px]   px-[22px] ms-2 text-fluid6 leading-5 font-bold  bg-white rounded-[3px] border border-primary hover:bg-whitehover text-primary ">Follow</a>
 
                     </div>
                 </div>
                 <!-- 3 -->
-                <div class="mx-auto max-w-[275px]  p-[33px]  bg-white border border-white rounded-[9px] shadow-custom1">
+                <div
+                    class="mx-auto w-[275px] h-fluid1  p-[33px]  bg-white border border-white rounded-[9px] shadow-custom1">
 
                     <div class="flex flex-col items-center space-y-[15px] ">
                         <img src="../Images/social-linkedin.svg" alt="image" />
-                        <h5 class=" text-[15px] font-semibold leading-[18.29px] font-montserrat text-deepgrey ">LinkedIn
+                        <h5 class=" text-fluid6 font-semibold leading-[18.29px] font-montserrat text-deepgrey ">LinkedIn
                         </h5>
                         <span
-                            class="text-[11px] w-[203px] font-medium leading-[13.41px]  text-center text-deepgrey  font-montserrat">Connect
+                            class="text-fluid3 w-[203px] font-medium leading-[13.41px]  text-center text-deepgrey  font-montserrat">Connect
                             with us for
                             professional updates, opportunities, and industry insights</span>
 
 
                         <a href="#"
-                            class="py-[10px] w-[91px]  px-[22px] ms-2 text-[15px] leading-5 font-bold  bg-white rounded-[3px] border border-primary hover:bg-whitehover text-primary ">Follow</a>
+                            class="py-[10px]   px-[22px] ms-2 text-fluid6 leading-5 font-bold  bg-white rounded-[3px] border border-primary hover:bg-whitehover text-primary ">Follow</a>
 
                     </div>
                 </div>
                 <!-- 4 -->
-                <div class="mx-auto max-w-[275px]  p-[33px]  bg-white border border-white rounded-[9px] shadow-custom1">
+                <div
+                    class="mx-auto w-[275px] h-fluid1  p-[33px]  bg-white border border-white rounded-[9px] shadow-custom1">
 
                     <div class="flex flex-col items-center space-y-[15px] ">
                         <img src="../Images/social-facebook.svg" alt="image" />
-                        <h5 class=" text-[15px] font-semibold leading-[18.29px] font-montserrat text-deepgrey ">Facebook
+                        <h5 class=" text-fluid6 font-semibold leading-[18.29px] font-montserrat text-deepgrey ">Facebook
                         </h5>
                         <span
-                            class="text-[11px] w-[203px] font-medium leading-[13.41px]  text-center text-deepgrey  font-montserrat">Stay
+                            class="text-fluid3 w-[203px] font-medium leading-[13.41px]  text-center text-deepgrey  font-montserrat">Stay
                             connected to get live
                             and exclusive content.</span>
 
 
                         <a href="#"
-                            class="py-[10px] w-[91px]  px-[22px] ms-2 text-[15px] leading-5 font-bold  bg-white rounded-[3px] border border-primary hover:bg-whitehover text-primary ">Follow</a>
+                            class="py-[10px]   px-[22px] ms-2 text-fluid6 leading-5 font-bold  bg-white rounded-[3px] border border-primary hover:bg-whitehover text-primary ">Follow</a>
 
                     </div>
                 </div>
