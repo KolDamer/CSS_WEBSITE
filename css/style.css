@@ -1,1 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.commbutton:hover{
+background-color: #5ACF87;
+}
+.commbutton{
+    background-color: #22BA5C;
+}
+.teleButton{
+    background-color: #22A4C8;
+}
+.teleButton:hover{
+    background-color: #5CB8D1;
+}
+
+.binarybtn{
+    background-color: black;
+}
+.binarybtn:hover{
+    background-color: #343434;
+}
+.zaptekbtn{
+    background-color: #A272FF;
+}
+.zaptekbtn:hover{
+    background-color:#A97DFF ;
+}
+.whatsappbtn{
+    background-color: #22BA5C;
+}
+.whatsappbtn:hover{
+    background-color: #5ACF87;
+}
+.Telegrambtn{
+    background-color: #22A4C8;
+}
+.Telegrambtn:hover{
+    background-color: #5CB8D1;
+}

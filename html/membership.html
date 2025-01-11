@@ -1,216 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Membership</title>
-<link rel="stylesheet" href="../css/output.css">
-<link rel="stylesheet" href="../css/flowbite.min.css">
-<link rel="stylesheet" href="../css/style.css">
-<link rel="stylesheet" href="../css/aos.css">
-    <!-- Font awesome -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-      rel="stylesheet"
-    />
-</head>
-<body>
-    <!-- NAVBAR -->
-    <nav
-      class="navbar bg-transparent bg-opacity-60 backdrop-blur-[1px] fixed w-full z-20 top-0 start-0 mx-auto md:px-5"
-    >
-      <div
-        class="navinner max-w-screen-xl min-w-[320px] flex flex-wrap items-center justify-between mx-auto p-4"
-      >
-        <!-- navlogo -->
-        <a
-          href="../index.html"
-          class="h-full flex items-center space-x-3 rtl:space-x-reverse"
-        >
-          <img
-            src="../Images/csslogo.svg"
-            alt="CSS Logo"
-            class="items-center w-14 md:hidden"
-          />
-          <img
-            src="../Images/csslogo.svg"
-            alt="CSS Logo"
-            class="items-center w-[68px] hidden md:flex"
-          />
-        </a>
 
-        <!-- dark mode, join us & button -->
-        <div
-          class="flex items-center lg:order-2 space-x-2 md:space-x-4 lg:space-x-0 rtl:space-x-reverse"
-        >
-          <!-- darkmode -->
-          <a href="./">
-            <img
-              src="../Images/CloudMoon.svg"
-              alt="dark mode img"
-              class="w-[21px] md:w-[27px]"
-          /></a>
-          <!-- JOIN US lg -->
-          <a href="./membership.html"
-            ><button
-              class="hidden md:flex gap-2 text-white font-[900] font-dmsans transition ease-in-out rounded-[3px] items-center justify-center border-2 border-primary hover:bg-primary h-[47px] px-3"
-            >
-              JOIN US
-              <span>
-                <i class="fa fa-arrow-right" aria-hidden="true"></i>
-              </span></button
-          ></a>
-          <!-- hamburger button -->
-          <button
-            data-collapse-toggle="navbar-sticky"
-            type="button"
-            class="inline-flex items-center p-2 w-auto h-auto justify-center text-sm text-gray-500 rounded-md lg:hidden hover:bg-blue-50 hover:bg-opacity-15"
-            aria-controls="navbar-sticky"
-            aria-expanded="false"
-            id="menu-toggle"
-          >
-            <span class="sr-only">Open main menu</span>
-            <img
-              src="../Images/Hamburger navbar.svg"
-              alt="Hamburger"
-              class="w-6"
-            />
-          </button>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Membership</title>
+  <link rel="stylesheet" href="../css/output.css">
+  <link rel="stylesheet" href="../css/flowbite.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/aos.css">
+  <!-- Font awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar bg-transparent bg-opacity-60 backdrop-blur-[1px] fixed w-full z-20 top-0 start-0 mx-auto md:px-5">
+    <div class="navinner max-w-screen-xl min-w-[320px] flex flex-wrap items-center justify-between mx-auto p-4">
+      <!-- navlogo -->
+      <a href="../index.html" class="h-full flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="../Images/csslogo.svg" alt="CSS Logo" class="items-center w-14 md:hidden" />
+        <img src="../Images/csslogo.svg" alt="CSS Logo" class="items-center w-[68px] hidden md:flex" />
+      </a>
+
+      <!-- dark mode, join us & button -->
+      <div class="flex items-center lg:order-2 space-x-2 md:space-x-4 lg:space-x-0 rtl:space-x-reverse">
+        <!-- darkmode -->
+        <a href="./">
+          <img src="../Images/CloudMoon.svg" alt="dark mode img" class="w-[21px] md:w-[27px]" /></a>
+        <!-- JOIN US lg -->
+        <a href="./membership.html"><button
+            class="hidden md:flex gap-2 text-white font-[900] font-dmsans transition ease-in-out rounded-[3px] items-center justify-center border-2 border-primary hover:bg-primary h-[47px] px-3">
+            JOIN US
+            <span>
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </span></button></a>
+        <!-- hamburger button -->
+        <button data-collapse-toggle="navbar-sticky" type="button"
+          class="inline-flex items-center p-2 w-auto h-auto justify-center text-sm text-gray-500 rounded-md lg:hidden hover:bg-blue-50 hover:bg-opacity-15"
+          aria-controls="navbar-sticky" aria-expanded="false" id="menu-toggle">
+          <span class="sr-only">Open main menu</span>
+          <img src="../Images/Hamburger navbar.svg" alt="Hamburger" class="w-6" />
+        </button>
+      </div>
+      <!-- Nav-Link -->
+      <div class="items-center justify-between lg:pl-40 hidden w-full lg:flex lg:w-auto lg:order-1" id="navbar-sticky">
+        <ul
+          class="rounded-md navlinks text-white text-[14px] md:text-[16px] lg:text-[16.5px] font-dmsans text-center flex flex-col p-4 lg:p-0 mt-4 font-normal bg-primary lg:bg-transparent lg:space-x-10 rtl:space-x-reverse lg:flex-row lg:mt-0">
+          <!-- Home -->
+          <li>
+            <a href="../index.html"
+              class="block w-fit mx-auto transition ease-in-out hover:scale-110 lg:hover:scale-105 py-2 px-3 lg:p-0 rounded">Home
+              <svg width="16" height="3" viewBox="0 0 21 3" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="place-self-center hidden">
+                <path
+                  d="M0 1.3125C0 0.964403 0.138281 0.630564 0.384423 0.384423C0.630564 0.138281 0.964403 0 1.3125 0H19.6875C20.0356 0 20.3694 0.138281 20.6156 0.384423C20.8617 0.630564 21 0.964403 21 1.3125C21 1.6606 20.8617 1.99444 20.6156 2.24058C20.3694 2.48672 20.0356 2.625 19.6875 2.625H1.3125C0.964403 2.625 0.630564 2.48672 0.384423 2.24058C0.138281 1.99444 0 1.6606 0 1.3125Z"
+                  class="fill-[white] lg:fill-[#3366FF]" />
+              </svg>
+            </a>
+          </li>
+          <!-- Events -->
+          <li>
+            <a href="./events.html"
+              class="block w-fit mx-auto transition ease-in-out hover:scale-110 lg:hover:scale-105 py-2 px-3 lg:p-0">Events
+              <svg width="16" height="3" viewBox="0 0 21 3" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="place-self-center hidden">
+                <path
+                  d="M0 1.3125C0 0.964403 0.138281 0.630564 0.384423 0.384423C0.630564 0.138281 0.964403 0 1.3125 0H19.6875C20.0356 0 20.3694 0.138281 20.6156 0.384423C20.8617 0.630564 21 0.964403 21 1.3125C21 1.6606 20.8617 1.99444 20.6156 2.24058C20.3694 2.48672 20.0356 2.625 19.6875 2.625H1.3125C0.964403 2.625 0.630564 2.48672 0.384423 2.24058C0.138281 1.99444 0 1.6606 0 1.3125Z"
+                  class="fill-[white] lg:fill-[#3366FF]" />
+              </svg>
+            </a>
+          </li>
+          <!-- Resources -->
+          <li>
+            <a href="./Resouces-1.html"
+              class="block w-fit mx-auto transition ease-in-out hover:scale-110 lg:hover:scale-105 py-2 px-3 lg:p-0">Resources
+              <svg width="16" height="3" viewBox="0 0 21 3" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="place-self-center hidden">
+                <path
+                  d="M0 1.3125C0 0.964403 0.138281 0.630564 0.384423 0.384423C0.630564 0.138281 0.964403 0 1.3125 0H19.6875C20.0356 0 20.3694 0.138281 20.6156 0.384423C20.8617 0.630564 21 0.964403 21 1.3125C21 1.6606 20.8617 1.99444 20.6156 2.24058C20.3694 2.48672 20.0356 2.625 19.6875 2.625H1.3125C0.964403 2.625 0.630564 2.48672 0.384423 2.24058C0.138281 1.99444 0 1.6606 0 1.3125Z"
+                  class="fill-[white] lg:fill-[#3366FF]" />
+              </svg>
+            </a>
+          </li>
+          <!-- Contact -->
+          <li>
+            <a href="./contact.html"
+              class="block w-fit mx-auto transition ease-in-out hover:scale-110 lg:hover:scale-105 py-2 px-3 lg:p-0 rounded">Contact
+              <svg width="16" height="3" viewBox="0 0 21 3" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="place-self-center hidden">
+                <path
+                  d="M0 1.3125C0 0.964403 0.138281 0.630564 0.384423 0.384423C0.630564 0.138281 0.964403 0 1.3125 0H19.6875C20.0356 0 20.3694 0.138281 20.6156 0.384423C20.8617 0.630564 21 0.964403 21 1.3125C21 1.6606 20.8617 1.99444 20.6156 2.24058C20.3694 2.48672 20.0356 2.625 19.6875 2.625H1.3125C0.964403 2.625 0.630564 2.48672 0.384423 2.24058C0.138281 1.99444 0 1.6606 0 1.3125Z"
+                  class="fill-[white] lg:fill-[#3366FF]" />
+              </svg>
+            </a>
+          </li>
+          <!-- Membership -->
+          <li>
+            <a href="./membership.html"
+              class="block lg:flex lg:flex-col items-center w-fit mx-auto scale-110 lg:scale-100 py-2 px-3 lg:p-0 lg:bg-transparent"
+              aria-current="page">Membership
+              <svg width="16" height="3" viewBox="0 0 21 3" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="place-self-center">
+                <path
+                  d="M0 1.3125C0 0.964403 0.138281 0.630564 0.384423 0.384423C0.630564 0.138281 0.964403 0 1.3125 0H19.6875C20.0356 0 20.3694 0.138281 20.6156 0.384423C20.8617 0.630564 21 0.964403 21 1.3125C21 1.6606 20.8617 1.99444 20.6156 2.24058C20.3694 2.48672 20.0356 2.625 19.6875 2.625H1.3125C0.964403 2.625 0.630564 2.48672 0.384423 2.24058C0.138281 1.99444 0 1.6606 0 1.3125Z"
+                  class="fill-[white] lg:fill-[#3366FF]" />
+              </svg>
+            </a>
+          </li>
+          <!-- JOIN US sm and md -->
+          <li>
+            <a href="./membership.html"
+              class="md:hidden block lg:hover:bg-transparent lg:text-white lg:text-opacity-60 lg:hover:text-white lg:hover:text-opacity-85 lg:p-0"><button
+                class="mt-2 text-white transition ease-in-out rounded-[3px] flex gap-3 items-center justify-center border-2 border-white hover:bg-white hover:text-primary py-2 w-full">
+                JOIN US
+                <span>
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </span></button></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- NAV -->
+  <!-- END OF NAV -->
+  <!-- HERO-SECTION -->
+  <section>
+    <div class="h-fluid2 relative">
+
+      <div class=" bg-black bg-opacity-50 absolute h-full w-full"></div>
+      <div
+        class="absolute min-w-[298px]    text-white top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/3 space-y-[10px]   text-center">
+        <h1 class="  font-dmsans w-full font-black text-fluid1">Become A Member</h1>
+        <p class="font-montserrat w-full   text-fluid3 font-semibold leading-[13.41px] ">
+          Be part of a group that cares for you.</p>
+      </div>
+
+      <img class="h-full object-cover w-full" src="../Images/membership-banner.png" alt="Image">
+
+    </div>
+  </section>
+
+  <!-- END OF HERO SECTION -->
+  <!--  -->
+  <section class="relative">
+    <!-- SIGN UP CARD -->
+    <div
+      class="w-fluid2  py-8 md:py-12 px-[27px] md:px-[84px] absolute top-1/3 -translate-y-1/3 left-1/2 transform -translate-x-1/2 bg-white rounded-[2px] shadow-custom2 ">
+      <div class="w-fit mx-auto">
+        <img class=" mx-auto" src="../Images/css logo-bluewhite.svg" alt="">
+        <p class="text-fluid7 text-center w-fluid3 leading-[9px]  text-primary">Computer Science Society</p>
+      </div>
+      <h1 class="text-fluid2 font-black font-dmsans text-deepgrey text-center mb-4">Sign Up</h1>
+      <form id="membershipForm" method="post"
+        action="https://script.google.com/macros/s/AKfycbyiz8vee8XmG9jTNUVSn8yQ8dXvMP1_Hj5NUA5hKULA-mFITSpLF_eOnWRiA8ku0qw/exec"
+        name="membershipForm" class="space-y-4">
+        <!-- Full Name -->
+        <div>
+          <input type="text" placeholder="Full Name" name="Full Name" id="fullName" required
+            class="mt-1 block w-full placeholder:text-fluid3 placeholder:text-[#C0C0C0] placeholder:font-dmsans rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
         </div>
-        <!-- Nav-Link -->
-        <div
-          class="items-center justify-between lg:pl-40 hidden w-full lg:flex lg:w-auto lg:order-1"
-          id="navbar-sticky"
-        >
-          <ul
-            class="rounded-md navlinks text-white text-[14px] md:text-[16px] lg:text-[16.5px] font-dmsans text-center flex flex-col p-4 lg:p-0 mt-4 font-normal bg-primary lg:bg-transparent lg:space-x-10 rtl:space-x-reverse lg:flex-row lg:mt-0"
-          >
-            <!-- Home -->
-            <li>
-              <a
-                href="../index.html"
-                class="block w-fit mx-auto transition ease-in-out hover:scale-110 lg:hover:scale-105 py-2 px-3 lg:p-0 rounded"
-                >Home
-                <svg
-                  width="16"
-                  height="3"
-                  viewBox="0 0 21 3"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="place-self-center hidden"
-                >
-                  <path
-                    d="M0 1.3125C0 0.964403 0.138281 0.630564 0.384423 0.384423C0.630564 0.138281 0.964403 0 1.3125 0H19.6875C20.0356 0 20.3694 0.138281 20.6156 0.384423C20.8617 0.630564 21 0.964403 21 1.3125C21 1.6606 20.8617 1.99444 20.6156 2.24058C20.3694 2.48672 20.0356 2.625 19.6875 2.625H1.3125C0.964403 2.625 0.630564 2.48672 0.384423 2.24058C0.138281 1.99444 0 1.6606 0 1.3125Z"
-                    class="fill-[white] lg:fill-[#3366FF]"
-                  />
-                </svg>
-              </a>
-            </li>
-            <!-- Events -->
-            <li>
-              <a
-                href="./events.html"
-                class="block w-fit mx-auto transition ease-in-out hover:scale-110 lg:hover:scale-105 py-2 px-3 lg:p-0"
-                >Events
-                <svg
-                  width="16"
-                  height="3"
-                  viewBox="0 0 21 3"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="place-self-center hidden"
-                >
-                  <path
-                    d="M0 1.3125C0 0.964403 0.138281 0.630564 0.384423 0.384423C0.630564 0.138281 0.964403 0 1.3125 0H19.6875C20.0356 0 20.3694 0.138281 20.6156 0.384423C20.8617 0.630564 21 0.964403 21 1.3125C21 1.6606 20.8617 1.99444 20.6156 2.24058C20.3694 2.48672 20.0356 2.625 19.6875 2.625H1.3125C0.964403 2.625 0.630564 2.48672 0.384423 2.24058C0.138281 1.99444 0 1.6606 0 1.3125Z"
-                    class="fill-[white] lg:fill-[#3366FF]"
-                  />
-                </svg>
-              </a>
-            </li>
-            <!-- Resources -->
-            <li>
-              <a
-                href="./Resouces-1.html"
-                class="block w-fit mx-auto transition ease-in-out hover:scale-110 lg:hover:scale-105 py-2 px-3 lg:p-0"
-                >Resources
-                <svg
-                  width="16"
-                  height="3"
-                  viewBox="0 0 21 3"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="place-self-center hidden"
-                >
-                  <path
-                    d="M0 1.3125C0 0.964403 0.138281 0.630564 0.384423 0.384423C0.630564 0.138281 0.964403 0 1.3125 0H19.6875C20.0356 0 20.3694 0.138281 20.6156 0.384423C20.8617 0.630564 21 0.964403 21 1.3125C21 1.6606 20.8617 1.99444 20.6156 2.24058C20.3694 2.48672 20.0356 2.625 19.6875 2.625H1.3125C0.964403 2.625 0.630564 2.48672 0.384423 2.24058C0.138281 1.99444 0 1.6606 0 1.3125Z"
-                    class="fill-[white] lg:fill-[#3366FF]"
-                  />
-                </svg>
-              </a>
-            </li>
-            <!-- Contact -->
-            <li>
-              <a
-                href="./contact.html"
-                class="block w-fit mx-auto transition ease-in-out hover:scale-110 lg:hover:scale-105 py-2 px-3 lg:p-0 rounded"
-                >Contact
-                <svg
-                  width="16"
-                  height="3"
-                  viewBox="0 0 21 3"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="place-self-center hidden"
-                >
-                  <path
-                    d="M0 1.3125C0 0.964403 0.138281 0.630564 0.384423 0.384423C0.630564 0.138281 0.964403 0 1.3125 0H19.6875C20.0356 0 20.3694 0.138281 20.6156 0.384423C20.8617 0.630564 21 0.964403 21 1.3125C21 1.6606 20.8617 1.99444 20.6156 2.24058C20.3694 2.48672 20.0356 2.625 19.6875 2.625H1.3125C0.964403 2.625 0.630564 2.48672 0.384423 2.24058C0.138281 1.99444 0 1.6606 0 1.3125Z"
-                    class="fill-[white] lg:fill-[#3366FF]"
-                  />
-                </svg>
-              </a>
-            </li>
-            <!-- Membership -->
-            <li>
-              <a
-                href="./membership.html"
-                class="block lg:flex lg:flex-col items-center w-fit mx-auto scale-110 lg:scale-100 py-2 px-3 lg:p-0 lg:bg-transparent"
-                aria-current="page"
-                >Membership
-                <svg
-                  width="16"
-                  height="3"
-                  viewBox="0 0 21 3"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="place-self-center"
-                >
-                  <path
-                    d="M0 1.3125C0 0.964403 0.138281 0.630564 0.384423 0.384423C0.630564 0.138281 0.964403 0 1.3125 0H19.6875C20.0356 0 20.3694 0.138281 20.6156 0.384423C20.8617 0.630564 21 0.964403 21 1.3125C21 1.6606 20.8617 1.99444 20.6156 2.24058C20.3694 2.48672 20.0356 2.625 19.6875 2.625H1.3125C0.964403 2.625 0.630564 2.48672 0.384423 2.24058C0.138281 1.99444 0 1.6606 0 1.3125Z"
-                    class="fill-[white] lg:fill-[#3366FF]"
-                  />
-                </svg>
-              </a>
-            </li>
-            <!-- JOIN US sm and md -->
-            <li>
-              <a
-                href="./membership.html"
-                class="md:hidden block lg:hover:bg-transparent lg:text-white lg:text-opacity-60 lg:hover:text-white lg:hover:text-opacity-85 lg:p-0"
-                ><button
-                  class="mt-2 text-white transition ease-in-out rounded-[3px] flex gap-3 items-center justify-center border-2 border-white hover:bg-white hover:text-primary py-2 w-full"
-                >
-                  JOIN US
-                  <span>
-                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                  </span></button
-              ></a>
-            </li>
-          </ul>
+
+        <!-- Email -->
+        <div>
+          <input type="email" placeholder="Email" name="Email" id="email" required
+            class="mt-1 block w-full rounded-md placeholder:text-fluid3 placeholder:text-[#C0C0C0] placeholder:font-dmsans border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+        </div>
+
+        <!-- Phone Number -->
+        <div>
+          <input type="text" placeholder="Phone Number" name="Phone Number" id="phoneNumber" required
+            class="mt-1 block w-full rounded-md placeholder:text-fluid3 placeholder:text-[#C0C0C0] placeholder:font-dmsans border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+        </div>
+
+        <!-- Year Level -->
+        <div>
+          <label class="block text-fluid3 text-[#C0C0C0] font-dmsans ">Year</label>
+          <div class="flex items-center space-x-4 mt-1">
+            <label class="inline-flex items-center">
+              <input type="checkbox" name="Year Level" value="100" class="rounded-full year-level  text-blue-500">
+              <span class="ml-2 text-fluid3 text-[#C0C0C0] font-dmsans">100</span>
+            </label>
+            <label class="inline-flex items-center">
+              <input type="checkbox" name="Year Level" value="200" class="rounded-full year-level text-blue-500">
+              <span class="ml-2 text-fluid3 text-[#C0C0C0] font-dmsans">200</span>
+            </label>
+            <label class="inline-flex items-center">
+              <input type="checkbox" name="Year Level" value="300" class="rounded-full year-level text-blue-500">
+              <span class="ml-2 text-fluid3 text-[#C0C0C0] font-dmsans">300</span>
+            </label>
+            <label class="inline-flex items-center">
+              <input type="checkbox" name="Year Level" value="400" class="rounded-full year-level text-blue-500">
+              <span class="ml-2 text-fluid3 text-[#C0C0C0] font-dmsans">400</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" id="submit"
+          class="w-full bg-blue-600 hover:bg-primaryhover transition ease-in-out  text-white font-semibold py-2 px-4 rounded-md shadow-custom2">
+          <span class="flex mx-auto w-fit text-fluid8  ">
+            <svg class="mr-1 md:mt-1  w-fluid5 h-fluid5" viewBox="0 0 20 20" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M4.0625 17.1055C4.0625 17.1055 2.875 17.1055 2.875 15.918C2.875 14.7305 4.0625 11.168 10 11.168C15.9375 11.168 17.125 14.7305 17.125 15.918C17.125 17.1055 15.9375 17.1055 15.9375 17.1055H4.0625ZM10 9.98047C10.9448 9.98047 11.851 9.60513 12.5191 8.93704C13.1872 8.26894 13.5625 7.3628 13.5625 6.41797C13.5625 5.47313 13.1872 4.567 12.5191 3.8989C11.851 3.2308 10.9448 2.85547 10 2.85547C9.05517 2.85547 8.14903 3.2308 7.48093 3.8989C6.81283 4.567 6.4375 5.47313 6.4375 6.41797C6.4375 7.3628 6.81283 8.26894 7.48093 8.93704C8.14903 9.60513 9.05517 9.98047 10 9.98047Z"
+                fill="white" />
+            </svg>
+
+            Sign Up</span>
+        </button>
+      </form>
+
+      <!-- Status Message -->
+      <p id="statusMessage" class="text-center mt-4 text-sm"></p>
+
+      <p class="text-[#C0C0C0] w-fluid6 text-fluid7 mx-auto text-center ">By Signing Up you agree to accept and
+        follow the
+        <span class="text-center text-primary text-fluid7"> <a class="underline" href="">Society
+            guidelines</a></span>
+      </p>
+
+    </div>
+
+    <!-- Society Guidelines -->
+
+
+
+  </section>
+  <!--  -->
+  <div
+    class="bg-primary rounded-[17px] text-white text-center relative top-[400px] p-[45px] w-fluid7 h-fluid6 mx-auto space-y-[21px]">
+    <h1 class="text-fluid2 ">Society Guidelines</h1>
+    <p class="text-fluid3 mx-auto max-w-[690px] ">Read our community guidelines ensures that all members understand what
+      is expected of them in terms of
+      behavior and
+      communication within the society. By taking the time to read and understand our Society guidelines, you can
+      play a
+      critical role in helping to create a supportive and inclusive society for all members.</p>
+    <a href="https://cs.knust.edu.gh/about" target="_blank"><button
+        class="bg-white mx-auto text-primary mt-[21px] flex py-[12px] text-fluid3 px-[29px] font-dmsans font-bold md:px-[34px] md:py-[16px] ">Read
+        Guidelines
+        <svg class="md:mt-1" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M5.51709 1.95569C5.57224 1.90039 5.63776 1.85652 5.7099 1.82659C5.78203 1.79666 5.85936 1.78125 5.93746 1.78125C6.01556 1.78125 6.09289 1.79666 6.16503 1.82659C6.23716 1.85652 6.30268 1.90039 6.35784 1.95569L13.4828 9.08069C13.5381 9.13584 13.582 9.20136 13.6119 9.2735C13.6419 9.34563 13.6573 9.42296 13.6573 9.50106C13.6573 9.57916 13.6419 9.65649 13.6119 9.72863C13.582 9.80076 13.5381 9.86628 13.4828 9.92144L6.35784 17.0464C6.24635 17.1579 6.09513 17.2206 5.93746 17.2206C5.77979 17.2206 5.62858 17.1579 5.51709 17.0464C5.4056 16.9349 5.34296 16.7837 5.34296 16.6261C5.34296 16.4684 5.4056 16.3172 5.51709 16.2057L12.2229 9.50106L5.51709 2.79644C5.46179 2.74128 5.41792 2.67576 5.38799 2.60363C5.35806 2.53149 5.34265 2.45416 5.34265 2.37606C5.34265 2.29796 5.35806 2.22063 5.38799 2.1485C5.41792 2.07636 5.46179 2.01084 5.51709 1.95569Z"
+            fill="#3366FF" />
+        </svg>
+
+      </button></a>
+  </div>
+  <!--  -->
+  <section style="background-image: url(../Images/background\ element-socials.png);"
+    class="px-3 space-y-16 top-[400px] py-[60px] text-deepgrey relative">
+    <div class="text-center space-y-[6px]">
+      <h1 class="font-dmsans font-black text-fluid2 leading-6 ">Stay Updated With Us</h1>
+      <div class=" w-[19.27px] h-[3.39px] bg-primary rounded-full mx-auto"></div>
+      <p class="font-montserrat leading-[13.41px] font-semibold text-fluid3 mx-auto w-[238px]">Follow us on all
+        our socials for the latest news internally and externally</p>
+    </div>
+    <div>
+      <!-- Cards -->
+      <div class="flex flex-wrap gap-[13px] mx-auto   max-w-[1270px]">
+        <!-- 1 -->
+        <div class="mx-auto w-[275px] h-fluid1  p-[33px]  bg-white border border-white rounded-[9px] shadow-custom1">
+
+          <div class="flex flex-col items-center space-y-[15px] ">
+            <img src="../Images/social-instagram.svg" alt="image" />
+            <h5 class=" text-fluid6 font-semibold leading-[18.29px] font-montserrat text-deepgrey ">
+              Instagram</h5>
+            <span
+              class="text-fluid3 w-[203px] font-medium leading-[13.41px] text-center text-deepgrey  font-montserrat">Get
+              all event highlights,
+              community updates,
+              and tech inspiration</span>
+
+
+            <a href="https://www.instagram.com/thecssknust?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              class="py-[10px]   px-[22px] ms-2 text-fluid6 leading-5 font-bold  bg-white rounded-[3px] border border-primary hover:bg-whitehover text-primary "
+              target="_blank">Follow</a>
+
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="mx-auto w-[275px] h-fluid1  p-[33px]  bg-white border border-white rounded-[9px] shadow-custom1">
+
+          <div class="flex flex-col items-center space-y-[15px] ">
+            <img src="../Images/social-x.svg" alt="image" />
+            <h5 class="  text-fluid6 font-semibold leading-[18.29px] font-montserrat text-deepgrey ">X</h5>
+            <span
+              class="text-fluid3 w-[203px] font-medium leading-[13.41px]  text-center text-deepgrey  font-montserrat">Follow
+              us on X for
+              essential daily updates news, and upcoming events</span>
+
+
+            <a href="https://x.com/thecssknust"
+              class="py-[10px]   px-[22px] ms-2 text-fluid6 leading-5 font-bold  bg-white rounded-[3px] border border-primary hover:bg-whitehover text-primary "
+              target="_blank">Follow</a>
+
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="mx-auto w-[275px] h-fluid1  p-[33px]  bg-white border border-white rounded-[9px] shadow-custom1">
+
+          <div class="flex flex-col items-center space-y-[15px] ">
+            <img src="../Images/social-linkedin.svg" alt="image" />
+            <h5 class=" text-fluid6 font-semibold leading-[18.29px] font-montserrat text-deepgrey ">LinkedIn
+            </h5>
+            <span
+              class="text-fluid3 w-[203px] font-medium leading-[13.41px]  text-center text-deepgrey  font-montserrat">Connect
+              with us for
+              professional updates, opportunities, and industry insights</span>
+
+
+            <a href="https://www.linkedin.com/company/the-css-knust/"
+              class="py-[10px]   px-[22px] ms-2 text-fluid6 leading-5 font-bold  bg-white rounded-[3px] border border-primary hover:bg-whitehover text-primary "
+              target="_blank">Follow</a>
+
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="mx-auto w-[275px] h-fluid1  p-[33px]  bg-white border border-white rounded-[9px] shadow-custom1">
+
+          <div class="flex flex-col items-center space-y-[15px] ">
+            <img src="../Images/social-facebook.svg" alt="image" />
+            <h5 class=" text-fluid6 font-semibold leading-[18.29px] font-montserrat text-deepgrey ">Facebook
+            </h5>
+            <span
+              class="text-fluid3 w-[203px] font-medium leading-[13.41px]  text-center text-deepgrey  font-montserrat">Stay
+              connected to get live
+              and exclusive content.</span>
+
+
+            <a href="https://www.facebook.com/profile.php?id=100013812960949"
+              class="py-[10px]   px-[22px] ms-2 text-fluid6 leading-5 font-bold  bg-white rounded-[3px] border border-primary hover:bg-whitehover text-primary "
+              target="_blank">Follow</a>
+
+          </div>
         </div>
       </div>
-    </nav>
-<script src="../js/aos.js"></script>
-<script src="../js/flowbite.min.js"></script>
-<script src="../js/scripts.js"></script>
+    </div>
+  </section>
+
+  <script src="../js/aos.js"></script>
+  <script src="../js/flowbite.min.js"></script>
+  <script src="../js/scripts.js"></script>
 </body>
+
 </html>

@@ -8,7 +8,7 @@
   },
   "author": "Binary Bond",
   "license": "ISC",
-  "description": "",
+  "description": "CSS_WEBSITE",
   "devDependencies": {
     "tailwindcss": "^3.4.17"
   },
