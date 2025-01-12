@@ -251,3 +251,41 @@ html {
   flex-direction: column;
   gap: 40px;
 }
+
+.commbutton:hover{
+background-color: #5ACF87;
+}
+.commbutton{
+    background-color: #22BA5C;
+}
+.teleButton{
+    background-color: #22A4C8;
+}
+.teleButton:hover{
+    background-color: #5CB8D1;
+}
+
+.binarybtn{
+    background-color: black;
+}
+.binarybtn:hover{
+    background-color: #343434;
+}
+.zaptekbtn{
+    background-color: #A272FF;
+}
+.zaptekbtn:hover{
+    background-color:#A97DFF ;
+}
+.whatsappbtn{
+    background-color: #22BA5C;
+}
+.whatsappbtn:hover{
+    background-color: #5ACF87;
+}
+.Telegrambtn{
+    background-color: #22A4C8;
+}
+.Telegrambtn:hover{
+    background-color: #5CB8D1;
+}
