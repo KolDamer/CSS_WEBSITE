@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources</title>
+    <link rel="stylesheet" href="../css/output.css">
+    <link rel="stylesheet" href="../css/flowbite.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/aos.css">
+    <!-- Font awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body class=" lg:pl-96">
+
+    <button data-drawer-target="logo-sidebar" data-drawer-toggle="logo-sidebar" aria-controls="logo-sidebar"
+        type="button"
+        class="inline-flex fixed z-40 top-12 items-center py-2 mt-2 pl-2 md:ml-6  text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+        <span class="sr-only">Open sidebar</span>
+
+        <i class="fa-solid fa-list-ul text-white text-2xl"></i>
+
+    </button>
+
+    <aside id="logo-sidebar"
+        class="fixed top-0 left-0 z-40 w-64 lg:w-96 h-screen    transition-transform -translate-x-96 lg:translate-x-0"
+        aria-label="Sidebar">
+        <div class="h-full px-3 py-[152px] overflow-y-auto text-center bg-gray-50 dark:bg-gray-800">
+            <!-- <a href="https://flowbite.com/" class="flex items-center ps-2.5 mb-5">
+      <img src="https://flowbite.com/docs/images/logo.svg" class="h-6 me-3 sm:h-7" alt="Flowbite Logo" />
+      <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+    </a> -->
+            <ul class="space-y-8 font-medium ">
+                <li class=" items-center  text-deepgrey ">
+
+
+                    <span class=" text-[20px] font-bold font-dmsans ">Categories</span>
+
+                </li>
+
+                <li>
+                    <a href="./Resouces-1.html"
+                        class=" items-center px-[32px] lg:px-[84px]  py-4 text-deepgrey hover:text-white hover:bg-deepgrey hover:bg-opacity-[64%]  rounded-lg  ">
+
+                        <span class=" text-[16px] ">Getting started</span>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="./Resources-2.html"
+                        class=" items-center  px-[56px] lg:px-[108px] py-4 text-white rounded-lg bg-primary ">
+
+                        <span class="  text-[16px]">YouTube</span>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="./Resources-3.html"
+                        class=" items-center  px-[30px] lg:px-[82px] py-4 text-deepgrey rounded-lg hover:text-white hover:bg-deepgrey hover:bg-opacity-[64%]">
+
+                        <span class="  text-[16px]">Udemy Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./Resources-4.html"
+                        class=" items-center  px-[17px] lg:px-[69px] py-4 text-deepgrey rounded-lg hover:text-white hover:bg-deepgrey hover:bg-opacity-[64%]">
+
+                        <span class="  text-[16px]">Past Question Docs</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./Resources-5.html"
+                        class=" items-center  px-[46.5px] lg:px-[99px] py-4 text-deepgrey rounded-lg hover:text-white hover:bg-deepgrey hover:bg-opacity-[64%]">
+
+                        <span class="  text-[16px]">Bootcamps</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./Resources-6.html"
+                        class=" items-center  px-[44.5px] lg:px-[97px] py-4 text-deepgrey rounded-lg hover:text-white hover:bg-deepgrey hover:bg-opacity-[64%]">
+
+                        <span class="  text-[16px]">Community</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <div class="bg-[#F4F7FF] relative">
+        <!-- NAVBAR -->
+        <nav
+            class="navbar bg-transparent bg-opacity-60 backdrop-blur-[1px] fixed w-[100%] lg:w-[calc(100%-24rem)] lg:right-0 z-10 top-0 md:px-5">
+        <div class="navinner max-w-screen-xl p-4  min-w-[320px] flex flex-wrap items-center justify-between mx-auto py-4">
+                <a href="../index.html" class=" flex items-center space-x-3 ">
+                    <img src="../Images/csslogo.svg" alt="CSS Logo" class="items-center w-14 " /></a>
+                <!-- dark mode, join us & button -->
+                <div class="flex items-center lg:order-2   space-x-2 md:space-x-4 lg:space-x-0 rtl:space-x-reverse">
+                    <!-- darkmode -->
+                    <a class="order-1" href="./">
+        
+                        <img src="../Images/CloudMoon.svg" alt="dark mode img" class="w-[21px] md:w-[27px]" /></a>
+                    <!--JOIN US lg -->
+                    <a class="order-2" href="./membership.html"><button
+                            class="hidden md:flex gap-2 text-white font-[900] font-dmsans transition ease-in-out rounded-[3px] items-center justify-center border-2 border-primary hover:bg-primary h-[47px] px-3">
+                            JOIN US
+                            <span>
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </span></button></a>
+                    <!-- hamburger button -->
+                    <button data-collapse-toggle="navbar-sticky" type="button"
+                        class="inline-flex items-center p-2 w-auto order-3 h-auto justify-center text-sm text-gray-500 rounded-md  hover:bg-blue-50 hover:bg-opacity-15"
+                        aria-controls="navbar-sticky" aria-expanded="false" id="menu-toggle">
+                        <span class="sr-only">Open main menu</span>
+                        <img src="../Images/Hamburger navbar.svg" alt="Hamburger" class="w-6" />
+                    </button>
+                </div>
+                <!-- Nav-Link -->
+                <div class="items-center justify-between pl-5 hidden w-full order-3   " id="navbar-sticky">
+                    <ul
+                        class="rounded-md navlinks text-white text-[14px] md:text-[16px] lg:text-[16.5px] space-y-3 font-dmsans text-center flex flex-col p-4  mt-4 font-normal bg-primary  rtl:space-x-reverse ">
+        
+                        <!-- Home -->
+                        <li>
+                            <a href="../index.html"
+                                class="block w-fit mx-auto transition ease-in-out hover:scale-110 lg:hover:scale-105 py-2 px-3 lg:p-0 rounded">Home
+                                <svg width="16" height="3" viewBox="0 0 21 3" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                    class="mx-auto hidden">
+                                    <path
+                                        d="M0 1.3125C0 0.964403 0.138281 0.630564 0.384423 0.384423C0.630564 0.138281 0.964403 0 1.3125 0H19.6875C20.0356 0 20.3694 0.138281 20.6156 0.384423C20.8617 0.630564 21 0.964403 21 1.3125C21 1.6606 20.8617 1.99444 20.6156 2.24058C20.3694 2.48672 20.0356 2.625 19.6875 2.625H1.3125C0.964403 2.625 0.630564 2.48672 0.384423 2.24058C0.138281 1.99444 0 1.6606 0 1.3125Z"
+                                        class="fill-[white] " />
+                                </svg>
+                            </a>
+                        </li>
+                        <!-- Events -->
+                        <li>
+                            <a href="./events.html"
+                                class="block lg:flex lg:flex-col items-center w-fit mx-auto scale-110 lg:scale-100 py-2 px-3 lg:p-0 lg:bg-transparent"
+                                aria-current="page">Events
+                                <svg width="16" height="3" viewBox="0 0 21 3" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                    class="mx-auto hidden">
+                                    <path
+                                        d="M0 1.3125C0 0.964403 0.138281 0.630564 0.384423 0.384423C0.630564 0.138281 0.964403 0 1.3125 0H19.6875C20.0356 0 20.3694 0.138281 20.6156 0.384423C20.8617 0.630564 21 0.964403 21 1.3125C21 1.6606 20.8617 1.99444 20.6156 2.24058C20.3694 2.48672 20.0356 2.625 19.6875 2.625H1.3125C0.964403 2.625 0.630564 2.48672 0.384423 2.24058C0.138281 1.99444 0 1.6606 0 1.3125Z"
+                                        class="fill-[white] " />
+                                </svg>
+                            </a>
+                        </li>
+                        <!-- Resources -->
+                        <li>
+                            <a href="./Resouces-1.html"
+                                class="block w-fit mx-auto transition ease-in-out hover:scale-110 lg:hover:scale-105 py-2 px-3 lg:p-0">Resources
+                                <svg width="16" height="3" viewBox="0 0 21 3" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                    class="mx-auto ">
+                                    <path
+                                        d="M0 1.3125C0 0.964403 0.138281 0.630564 0.384423 0.384423C0.630564 0.138281 0.964403 0 1.3125 0H19.6875C20.0356 0 20.3694 0.138281 20.6156 0.384423C20.8617 0.630564 21 0.964403 21 1.3125C21 1.6606 20.8617 1.99444 20.6156 2.24058C20.3694 2.48672 20.0356 2.625 19.6875 2.625H1.3125C0.964403 2.625 0.630564 2.48672 0.384423 2.24058C0.138281 1.99444 0 1.6606 0 1.3125Z"
+                                        class="fill-[white] " />
+                                </svg>
+                            </a>
+                        </li>
+                        <!-- Contact -->
+                        <li>
+                            <a href="./contact.html"
+                                class="block w-fit mx-auto transition ease-in-out hover:scale-110 lg:hover:scale-105 py-2 px-3 lg:p-0">Contact
+                                <svg width="16" height="3" viewBox="0 0 21 3" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                    class="mx-auto hidden">
+                                    <path
+                                        d="M0 1.3125C0 0.964403 0.138281 0.630564 0.384423 0.384423C0.630564 0.138281 0.964403 0 1.3125 0H19.6875C20.0356 0 20.3694 0.138281 20.6156 0.384423C20.8617 0.630564 21 0.964403 21 1.3125C21 1.6606 20.8617 1.99444 20.6156 2.24058C20.3694 2.48672 20.0356 2.625 19.6875 2.625H1.3125C0.964403 2.625 0.630564 2.48672 0.384423 2.24058C0.138281 1.99444 0 1.6606 0 1.3125Z"
+                                        class="fill-[white] " />
+                                </svg>
+                            </a>
+                        </li>
+                        <!-- Membership -->
+                        <li>
+                            <a href="./membership.html"
+                                class="block w-fit mx-auto transition ease-in-out hover:scale-110 lg:hover:scale-105 py-2 px-3 lg:p-0 rounded">Membership
+                                <svg width="16" height="3" viewBox="0 0 21 3" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                    class="mx-auto hidden">
+                                    <path
+                                        d="M0 1.3125C0 0.964403 0.138281 0.630564 0.384423 0.384423C0.630564 0.138281 0.964403 0 1.3125 0H19.6875C20.0356 0 20.3694 0.138281 20.6156 0.384423C20.8617 0.630564 21 0.964403 21 1.3125C21 1.6606 20.8617 1.99444 20.6156 2.24058C20.3694 2.48672 20.0356 2.625 19.6875 2.625H1.3125C0.964403 2.625 0.630564 2.48672 0.384423 2.24058C0.138281 1.99444 0 1.6606 0 1.3125Z"
+                                        class="fill-[white] " />
+                                </svg>
+                            </a>
+                        </li>
+                        <!-- JOIN US sm  and md -->
+                        <li>
+                            <a href="./membership.html"
+                                class="md:hidden block lg:hover:bg-transparent lg:text-white lg:text-opacity-60 lg:hover:text-white lg:hover:text-opacity-85 lg:p-0"><button
+                                    class="mt-2 text-white transition ease-in-out rounded-[3px] flex gap-3 items-center justify-center border-2 border-white hover:bg-white hover:text-primary py-2 w-full">
+                                    JOIN US
+                                    <span>
+                                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                    </span></button></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- HERO-SECTION -->
+        <section class="">
+            <div class="h-[387px] relative">
+
+                <div class=" bg-black bg-opacity-50 absolute h-full w-full"></div>
+                <div
+                    class="absolute  text-white top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 space-y-[10px]   text-center">
+                    <h1 class="  font-dmsans min-w-[298px] font-black text-fluid1">Resources Hub</h1>
+                    <p
+                        class="font-montserrat w-[228px] mx-auto md:w-full   text-fluid3 font-semibold leading-[13.41px] ">
+                        Simplifying your learning journey with easy-to-use tools and guides</p>
+                </div>
+
+                <img class="h-full object-cover w-full" src="../Images/resourcesbanner.png" alt="Image">
+            </div>
+        </section>
+
+        <!-- END OF HERO SECTION -->
+        <!--  -->
+        <section class="py-[63px] md:py-[93px] lg:pl-[2%] w-fit xl:pl-[10%]  text-deepgrey  space-y-[59px]">
+            <div class="max-w-[523px]  px-[16px] space-y-[9px]">
+                <span>
+                    <h1 class="text-fluid10 font-medium text-primary font-montserrat">YouTube</h1>
+                    <h1 class="font-black font-dmsans text-fluid9">YouTube Learning</h1>
+                </span>
+                <p class="text-lightgrey  font-montserrat font-medium text-fluid3">Dive into our hand-picked collection
+                    of
+                    YouTube playlists and channels designed to make learning Computer Science simple
+                    and accessible.</p>
+            </div>
+            <div class="space-y-[4px] px-[16px] max-w-[678px]">
+                <div class="space-y-1">
+                    <div class=" w-[19.27px] h-[3.39px] rounded-full bg-primary"></div>
+                    <h1 class="font-black font-dmsans text-fluid11">Featured Tutors</h1>
+                </div>
+                <p class="font-montserrat text-lightgrey font-medium text-fluid3">Whether you're tackling algorithms,
+                    diving
+                    into electronics, or mastering coding languages, these YouTube tutors provide
+                    personalized guidance to help you excel. Explore their courses and resources to take your skills to
+                    the next
+                    level!"</p>
+            </div>
+            <!-- Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-[36px] w-fit mx-auto md:mx-0  py-9 px-[16px] ">
+
+                <!-- 1 -->
+                <div class=" max-w-[460px]   rounded-[32px] py-[21px] px-3  bg-white">
+                    <div class="flex   gap-2     ">
+                        <img class="mb-auto w-24 " src="../Images/OrganicChemistryTutor.svg" alt="">
+                        <div class="min-w-[178px] space-y-2 max-w-[345px]">
+                            <div class="">
+                                <h1 class="text-fluid12 font-dmsans font-black ">The Organic Chemistry Tutor</h1>
+                                <p class="text-fluid3 lg:text-fluid16 text-lightgrey  font-medium font-montserrat">
+                                    @TheOrganicChemistryTutor</p>
+                                <p class="text-fluid3 text-lightgrey font-medium font-montserrat">
+                                    2.8K+ videos</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-fit ml-auto">
+                        <a href="https://www.youtube.com/@TheOrganicChemistryTutor" target="_blank">
+                            <button type="button"
+                                class="bg-blue-600 px-[42px]   font-bold text-fluid14 py-[15px] rounded-[50px] hover:bg-primaryhover text-white">
+                                Visit</button></a>
+                    </div>
+                </div>
+
+
+                <!-- 2 -->
+                <div class=" max-w-[460px] relative   rounded-[32px] py-[21px] px-3  bg-white">
+                    <div class="flex  ">
+                        <img class="mb-auto w-24 mr-4" src="../Images/NesoAcademy.svg" alt="">
+                        <div class="min-w-[178px] space-y-2 max-w-[345px]">
+                            <div>
+                                <h1 class="text-fluid12 font-dmsans font-black ">Neso Academy</h1>
+                                <p class="text-fluid3 text-lightgrey  font-medium font-montserrat">@nesoacademy</p>
+                                <p class="text-fluid3 text-lightgrey font-medium font-montserrat">
+                                    2.7K+ videos</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-fit ml-auto h-full">
+                        <a href="https://www.youtube.com/@nesoacademy" target="_blank">
+                            <button type="button"
+                                class="bg-blue-600 px-[42px]  font-bold text-fluid14 py-[15px] rounded-[50px] hover:bg-primaryhover text-white">
+                                Visit</button></a>
+                    </div>
+
+                </div>
+
+                <!-- 3 -->
+                <div class=" max-w-[460px]   rounded-[32px] py-[21px] px-3  bg-white">
+                    <div class="flex  ">
+                        <img class="mb-auto w-26 mr-2" src="../Images/KhanAcademy.svg" alt="">
+                        <div class="min-w-[178px] space-y-2 max-w-[345px]">
+                            <div>
+                                <h1 class="text-fluid12 font-dmsans font-black ">Khan Academy</h1>
+                                <p class="text-fluid3 text-lightgrey  font-medium font-montserrat">@khanacademy</p>
+                                <p class="text-fluid3 text-lightgrey font-medium font-montserrat">
+                                    8.6K+ videos</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-fit ml-auto">
+                        <a href="https://www.youtube.com/@khanacademy" target="_blank">
+                            <button type="button"
+                                class="bg-blue-600 px-[42px]  font-bold text-fluid14 py-[15px] rounded-[50px] hover:bg-primaryhover text-white">
+                                Visit</button></a>
+                    </div>
+
+                </div>
+
+                <!-- 4 -->
+                <div class=" max-w-[460px]   rounded-[32px] py-[21px] px-3  bg-white">
+                    <div class="flex  ">
+                        <img class="mb-auto w-24 mr-2" src="../Images/SkanCityAcademy.svg" alt="">
+                        <div class="min-w-[178px] space-y-2 max-w-[345px]">
+                            <div>
+                                <h1 class="text-fluid12 font-dmsans font-black ">SkanCityAcademy</h1>
+                                <p class="text-fluid3 lg:text-fluid16 text-lightgrey  font-medium font-montserrat">
+                                    @SkanCityAcademy_SirJohn</p>
+                                <p class="text-fluid3 text-lightgrey font-medium font-montserrat">
+                                    530+ videos</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="w-fit ml-auto">
+                        <a href="https://www.youtube.com/@SkanCityAcademy_SirJohn" target="_blank">
+                            <button type="button"
+                                class="bg-blue-600 px-[42px]  font-bold text-fluid14 py-[15px] rounded-[50px] hover:bg-primaryhover text-white">
+                                Visit</button></a>
+                    </div>
+                </div>
+
+
+                <!-- 5 -->
+                <div class=" max-w-[460px]   rounded-[32px] py-[21px] px-3  bg-white">
+                    <div class="flex  ">
+                        <img class="mb-auto w-24 mr-2" src="../Images/Ekeeda.svg" alt="">
+                        <div class="min-w-[178px] space-y-2 max-w-[345px]">
+                            <div>
+                                <h1 class="text-fluid12 font-dmsans font-black ">Ekeeda</h1>
+                                <p class="text-fluid3 text-lightgrey  font-medium font-montserrat">@Ekeeda</p>
+                                <p class="text-fluid3 text-lightgrey font-medium font-montserrat">
+                                    25K+ videos</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-fit ml-auto">
+                        <a href="https://www.youtube.com/@Ekeeda" target="_blank">
+                            <button type="button"
+                                class="bg-blue-600 px-[42px]  font-bold text-fluid14 py-[15px] rounded-[50px] hover:bg-primaryhover text-white">
+                                Visit</button></a>
+                    </div>
+
+                </div>
+
+                <!-- 6 -->
+                <div class=" max-w-[460px]   rounded-[32px] py-[21px] px-3  bg-white">
+                    <div class="flex  ">
+                        <img class="mb-auto w-24 mr-2" src="../Images/TrevTutor.svg" alt="">
+                        <div class="min-w-[178px] space-y-2 max-w-[345px]">
+                            <div>
+                                <h1 class="text-fluid12 font-dmsans font-black ">TrevTutor</h1>
+                                <p class="text-fluid3 text-lightgrey  font-medium font-montserrat">@TrevTutor</p>
+                                <p class="text-fluid3 text-lightgrey font-medium font-montserrat">
+                                    593+ videos</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-fit ml-auto">
+                        <a href="https://www.youtube.com/@Trevtutor" target="_blank">
+                            <button type="button"
+                                class="bg-blue-600 px-[42px]  font-bold text-fluid14 py-[15px] rounded-[50px] hover:bg-primaryhover text-white">
+                                Visit</button></a>
+                    </div>
+
+                </div>
+
+                <!-- 7 -->
+                <div class=" max-w-[460px]   rounded-[32px] py-[21px] px-3  bg-white">
+                    <div class="flex  ">
+                        <img class="mb-auto w-24 mr-2" src="../Images/PowerCartAnimatedVideos.svg" alt="">
+                        <div class="min-w-[178px] space-y-2 max-w-[345px]">
+                            <div>
+                                <h1 class="text-fluid12 font-dmsans font-black ">PowerCert Animated Videos</h1>
+                                <p class="text-fluid3 lg:text-fluid16 text-lightgrey  font-medium font-montserrat">
+                                    @PowerCertAnimatedVideos</p>
+                                <p class="text-fluid3 text-lightgrey font-medium font-montserrat">
+                                    109+ videos</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="w-fit ml-auto">
+                        <a href="https://www.youtube.com/@PowerCertAnimatedVideos" target="_blank">
+                            <button type="button"
+                                class="bg-blue-600 px-[42px]  font-bold text-fluid14 py-[15px] rounded-[50px] hover:bg-primaryhover text-white">
+                                Visit</button></a>
+                    </div>
+
+                </div>
+
+                <!-- 8 -->
+                <div class=" max-w-[460px]   rounded-[32px] py-[21px] px-3  bg-white">
+                    <div class="flex  ">
+                        <img class="mb-auto w-24 mr-2" src="../Images/NetworkChuck.svg" alt="">
+                        <div class="min-w-[178px] space-y-2 max-w-[345px]">
+                            <div>
+                                <h1 class="text-fluid12 font-dmsans font-black ">NetworkChuck</h1>
+                                <p class="text-fluid3 text-lightgrey  font-medium font-montserrat">@NetworkChuck</p>
+                                <p class="text-fluid3 text-lightgrey font-medium font-montserrat">
+                                    468+ videos</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-fit ml-auto">
+                        <a href="https://www.youtube.com/@NetworkChuck" target="_blank">
+                            <button type="button"
+                                class="bg-blue-600 px-[42px]  font-bold text-fluid14 py-[15px] rounded-[50px] hover:bg-primaryhover text-white">
+                                Visit</button></a>
+                    </div>
+
+                </div>
+
+                <!-- 9 -->
+                <div class=" max-w-[460px]   rounded-[32px] py-[21px] px-3  bg-white">
+                    <div class="flex  ">
+                        <img class="mb-auto w-24 mr-2" src="../Images/NetNinja.svg" alt="">
+                        <div class="min-w-[178px] space-y-2 max-w-[345px]">
+                            <div>
+                                <h1 class="text-fluid12 font-dmsans font-black ">Net Ninja</h1>
+                                <p class="text-fluid3 text-lightgrey  font-medium font-montserrat">@NetNinja</p>
+                                <p class="text-fluid3 text-lightgrey font-medium font-montserrat">
+                                    2.5K+ videos</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="w-fit ml-auto">
+                        <a href="https://www.youtube.com/@NetNinja" target="_blank">
+                            <button type="button"
+                                class="bg-blue-600 px-[42px]  font-bold text-fluid14 py-[15px] rounded-[50px] hover:bg-primaryhover text-white">
+                                Visit</button></a>
+                    </div>
+
+                </div>
+
+                <!-- 10 -->
+                <div class=" max-w-[460px]   rounded-[32px] py-[21px] px-3  bg-white">
+                    <div class="flex  ">
+                        <img class="mb-auto w-24 mr-2" src="../Images/BroCode.svg" alt="">
+                        <div class="min-w-[178px] space-y-2 max-w-[345px]">
+                            <div>
+                                <h1 class="text-fluid12 font-dmsans font-black ">Bro Code</h1>
+                                <p class="text-fluid3 text-lightgrey  font-medium font-montserrat">@BroCodez</p>
+                                <p class="text-fluid3 text-lightgrey font-medium font-montserrat">
+                                    896+ videos</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="w-fit ml-auto">
+                        <a href="https://www.youtube.com/@BroCodez" target="_blank">
+                            <button type="button"
+                                class="bg-blue-600 px-[42px]  font-bold text-fluid14 py-[15px] rounded-[50px] hover:bg-primaryhover text-white">
+                                Visit</button></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="py-[63px] md:py-[93px] px-[16px] w-fit xl:pl-[10%] text-deepgrey bg-[#F4F7FF] space-y-[59px]">
+            <div class="space-y-[4px] max-w-[678px]">
+                <div class="space-y-1">
+                    <div class=" w-[19.27px] h-[3.39px] rounded-full bg-primary"></div>
+                    <h1 class="font-black font-dmsans text-fluid11">Featured Playlists</h1>
+                </div>
+                <p class="font-montserrat text-lightgrey font-medium text-fluid3">Whether you're tackling algorithms,
+                    diving
+                    into electronics, or mastering coding languages, these YouTube tutors provide
+                    personalized guidance to help you excel. Explore their courses and resources to take your skills to
+                    the next
+                    level!"</p>
+            </div>
+            <!-- Cards -->
+            <div class="bg-white lg:px-7 rounded-lg" id="learnHowToCode">
+                <!-- JS -->
+                <div class="bg-white py-[83.5px]  w-full px-[12px] ">
+                    <h1 class="text-primary font-montserrat font-medium text-fluid3 mb-[31px]">JavaScript</h1>
+                    <div class="flex flex-wrap w-fit   gap-[31px]">
+                        <!-- 1 -->
+                        <div
+                            class="flex flex-col gap-[9px] bg-white rounded-[18px] overflow-hidden shadow-custom2 pb-[24px]">
+                            <img class="" src="../Images/JS1.png" alt="">
+                            <div class="flex flex-col gap-[15px] w-[227px] mx-auto">
+                                <div class="flex flex-col gap-[9px]">
+                                    <h1 class="font-montserrat font-semibold text-lightgrey text-[11px] md:text-[12px]">
+                                        JavaScript</h1>
+                                    <h1 class="font-montserrat font-bold text-[11px] md:text-[13px]">JavaScript Tutorial
+                                        for Beginners -
+                                        Full Course in 12 Hours</h1>
+                                    <p class="font-montserrat font-semibold text-[10px] md:text-[12px]">
+                                        @CleverProgrammer. 1.2M+ views</p>
+                                </div>
+                                <div><a href="https://youtu.be/lI1ae4REbFM?si=w74E60njfHNwPa1A" target="_blank"><button
+                                            type="button"
+                                            class="bg-blue-600 px-[42px]  w-fit font-bold text-fluid14 py-[15px] rounded-[50px] hover:bg-primaryhover text-white">
+                                            Watch</button></a></div>
+
+                            </div>
+                        </div>
+                        <!-- 2 -->
+                        <div
+                            class="flex flex-col gap-[9px] overflow-hidden bg-white rounded-[18px] shadow-custom2 pb-[24px]">
+                            <img class="w-ful" src="../Images/JS2.png" alt="">
+                            <div class="flex flex-col gap-[15px] w-[227px] mx-auto">
+                                <div class="flex flex-col gap-[9px]">
+                                    <h1 class="font-montserrat font-semibold text-lightgrey text-[11px] md:text-[12px]">
+                                        JavaScript</h1>
+                                    <h1 class="font-montserrat font-bold text-[11px] md:text-[13px]">JavaScript Tutorial
+                                        for Complete
+                                        Beginners</h1>
+                                    <p class="font-montserrat font-semibold text-[10px] md:text-[12px]">@BroCodez. 170K+
+                                        views</p>
+                                </div>
+                                <div><a href="https://youtu.be/Ihy0QziLDf0?si=Io9l63SQwxqrhIEj" target="_blank"><button
+                                            type="button"
+                                            class="bg-blue-600 px-[42px]  w-fit font-bold text-fluid14 py-[15px] rounded-[50px] hover:bg-primaryhover text-white">
+                                            Watch</button></a></div>
+
+                            </div>
+                        </div>
+                        <!-- 3 -->
+                        <div
+                            class="flex flex-col gap-[9px] overflow-hidden bg-white rounded-[18px] shadow-custom2 pb-[24px]">
+                            <img src="../Images/JS3.png" alt="">
+                            <div class="flex flex-col gap-[15px] w-[227px] mx-auto">
+                                <div class="flex flex-col gap-[9px]">
+                                    <h1 class="font-montserrat font-semibold text-lightgrey text-[11px] md:text-[12px]">
+                                        JavaScript</h1>
+                                    <h1 class="font-montserrat font-bold text-[11px] md:text-[13px]">JavaScript Tutorial
+                                        Full Course -
+                                        Beginner to Pro (2024)</h1>
+                                    <p class="font-montserrat font-semibold text-[10px] md:text-[12px]">@SuperSimpleDev.
+                                        3M+ views</p>
+                                </div>
+                                <div><a href="https://youtu.be/EerdGm-ehJQ?si=ztfYdbcbyzjp5IH2" target="_blank"><button
+                                            type="button"
+                                            class="bg-blue-600 px-[42px]  w-fit font-bold text-fluid14 py-[15px] rounded-[50px] hover:bg-primaryhover text-white">
+                                            Watch</button></a></div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                </div>
+                <!--  -->
+                <!-- HTML/CSS -->
+                <div class="bg-white py-[83.5px]  w-full px-[12px] ">
+                    <h1 class="text-primary font-montserrat font-medium text-fluid3 mb-[31px]">HTML/CSS</h1>
+                    <div class="flex flex-wrap w-fit   gap-[31px]">
+                        <!-- 1 -->
+                        <div
+                            class="flex flex-col gap-[9px] bg-white overflow-hidden rounded-[18px] shadow-custom2 pb-[24px]">
+                            <img src="../Images/HTML1.png" alt="">
+                            <div class="flex flex-col gap-[15px] w-[227px] mx-auto">
+                                <div class="flex flex-col gap-[9px]">
+                                    <h1 class="font-montserrat font-semibold text-lightgrey text-[11px] md:text-[12px]">
+                                        HTML/CSS</h1>
+                                    <h1 class="font-montserrat font-bold text-[11px] md:text-[13px]">HTML & CSS Crash
+                                        Course Tutorial</h1>
+                                    <p class="font-montserrat font-semibold text-[10px] md:text-[12px]">@NetNinja. 1M+
+                                        views</p>
+                                </div>
+                                <div><a href="https://youtu.be/hu-q2zYwEYs?si=7vMGDlSOofiMPYGf" target="_blank"><button
+                                            type="button"
+                                            class="bg-blue-600 px-[42px]  w-fit font-bold text-fluid14 py-[15px] rounded-[50px] hover:bg-primaryhover text-white">
+                                            Watch</button></a></div>
+
+                            </div>
+                        </div>
+                        <!-- 2 -->
+                        <div
+                            class="flex flex-col gap-[9px] overflow-hidden bg-white rounded-[18px] shadow-custom2 pb-[24px]">
+                            <img src="../Images/HTML2.png" alt="">
+                            <div class="flex flex-col gap-[15px] w-[227px] mx-auto">
+                                <div class="flex flex-col gap-[9px]">
+                                    <h1 class="font-montserrat font-semibold text-lightgrey text-[11px] md:text-[12px]">
+                                        HTML/CSS</h1>
+                                    <h1 class="font-montserrat font-bold text-[11px] md:text-[13px]">HTML tutorial for
+                                        beginners
+                                    </h1>
+                                    <p class="font-montserrat font-semibold text-[10px] md:text-[12px]">@BroCodez. 196K+
+                                        views</p>
+                                </div>
+                                <div><a href="https://youtu.be/2oCN2q1x3c4?si=nCp_a-N6f8T_uP9r" target="_blank"><button
+                                            type="button"
+                                            class="bg-blue-600 px-[42px]  w-fit font-bold text-fluid14 py-[15px] rounded-[50px] hover:bg-primaryhover text-white">
+                                            Watch</button></a></div>
+
+                            </div>
+                        </div>
+                        <!-- 3 -->
+                        <div
+                            class="flex flex-col gap-[9px] overflow-hidden bg-white rounded-[18px] shadow-custom2 pb-[24px]">
+                            <img src="../Images/HTML3.png" alt="">
+                            <div class="flex flex-col gap-[15px] w-[227px]  h-full mx-auto">
+                                <div class="flex flex-col gap-[9px]">
+                                    <h1 class="font-montserrat font-semibold text-lightgrey text-[11px] md:text-[12px]">
+                                        HTML/CSS</h1>
+                                    <h1 class="font-montserrat font-bold text-[11px] md:text-[13px]">CSS tutorial for
+                                        beginners</h1>
+                                    <p class="font-montserrat font-semibold text-[10px] md:text-[12px]">@BroCodez. 84K+
+                                        views</p>
+                                </div>
+                                <div><a href="https://youtu.be/xv-bBxaa7WU?si=OJXLLnOTgX1GfwGb" target="_blank"><button
+                                            type="button"
+                                            class="bg-blue-600 px-[42px]  w-fit font-bold text-fluid14 py-[15px] rounded-[50px] hover:bg-primaryhover text-white">
+                                            Watch</button></a></div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                </div>
+                <!--  -->
+                <!-- React -->
+                <div class="bg-white py-[83.5px]  w-full px-[12px] ">
+                    <h1 class="text-primary font-montserrat font-medium text-fluid3 mb-[31px]">React.js</h1>
+                    <div class="flex flex-wrap w-fit   gap-[31px]">
+                        <!-- 1 -->
+                        <div
+                            class="flex flex-col gap-[9px] bg-white overflow-hidden rounded-[18px] shadow-custom2 pb-[24px]">
+                            <img src="../Images/react1.png" alt="">
+                            <div class="flex flex-col gap-[15px] w-[227px] mx-auto">
+                                <div class="flex flex-col gap-[9px]">
+                                    <h1 class="font-montserrat font-semibold text-lightgrey text-[11px] md:text-[12px]">
+                                        React.js</h1>
+                                    <h1 class="font-montserrat font-bold text-[11px] md:text-[13px]">React JS Full
+                                        Course | Build an App
+                                        and Master React in 1 Hour</h1>
+                                    <p class="font-montserrat font-semibold text-[10px] md:text-[12px]">
+                                        @javascriptmastery. 1.8M+ views
+                                    </p>
+                                </div>
+                                <div><a href="https://youtu.be/b9eMGE7QtTk?si=M-ZJX9iXnTVKV-Oy" target="_blank"><button
+                                            type="button"
+                                            class="bg-blue-600 px-[42px]  w-fit font-bold text-fluid14 py-[15px] rounded-[50px] hover:bg-primaryhover text-white">
+                                            Watch</button></a></div>
+                            </div>
+                        </div>
+                        <!-- 2 -->
+                        <div
+                            class="flex flex-col gap-[9px] overflow-hidden bg-white rounded-[18px] shadow-custom2 pb-[24px]">
+                            <img src="../Images/react2.png" alt="">
+                            <div class="flex flex-col gap-[15px] w-[227px] mx-auto">
+                                <div class="flex flex-col gap-[9px]">
+                                    <h1 class="font-montserrat font-semibold text-lightgrey text-[11px] md:text-[12px]">
+                                        React.js</h1>
+                                    <h1 class="font-montserrat font-bold text-[11px] md:text-[13px]">React Full Course
+                                        for free (2024)
+                                    </h1>
+                                    <p class="font-montserrat font-semibold text-[10px] md:text-[12px]">@BroCodez. 1.8M
+                                        views</p>
+                                </div>
+                                <div><a href="https://youtu.be/CgkZ7MvWUAA?si=G6QOU1KqerS8r1u5" target="_blank"><button
+                                            type="button"
+                                            class="bg-blue-600 px-[42px]  w-fit font-bold text-fluid14 py-[15px] rounded-[50px] hover:bg-primaryhover text-white">
+                                            Watch</button></a></div>
+                            </div>
+                        </div>
+                        <!-- 3 -->
+                        <div
+                            class="flex flex-col gap-[9px] overflow-hidden bg-white rounded-[18px] shadow-custom2 pb-[24px]">
+                            <img src="../Images/react3.png" alt="">
+                            <div class="flex flex-col gap-[15px] w-[227px] mx-auto">
+                                <div class="flex flex-col gap-[9px]">
+                                    <h1 class="font-montserrat font-semibold text-lightgrey text-[11px] md:text-[12px]">
+                                        React.js</h1>
+                                    <h1 class="font-montserrat font-bold text-[11px] md:text-[13px]">Full Modern React
+                                        Tutorial</h1>
+                                    <p class="font-montserrat font-semibold text-[10px] md:text-[12px]">@NetNinja. 1.3M+
+                                        views</p>
+                                </div>
+                                <div><a href="https://youtu.be/j942wKiXFu8?si=yPDqXpiwo6YUfJih" target="_blank"><button
+                                            type="button"
+                                            class="bg-blue-600 px-[42px]  w-fit font-bold text-fluid14 py-[15px] rounded-[50px] hover:bg-primaryhover text-white">
+                                            Watch</button></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                </div>
+                <!--  -->
+                <!--DS & Algorithms -->
+                <div class="bg-white py-[83.5px]  w-full px-[12px] ">
+                    <h1 class="text-primary font-montserrat font-medium text-fluid3 mb-[31px]">Data Structures &
+                        Algorithms</h1>
+                    <div class="flex flex-wrap w-fit   gap-[31px]">
+                        <!-- 1 -->
+                        <div
+                            class="flex flex-col gap-[9px] bg-white overflow-hidden rounded-[18px] shadow-custom2 pb-[24px]">
+                            <img src="../Images/DSA1.png" alt="">
+                            <div class="flex flex-col gap-[15px] w-[227px] mx-auto">
+                                <div class="flex flex-col gap-[9px]">
+                                    <h1 class="font-montserrat font-semibold text-lightgrey text-[11px] md:text-[12px]">
+                                        Data Structures &
+                                        Algorithms</h1>
+                                    <h1 class="font-montserrat font-bold text-[11px] md:text-[13px]">Data Structures &
+                                        Algorithms Roadmap:
+                                        All You NEED To Learn</h1>
+                                    <p class="font-montserrat font-semibold text-[10px] md:text-[12px]">@TechWithTim.
+                                        54K+ views</p>
+                                </div>
+                                <div><a href="https://youtu.be/QkV3xlxdF_0?si=kT0Lha6ObKRS-LEw" target="_blank"><button
+                                            type="button"
+                                            class="bg-blue-600 px-[42px]  w-fit font-bold text-fluid14 py-[15px] rounded-[50px] hover:bg-primaryhover text-white">
+                                            Watch</button></a></div>
+                            </div>
+                        </div>
+                        <!-- 2 -->
+                        <div
+                            class="flex flex-col gap-[9px] overflow-hidden bg-white rounded-[18px] shadow-custom2 pb-[24px]">
+                            <img src="../Images/DSA2.png" alt="">
+                            <div class="flex flex-col gap-[15px] w-[227px] mx-auto">
+                                <div class="flex flex-col gap-[9px]">
+                                    <h1 class="font-montserrat font-semibold text-lightgrey text-[11px] md:text-[12px]">
+                                        Data Structures &
+                                        Algorithms</h1>
+                                    <h1 class="font-montserrat font-bold text-[11px] md:text-[13px]">Algorithms and Data
+                                        Structures - Full
+                                        Course for Beginners
+                                    </h1>
+                                    <p class="font-montserrat font-semibold text-[10px] md:text-[12px]">@freecodecamp.
+                                        4.8M+ views</p>
+                                </div>
+                                <div><a href="https://youtu.be/8hly31xKli0?si=7jv7huXtnQ1Krhyu" target="_blank"><button
+                                            type="button"
+                                            class="bg-blue-600 px-[42px]  w-fit font-bold text-fluid14 py-[15px] rounded-[50px] hover:bg-primaryhover text-white">
+                                            Watch</button></a></div>
+                            </div>
+                        </div>
+                        <!-- 3 -->
+                        <div
+                            class="flex flex-col gap-[9px] overflow-hidden bg-white rounded-[18px] shadow-custom2 pb-[24px]">
+                            <img src="../Images/DSA3.png" alt="">
+                            <div class="flex flex-col gap-[15px] w-[227px] mx-auto">
+                                <div class="flex flex-col gap-[9px]">
+                                    <h1 class="font-montserrat font-semibold text-lightgrey text-[11px] md:text-[12px]">
+                                        Data Structures &
+                                        Algorithms</h1>
+                                    <h1 class="font-montserrat font-bold text-[11px] md:text-[13px]">Learn Data
+                                        Structures and Algorithms
+                                        for free </h1>
+                                    <p class="font-montserrat font-semibold text-[10px] md:text-[12px]">@BroCodez. 1.8M+
+                                        views</p>
+                                </div>
+                                <div><a href="https://youtu.be/CBYHwZcbD-s?si=FN0C8BvRsCAuregf" target="_blank"><button
+                                            type="button"
+                                            class="bg-blue-600 px-[42px]  w-fit font-bold text-fluid14 py-[15px] rounded-[50px] hover:bg-primaryhover text-white">
+                                            Watch</button></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                </div>
+                <!--  -->
+            </div>
+        </section>
+    </div>
+
+<section class="bg-primary w-full">
+    <footer class="text-white w-fit mx-auto">
+        <section class="w-full h-full self-center">
+            <div class="flex flex-col lg:flex-row gap-12 lg:space-x-24 py-12 md:py-16 px-5 md:mx-10">
+                <!-- CSS logo and social icons -->
+                <div class="space-y-3 lg:pt-2">
+                    <a href="../index.html" class="flex flex-col items-center -space-y-[9px] w-fit">
+                        <img src="../Images/NAVLOGO.svg" alt="CSS Logo" class="w-[110px]" />
+                        <p class="text-white text-[12px]">Computer Science Society</p>
+                    </a>
+                    <ul class="flex items-center space-x-2">
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=100013812960949" target="_blank">
+                                <img src="../Images/footer-facebook.svg" alt="Facebook logo" /></a>
+                        </li>
+                        <li>
+                            <a href="https://x.com/thecssknust?lang=en" target="_blank">
+                                <img src="../Images/footer-x.svg" alt="X logo" /></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/thecssknust/" target="_blank">
+                                <img src="../Images/footer-instagram.svg" alt="Instagram logo" /></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/the-css-knust/" target="_blank">
+                                <img src="../Images/footer-linkedin.svg" alt="LinkedIn logo" /></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- footer features -->
+                <div
+                    class="footerfeatures font-dmsans font-light md:font-normal flex flex-col gap-20 md:gap-28 lg:gap-16">
+                    <div class="flex gap-20 md:gap-28 lg:gap-24">
+                        <!-- Socials -->
+                        <div>
+                            <p class="font-semibold mb-2" style="font-size: clamp(18px, 2vw, 22px)">
+                                Socials
+                            </p>
+                            <ul class="space-y-1" style="font-size: clamp(14px, 1.7vw, 16px)">
+                                <li class="hover:scale-105 transition ease-in-out duration-300">
+                                    <a href="https://www.instagram.com/thecssknust/" target="_blank">Instagram</a>
+                                </li>
+                                <li class="hover:scale-105 transition ease-in-out duration-300">
+                                    <a href="https://www.facebook.com/profile.php?id=100013812960949"
+                                        target="_blank">Facebook</a>
+                                </li>
+                                <li class="hover:scale-105 transition ease-in-out duration-300">
+                                    <a href="https://www.linkedin.com/company/the-css-knust/" target="_blank">
+                                        LinkedIn</a>
+                                </li>
+                                <li class="hover:scale-105 transition ease-in-out duration-300">
+                                    <a href="https://t.me/csresourcesbank" target="_blank">Telegram</a>
+                                </li>
+                                <li class="hover:scale-105 transition ease-in-out duration-300">
+                                    <a href="https://x.com/thecssknust?lang=en" target="_blank">
+                                        X App</a>
+                                </li>
+                                <li class="hover:scale-105 transition ease-in-out duration-300">
+                                    <a href="https://whatsapp.com/channel/0029VawygOn7dmeiVqDY4f47"
+                                        target="_blank">WhatsApp</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Useful links -->
+                        <div class="w-[120px]">
+                            <p class="font-semibold mb-2" style="font-size: clamp(18px, 2vw, 22px)">
+                                Useful links
+                            </p>
+                            <ul class="space-y-1" style="font-size: clamp(14px, 1.7vw, 16px)">
+                                <li class="hover:scale-105 transition ease-in-out duration-300">
+                                    <a href="../index.html">Home</a>
+                                </li>
+                                <li class="hover:scale-105 transition ease-in-out duration-300">
+                                    <a href="./events.html">Events</a>
+                                </li>
+                                <li class="hover:scale-105 transition ease-in-out duration-300">
+                                    <a href="./Resouces-1.html">Resources</a>
+                                </li>
+                                <li class="hover:scale-105 transition ease-in-out duration-300">
+                                    <a href="./contact.html">Contact</a>
+                                </li>
+                                <li class="hover:scale-105 transition ease-in-out duration-300">
+                                    <a href="./membership.html"></a>Membership
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Contact Us -->
+                    <div style="font-size: clamp(14px, 1.7vw, 16px)" class="space-y-[10px] w-[243px]">
+                        <p class="font-semibold" style="font-size: clamp(18px, 2vw, 22px)">
+                            Contact Us
+                        </p>
+                        <ul class="space-y-1">
+                            <li>
+                                <a href="https://maps.app.goo.gl/EYaZyV8LxAptGz4A6" class="hover:underline"
+                                    target="_blank">
+                                    <span class="font-medium md:font-semibold">KNUST</span>
+                                    , College Of Science</a>
+                            </li>
+                            <li>Kumasi, Ghana</li>
+                        </ul>
+                        <ul class="space-y-1 pt-3">
+                            <li>
+                                <span class="font-medium md:font-semibold">Phone: </span>
+                                <a href="tel:+233592348760" class="hover:underline">+233 59 234 8760</a>
+                            </li>
+                            <li>
+                                <span class="font-medium md:font-semibold">Email: </span>
+                                <a href="mailto:thecssknust@gmail.com" class="hover:underline">thecssknust@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="tracking-[0.5px] border-t border-opacity-55 border-[#8FABFE] mx-14 md:mx-28 lg:mx-56 py-7 lg:py-5 text-[12px] text-center font-dmsans font-light leading-[13px]">
+                <p>
+                    Designed and developed by <br />
+                    BinaryBond
+                </p>
+            </div>
+        </section>
+    </footer>
+    <div class="w-full h-4 bg-white"></div>
+</section>
+    <script src="../js/aos.js"></script>
+    <script src="../js/flowbite.min.js"></script>
+    <script src="../js/scripts.js"></script>
+</body>
+
+</html>
