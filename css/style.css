@@ -1,39 +1,253 @@
 @import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-.commbutton:hover{
-background-color: #5ACF87;
+html {
+  scroll-behavior: smooth;
 }
-.commbutton{
-    background-color: #22BA5C;
+/* HOMEPAGE HTML */
+@media (min-width: 565px) {
+  .footerfeatures {
+    flex-direction: row;
+  }
 }
-.teleButton{
-    background-color: #22A4C8;
+@media (min-width: 350px) and (max-width: 404px) {
+  #qualityparent {
+    gap: 10px;
+    margin-top: -185px;
+  }
+  .homesectionsub {
+    padding: 0px 45px;
+  }
+  .homeupcomingeventsimg {
+    height: 289.5px;
+    width: 339.5px;
+  }
 }
-.teleButton:hover{
-    background-color: #5CB8D1;
+@media (min-width: 405px) and (max-width: 499px) {
+  .becomeamember {
+    width: auto;
+    padding: 11px 90px;
+  }
+  #quality1,
+  #quality2,
+  #quality3 {
+    margin: auto;
+  }
+  #qualityparent {
+    gap: 10px;
+    margin-top: -180px;
+  }
+  .homesectionsub {
+    padding: 0px 75px;
+  }
+  .homeupcomingeventsimg {
+    height: 332px;
+    width: 389px;
+  }
+}
+@media (min-width: 500px) and (max-width: 649px) {
+  .becomeamember {
+    width: auto;
+    padding: 11px 70px;
+  }
+  #quality1,
+  #quality2,
+  #quality3 {
+    margin: auto;
+  }
+  #qualityparent {
+    gap: 13px;
+    margin-top: -190px;
+  }
+  .homesectionsub {
+    padding: 0px 115px;
+  }
+  .homeupcomingeventsimg {
+    height: 374.5px;
+    width: 438.5px;
+  }
+}
+@media (min-width: 650px) and (max-width: 767px) {
+  .becomeamember {
+    width: auto;
+    padding: 11px 48px;
+  }
+  #quality1,
+  #quality2,
+  #quality3 {
+    margin: auto;
+  }
+  #qualityparent {
+    gap: 13px;
+    margin-top: -210px;
+  }
+  .homesectionsub {
+    padding: 0px 97px;
+  }
+  .homeupcomingeventsimg {
+    height: 417px;
+    width: 488px;
+  }
+  .orientationdate {
+    line-height: 22px;
+  }
 }
 
-.binarybtn{
-    background-color: black;
+#eventslater1 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
-.binarybtn:hover{
-    background-color: #343434;
+#eventslater2 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
-.zaptekbtn{
-    background-color: #A272FF;
+
+@media (min-width: 670px) {
+  #eventslater1 {
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+  }
+  #eventslater2 {
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+  }
 }
-.zaptekbtn:hover{
-    background-color:#A97DFF ;
+@media (min-width: 850px) {
+  #eventslater1 {
+    flex-direction: row;
+    gap: 85px;
+  }
+  #eventslater2 {
+    flex-direction: row;
+    gap: 85px;
+  }
 }
-.whatsappbtn{
-    background-color: #22BA5C;
+
+@media (min-width: 1024px) {
+  #eventslater1 {
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+  }
+  #eventslater2 {
+    flex-direction: row;
+    gap: 20px;
+  }
 }
-.whatsappbtn:hover{
-    background-color: #5ACF87;
+
+@media (min-width: 800px) {
+  #qualityparent {
+    gap: 10px;
+    padding: 0px 7px;
+  }
 }
-.Telegrambtn{
-    background-color: #22A4C8;
+@media (min-width: 850px) {
+  #qualityparent {
+    gap: 20px;
+    padding: 0px 0px;
+  }
 }
-.Telegrambtn:hover{
-    background-color: #5CB8D1;
+@media (min-width: 900px) {
+  #qualityparent {
+    gap: 23px;
+    padding: 0px 0px;
+  }
+}
+@media (min-width: 1024px) {
+  #qualityparent {
+    gap: 23px;
+    padding: 0px 0px;
+  }
+}
+.eventscards {
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  .eventscards {
+    align-items: start;
+  }
+}
+.carousel-indicators .active {
+  background-color: white;
+  height: 10px;
+  width: 10px;
+}
+
+/* FAQ */
+[data-accordion-icon] > svg {
+  transition: transform 0.3s ease;
+}
+
+[data-accordion-icon][aria-expanded="true"] > svg {
+  transform: rotate(90deg);
+}
+
+/* Contact */
+.contactdiv {
+  gap: 28px;
+}
+
+@media (min-width: 1145px) {
+  .contactdiv {
+    gap: 0px;
+  }
+}
+
+/* EVENTS HTML */
+#orientoverviewmd {
+  display: block;
+}
+@media (min-width: 1150px) {
+  #orientoverviewmd {
+    display: none;
+  }
+}
+
+#orientoverviewxl {
+  display: none;
+}
+@media (min-width: 1150px) {
+  #orientoverviewxl {
+    display: block;
+  }
+}
+
+#orientevent {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 1150px) {
+  #orientevent {
+    flex-direction: row;
+  }
+}
+
+.dinnerxl {
+  display: none;
+}
+
+.laterevents {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+@media (min-width: 1250px) {
+  .laterevents {
+    flex-direction: row;
+  }
+  .dinnermd {
+    display: none;
+  }
+  .dinnerxl {
+    display: block;
+  }
+}
+
+.latereventsholder {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }

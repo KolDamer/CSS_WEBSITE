@@ -1,27 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-   <link rel="stylesheet" href="./css/output.css">
-<link rel="stylesheet" href="./css/flowbite.min.css">
-<link rel="stylesheet" href="./css/style.css">
-<link rel="stylesheet" href="./css/aos.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOMEPAGE</title>
+    <link rel="stylesheet" href="./css/output.css" />
+    <link rel="stylesheet" href="./css/flowbite.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/aos.css" />
     <!-- Font awesome -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
       rel="stylesheet"
     />
-  <style>
-    .carousel-item {
-      scroll-snap-align: start;
-    }
-  </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- NAVBAR -->
     <nav
       class="navbar bg-transparent bg-opacity-60 backdrop-blur-[1px] fixed w-full z-20 top-0 start-0 mx-auto md:px-5"
@@ -35,12 +29,12 @@
           class="h-full flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img
-            src="./Images/csslogo.svg"
+            src="./Images/NAVLOGO.svg"
             alt="CSS Logo"
             class="items-center w-14 md:hidden"
           />
           <img
-            src="./Images/csslogo.svg"
+            src="./Images/NAVLOGO.svg"
             alt="CSS Logo"
             class="items-center w-[68px] hidden md:flex"
           />
@@ -217,12 +211,2313 @@
       </div>
     </nav>
 
+    <!-- HOMEPAGE INTRO -->
+    <div
+      class="relative bg-cover bg-[47%_60%] h-[800px] z-0"
+      style="background-image: url('./Images/Hero-section.png')"
+    >
+      <div class="absolute inset-0 bg-[#000000] bg-opacity-50 -z-10"></div>
+      <div class="w-full h-full flex justify-center">
+        <div class="px-5 pt-[170px] min-w-[286px]">
+          <!-- KNUST logo -->
+          <img
+            src="./Images/KNUST-logo.svg"
+            alt="KNUST LOGO"
+            class="place-self-center"
+          />
+          <!-- Home intro -->
+          <div class="text-white mx-auto text-center space-y-3 md:space-y-5">
+            <p
+              style="
+                line-height: clamp(31.54px, 6vw, 62.3px);
+                font-size: clamp(28px, 6vw, 55px);
+              "
+              class="md:tracking-[0.5px] font-dmsans font-bold"
+            >
+              Welcome To The <br />
+              Computer Science Society.
+            </p>
+            <p
+              style="
+                line-height: clamp(13.5px, 2.9vw, 19.5px);
+                font-size: clamp(12px, 2.5vw, 16px);
+              "
+              class="md:pb-3 mx-auto md:pt-5 max-w-[580px] font-montserrat font-light lg:font-normal"
+            >
+              Join a thriving community of tech enthusiasts. <br />
+              Learn, innovate, and collaborate on cutting-edge projects. <br />
+              Together, we shape the future of technology.
+            </p>
+            <a href="./html/membership.html">
+              <button
+                style="font-size: clamp(15px, 2.3vw, 20px)"
+                class="font-medium becomeamember font-dmsans text-center bg-primary hover:bg-primaryhover mt-5 md:px-5 w-full md:w-auto rounded-[3px] py-[12px]"
+              >
+                Become A Member
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
 
-  
+    <!-- Qualities divs -->
+    <div
+      id="qualityparent"
+      class="-mt-[204px] md:-mt-[90px] relative md:container flex flex-col md:flex-row md:justify-center md:mx-auto md:px-12 gap-2 font-montserrat"
+    >
+      <!-- qualiity1 -->
+      <div
+        id="quality1"
+        style="box-shadow: 0px 4px 9.6px 0px #3366ff6b"
+        class="text-white place-items-center text-center bg-primary mx-16 md:mx-0 pt-3 pb-4 px-5 rounded-[24px] min-w-[200px] max-w-[333px]"
+      >
+        <p class="pb-1">
+          <img
+            src="./Images/bulb-light.svg"
+            alt="bulb svg"
+            style="width: clamp(30px, 6vw, 50px)"
+            class="bg-white rounded-full p-[3px]"
+          />
+        </p>
+        <p
+          style="font-size: clamp(14px, 2.5vw, 20px)"
+          class="font-medium md:font-semibold"
+        >
+          Innovation
+        </p>
+        <p
+          style="font-size: clamp(11.7px, 1.8vw, 16px)"
+          class="min-w-[150px] max-w-[253px]"
+        >
+          "Pushing boundaries to create groundbreaking solutions."
+        </p>
+      </div>
+      <!-- quality2 -->
+      <div
+        id="quality2"
+        style="box-shadow: 0px 4px 9.6px 0px #00000017"
+        class="place-items-center text-center bg-white mx-16 md:mx-0 pt-3 pb-4 px-5 rounded-[24px] min-w-[200px] max-w-[333px]"
+      >
+        <p class="pb-1">
+          <img
+            src="./Images/excellence medal.svg"
+            alt="medal svg"
+            style="width: clamp(30px, 6vw, 50px)"
+            class="bg-primary rounded-full p-[3px]"
+          />
+        </p>
+        <p
+          style="font-size: clamp(14px, 2.5vw, 20px)"
+          class="font-medium md:font-semibold text-deepgrey"
+        >
+          Excellence
+        </p>
+        <p
+          style="font-size: clamp(11.7px, 1.8vw, 16px)"
+          class="text-lightgrey min-w-[150px] max-w-[253px]"
+        >
+          "Striving for the highest standards in innovation and learning."
+        </p>
+      </div>
+      <!-- quality3 -->
+      <div
+        id="quality3"
+        style="box-shadow: 0px 4px 9.6px 0px #3366ff6b"
+        class="text-white place-items-center text-center bg-primary mx-16 md:mx-0 pt-3 pb-4 px-5 rounded-[24px] min-w-[200px] max-w-[333px]"
+      >
+        <p class="pb-1">
+          <img
+            src="./Images/Communityhomepage.svg"
+            alt="community svg"
+            style="width: clamp(30px, 6vw, 50px)"
+            class="bg-white rounded-full p-[3px]"
+          />
+        </p>
+        <p
+          style="font-size: clamp(14px, 2.5vw, 20px)"
+          class="font-medium md:font-semibold"
+        >
+          Community
+        </p>
+        <p
+          style="font-size: clamp(11.7px, 1.8vw, 16px)"
+          class="min-w-[150px] max-w-[253px] px-1"
+        >
+          "Building a welcoming space for all tech enthusiasts."
+        </p>
+      </div>
+    </div>
+
+    <!-- Events -->
+    <div class="mt-20">
+      <!-- events intro -->
+      <ul>
+        <li
+          style="font-size: clamp(20px, 5vw, 25px)"
+          class="flex flex-col font-bold font-dmsans text-center text-deepgrey"
+        >
+          Events
+          <span
+            ><img
+              src="./Images/underlineNavLink.svg"
+              alt="underline svg blue"
+              class="place-self-center -mt-[3.5px]"
+          /></span>
+        </li>
+        <li
+          style="
+            font-size: clamp(12px, 1.823vw, 16px);
+            line-height: clamp(15px, 2.3vw, 19.5px);
+            width: clamp(310px, 45vw, 534px);
+          "
+          class="mt-2 mx-auto font-semibold font-montserrat text-center text-lightgrey"
+        >
+          Stay Updated with the Latest Events and Opportunities to Connect,
+          Learn, and Innovate.
+        </li>
+      </ul>
+      <!-- events cards -->
+      <div
+        class="eventscards my-6 mx-auto justify-center px-5 xl:px-40 flex flex-col lg:flex-row gap-8 container"
+      >
+        <!-- Upcoming Events -->
+        <!-- Orientation -->
+        <div style="width: clamp(290px, 67vw, 470px)" class="overflow-hidden">
+          <!-- Image Section -->
+          <div class="relative">
+            <img
+              src="./Images/Upcomingevent.png"
+              alt="orientation Image"
+              class="w-full object-cover"
+              style="height: clamp(247px, 45vw, 417px)"
+            />
+            <!-- Date Badge -->
+            <div
+              style="
+                line-height: clamp(15px, 3vw, 25.4px);
+                width: clamp(48px, 9vw, 85px);
+                height: clamp(55px, 8vw, 80px);
+                font-size: clamp(14px, 2.3vw, 26px);
+              "
+              class="py-2 md:mt-2 md:mr-2 flex justify-center items-center font-montserrat bg-gradient-to-r from-[#3366FF] to-[#1F3D99] min-h-[55px] min-w-[48px] absolute top-2 right-2 text-center bg-blue-600 text-white font-medium md:font-semibold"
+            >
+              JAN <br />
+              4
+            </div>
+            <!-- Location -->
+            <a href="https://maps.app.goo.gl/y13ceDbR6KiS2qud9" target="_blank">
+              <div
+                style="
+                  font-size: clamp(11.7px, 1.823vw, 16px);
+                  height: clamp(35px, 5vw, 41px);
+                "
+                class="absolute bottom-0 w-full font-montserrat place-content-center flex gap-[6px] items-center text-white bg-gradient-to-r from-[#3366FF] to-[#22A4C8]"
+              >
+                <img
+                  src="./Images/eventslocation.svg"
+                  alt="orientation location"
+                  width="20"
+                />
+                College Of Science, Allotey Auditorium
+              </div>
+            </a>
+          </div>
+
+          <!-- Content Section -->
+          <div class="pt-[30px] lg:pt-6 font-montserrat">
+            <!-- Title -->
+            <p
+              style="font-size: clamp(16px, 2vw, 26px)"
+              class="font-semibold text-deepgrey mb-1"
+            >
+              CSS Fresher’s Orientation
+            </p>
+
+            <!-- Description -->
+            <p
+              style="
+                font-size: clamp(12px, 1.823vw, 16px);
+                line-height: clamp(14px, 2.3vw, 19px);
+                width: clamp(250px, 48vw, 350px);
+              "
+              class="font-medium text-lightgrey mb-4"
+            >
+              Get ready for the upcoming Computer Science Fresher's Orientation—
+              an introduction for freshers to our dynamic community!
+            </p>
+
+            <!-- CTA -->
+            <a
+              href="./html/events.html#orientevent"
+              style="font-size: clamp(15px, 2.3vw, 20px)"
+              class="text-primary w-fit transition ease-in-out pb-[2px] hover:underline font-semibold flex items-center"
+            >
+              View details
+              <svg
+                width="19"
+                height="18"
+                viewBox="0 0 23 23"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.67863 2.36619C6.74539 2.29925 6.82471 2.24615 6.91203 2.20991C6.99935 2.17368 7.09296 2.15503 7.1875 2.15503C7.28204 2.15503 7.37566 2.17368 7.46298 2.20991C7.5503 2.24615 7.62961 2.29925 7.69638 2.36619L16.3214 10.9912C16.3883 11.058 16.4414 11.1373 16.4777 11.2246C16.5139 11.3119 16.5325 11.4055 16.5325 11.5001C16.5325 11.5946 16.5139 11.6882 16.4777 11.7755C16.4414 11.8629 16.3883 11.9422 16.3214 12.0089L7.69638 20.6339C7.56142 20.7689 7.37837 20.8447 7.1875 20.8447C6.99664 20.8447 6.81359 20.7689 6.67863 20.6339C6.54367 20.499 6.46784 20.3159 6.46784 20.1251C6.46784 19.9342 6.54367 19.7512 6.67863 19.6162L14.7962 11.5001L6.67863 3.38394C6.61169 3.31717 6.55859 3.23786 6.52235 3.15054C6.48612 3.06322 6.46747 2.9696 6.46747 2.87506C6.46747 2.78052 6.48612 2.68691 6.52235 2.59959C6.55859 2.51227 6.61169 2.43295 6.67863 2.36619Z"
+                  fill="#3366FF"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <!-- Other Events -->
+        <section class="gap-y-2 mt-3 lg:mt-0">
+          <div id="eventslater1">
+            <!-- Fiesta Y Premios 25 -->
+            <div style="width: 271px" class="overflow-hidden">
+              <!-- Image Section -->
+              <div class="relative">
+                <img
+                  src="./Images/laterevents01.png"
+                  alt="dinner night Image"
+                  class="object-cover w-full object-center h-[178px]"
+                />
+                <!-- Date Badge -->
+
+                <div
+                  style="line-height: 15px"
+                  class="text-[14px] mt-2 py-2 flex justify-center items-center font-montserrat bg-gradient-to-r from-[#3366FF] to-[#1F3D99] h-[55px] w-12 absolute top-2 right-2 text-center bg-blue-600 text-white font-medium"
+                >
+                  JUL <br />
+                  8
+                </div>
+                <!-- Location -->
+                <a
+                  href="https://maps.app.goo.gl/yt7cxXVjt7bnwvBC6"
+                  target="_blank"
+                >
+                  <div
+                    class="text-[11.7px] absolute bottom-0 w-full font-montserrat place-content-center h-[31px] md:h-[35px] flex gap-[6px] items-center text-white bg-gradient-to-r from-[#3366FF] to-[#22A4C8]"
+                  >
+                    <img
+                      src="./Images/eventslocation.svg"
+                      alt="orientation location"
+                      width="20"
+                    />
+                    The Octopus, Ayeduase
+                  </div>
+                </a>
+              </div>
+
+              <!-- Content Section -->
+              <div class="py-[6px] font-montserrat">
+                <!-- Title -->
+                <p
+                  style="font-size: clamp(16px, 2.5vw, 18px)"
+                  class="font-semibold text-deepgrey"
+                >
+                  Fiesta Y Premios 25
+                </p>
+
+                <!-- Description -->
+                <p
+                  style="line-height: 14.25px"
+                  class="text-[12px] md:text-[11.7px] w-[250px] font-medium text-lightgrey mb-2"
+                >
+                  Start looking for your clothes and make-up vendors because we
+                  are going all out in style.
+                  <span class="font-semibold">
+                    <br />
+                    GRAB YOUR TICKETS HERE!
+                  </span>
+                </p>
+
+                <!-- CTA -->
+                <a
+                  href="./html/events.html#dinnerdetails"
+                  style="font-size: 15px"
+                  class="text-primary w-fit transition ease-in-out pb-[2px] hover:underline font-semibold flex gap-[3px] items-center"
+                >
+                  View details
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 23 23"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class=""
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M6.67863 2.36619C6.74539 2.29925 6.82471 2.24615 6.91203 2.20991C6.99935 2.17368 7.09296 2.15503 7.1875 2.15503C7.28204 2.15503 7.37566 2.17368 7.46298 2.20991C7.5503 2.24615 7.62961 2.29925 7.69638 2.36619L16.3214 10.9912C16.3883 11.058 16.4414 11.1373 16.4777 11.2246C16.5139 11.3119 16.5325 11.4055 16.5325 11.5001C16.5325 11.5946 16.5139 11.6882 16.4777 11.7755C16.4414 11.8629 16.3883 11.9422 16.3214 12.0089L7.69638 20.6339C7.56142 20.7689 7.37837 20.8447 7.1875 20.8447C6.99664 20.8447 6.81359 20.7689 6.67863 20.6339C6.54367 20.499 6.46784 20.3159 6.46784 20.1251C6.46784 19.9342 6.54367 19.7512 6.67863 19.6162L14.7962 11.5001L6.67863 3.38394C6.61169 3.31717 6.55859 3.23786 6.52235 3.15054C6.48612 3.06322 6.46747 2.9696 6.46747 2.87506C6.46747 2.78052 6.48612 2.68691 6.52235 2.59959C6.55859 2.51227 6.61169 2.43295 6.67863 2.36619Z"
+                      fill="#3366FF"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <!-- CSS Week Celebration -->
+            <div style="width: 271px" class="overflow-hidden">
+              <!-- Image Section -->
+              <div class="relative">
+                <img
+                  src="./Images/laterevents02.jpg"
+                  alt="orientation Image"
+                  class="w-full object-cover object-top h-[178px]"
+                />
+                <!-- Date Badge -->
+                <div
+                  style="line-height: 15px"
+                  class="text-[14px] py-2 flex justify-center items-center font-montserrat bg-gradient-to-r from-[#3366FF] to-[#1F3D99] h-[55px] w-12 absolute top-2 right-2 text-center bg-blue-600 text-white font-medium"
+                >
+                  JUL <br />
+                  28
+                </div>
+                <!-- Location -->
+                <a
+                  href="https://maps.app.goo.gl/Vj5KuJsLVbUsKjxL6"
+                  target="_blank"
+                >
+                  <div
+                    class="text-[11.7px] absolute bottom-0 w-full font-montserrat place-content-center h-[31px] md:h-[35px] flex gap-[6px] items-center text-white bg-gradient-to-r from-[#3366FF] to-[#22A4C8]"
+                  >
+                    <img
+                      src="./Images/eventslocation.svg"
+                      alt="orientation location"
+                      width="20"
+                    />
+                    College Of Science, CS Department
+                  </div>
+                </a>
+              </div>
+
+              <!-- Content Section -->
+              <div class="py-[6px] font-montserrat">
+                <!-- Title -->
+                <p
+                  style="font-size: clamp(16px, 2.5vw, 18px)"
+                  class="font-semibold text-deepgrey"
+                >
+                  CSS Week Celebration
+                </p>
+
+                <!-- Description -->
+                <p
+                  style="line-height: 14.25px"
+                  class="text-[12px] md:text-[11.7px] w-[250px] font-medium text-lightgrey mb-2"
+                >
+                  Anticipate an exciting week filled with tech talks, fun
+                  activities, and community bonding as we celebrate Computer
+                  Science in style!
+                </p>
+
+                <!-- CTA -->
+                <a
+                  href="./html/events.html#cssweekdetails"
+                  style="font-size: 15px"
+                  class="text-primary w-fit transition ease-in-out pb-[2px] hover:underline font-semibold flex gap-[3px] items-center"
+                >
+                  View details
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 23 23"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class=""
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M6.67863 2.36619C6.74539 2.29925 6.82471 2.24615 6.91203 2.20991C6.99935 2.17368 7.09296 2.15503 7.1875 2.15503C7.28204 2.15503 7.37566 2.17368 7.46298 2.20991C7.5503 2.24615 7.62961 2.29925 7.69638 2.36619L16.3214 10.9912C16.3883 11.058 16.4414 11.1373 16.4777 11.2246C16.5139 11.3119 16.5325 11.4055 16.5325 11.5001C16.5325 11.5946 16.5139 11.6882 16.4777 11.7755C16.4414 11.8629 16.3883 11.9422 16.3214 12.0089L7.69638 20.6339C7.56142 20.7689 7.37837 20.8447 7.1875 20.8447C6.99664 20.8447 6.81359 20.7689 6.67863 20.6339C6.54367 20.499 6.46784 20.3159 6.46784 20.1251C6.46784 19.9342 6.54367 19.7512 6.67863 19.6162L14.7962 11.5001L6.67863 3.38394C6.61169 3.31717 6.55859 3.23786 6.52235 3.15054C6.48612 3.06322 6.46747 2.9696 6.46747 2.87506C6.46747 2.78052 6.48612 2.68691 6.52235 2.59959C6.55859 2.51227 6.61169 2.43295 6.67863 2.36619Z"
+                      fill="#3366FF"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="eventslater2" class="mt-6 lg:mt-0">
+            <!-- Welfare Tuesday -->
+            <div style="width: 271px" class="overflow-hidden">
+              <!-- Image Section -->
+              <div class="relative">
+                <img
+                  src="./Images/laterevents03.png"
+                  alt="welfare tuesday Image"
+                  class="w-full object-cover h-[178px]"
+                />
+                <!-- Date Badge -->
+                <div
+                  style="line-height: 15px"
+                  class="text-[14px] py-2 mt-5 flex justify-center items-center font-montserrat bg-gradient-to-r from-[#3366FF] to-[#1F3D99] h-[55px] w-12 absolute top-2 right-2 text-center bg-blue-600 text-white font-medium"
+                >
+                  AUG <br />
+                  10
+                </div>
+                <!-- Location -->
+                <div
+                  class="text-[11.7px] absolute bottom-0 w-full font-montserrat place-content-center h-[31px] md:h-[35px] flex gap-[6px] items-center text-white bg-gradient-to-r from-[#3366FF] to-[#22A4C8]"
+                >
+                  <img
+                    src="./Images/eventslocation.svg"
+                    alt="orientation location"
+                    width="20"
+                  />
+                  Stay Tuned for location details
+                </div>
+              </div>
+
+              <!-- Content Section -->
+              <div class="py-[6px] font-montserrat">
+                <!-- Title -->
+                <p
+                  style="font-size: clamp(16px, 2.5vw, 18px)"
+                  class="font-semibold text-deepgrey"
+                >
+                  Welfare Tuesday
+                </p>
+
+                <!-- Description -->
+                <p
+                  style="line-height: 14.25px"
+                  class="text-[12px] md:text-[11.7px] w-[250px] font-medium text-lightgrey mb-2"
+                >
+                  Handpicked guidelines for day-to-day tech users. Tips and
+                  information on how to stay safe and productive in the digital
+                  space.
+                </p>
+
+                <!-- CTA -->
+                <a
+                  href="./html/events.html#welfaredetails"
+                  style="font-size: 15px"
+                  class="text-primary w-fit transition ease-in-out pb-[2px] hover:underline font-semibold flex gap-[3px] items-center"
+                >
+                  View details
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 23 23"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class=""
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M6.67863 2.36619C6.74539 2.29925 6.82471 2.24615 6.91203 2.20991C6.99935 2.17368 7.09296 2.15503 7.1875 2.15503C7.28204 2.15503 7.37566 2.17368 7.46298 2.20991C7.5503 2.24615 7.62961 2.29925 7.69638 2.36619L16.3214 10.9912C16.3883 11.058 16.4414 11.1373 16.4777 11.2246C16.5139 11.3119 16.5325 11.4055 16.5325 11.5001C16.5325 11.5946 16.5139 11.6882 16.4777 11.7755C16.4414 11.8629 16.3883 11.9422 16.3214 12.0089L7.69638 20.6339C7.56142 20.7689 7.37837 20.8447 7.1875 20.8447C6.99664 20.8447 6.81359 20.7689 6.67863 20.6339C6.54367 20.499 6.46784 20.3159 6.46784 20.1251C6.46784 19.9342 6.54367 19.7512 6.67863 19.6162L14.7962 11.5001L6.67863 3.38394C6.61169 3.31717 6.55859 3.23786 6.52235 3.15054C6.48612 3.06322 6.46747 2.9696 6.46747 2.87506C6.46747 2.78052 6.48612 2.68691 6.52235 2.59959C6.55859 2.51227 6.61169 2.43295 6.67863 2.36619Z"
+                      fill="#3366FF"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <!-- HIVE-tech conference -->
+            <div style="width: 271px" class="overflow-hidden">
+              <!-- Image Section -->
+              <div class="relative">
+                <img
+                  src="./Images/laterevents04.png"
+                  alt="HIVE-tech Image"
+                  class="w-full object-cover h-[178px]"
+                />
+                <!-- Date Badge -->
+                <div
+                  style="line-height: 15px"
+                  class="text-[14px] py-2 flex justify-center items-center font-montserrat bg-gradient-to-r from-[#3366FF] to-[#1F3D99] h-[55px] w-12 absolute top-2 right-2 text-center bg-blue-600 text-white font-medium"
+                >
+                  AUG <br />
+                  13
+                </div>
+                <!-- Location -->
+                <a
+                  href="https://maps.app.goo.gl/aeNvhs9Dmu1DZY3V6"
+                  target="_blank"
+                >
+                  <div
+                    class="text-[11.7px] absolute bottom-0 w-full font-montserrat place-content-center h-[31px] md:h-[35px] flex gap-[6px] items-center text-white bg-gradient-to-r from-[#3366FF] to-[#22A4C8]"
+                  >
+                    <img
+                      src="./Images/eventslocation.svg"
+                      alt="orientation location"
+                      width="20"
+                    />
+                    The Great Hall, KNUST
+                  </div>
+                </a>
+              </div>
+
+              <!-- Content Section -->
+              <div class="py-[6px] font-montserrat">
+                <!-- Title -->
+                <p
+                  style="font-size: clamp(16px, 2.5vw, 18px)"
+                  class="font-semibold text-deepgrey"
+                >
+                  HIVE-Tech Conference
+                </p>
+
+                <!-- Description -->
+                <p
+                  style="line-height: 14.25px"
+                  class="text-[12px] md:text-[11.7px] w-[250px] font-medium text-lightgrey mb-2"
+                >
+                  Discover more opportunities in various latest tech fields. Be
+                  steps ahead to thrive in the digital age and become a
+                  successful entrepreneur.
+                </p>
+
+                <!-- CTA -->
+                <a
+                  href="./html/events.html#hivedetails"
+                  style="font-size: 15px"
+                  class="text-primary w-fit transition ease-in-out pb-[2px] hover:underline font-semibold flex gap-[3px] items-center"
+                >
+                  View details
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 23 23"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class=""
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M6.67863 2.36619C6.74539 2.29925 6.82471 2.24615 6.91203 2.20991C6.99935 2.17368 7.09296 2.15503 7.1875 2.15503C7.28204 2.15503 7.37566 2.17368 7.46298 2.20991C7.5503 2.24615 7.62961 2.29925 7.69638 2.36619L16.3214 10.9912C16.3883 11.058 16.4414 11.1373 16.4777 11.2246C16.5139 11.3119 16.5325 11.4055 16.5325 11.5001C16.5325 11.5946 16.5139 11.6882 16.4777 11.7755C16.4414 11.8629 16.3883 11.9422 16.3214 12.0089L7.69638 20.6339C7.56142 20.7689 7.37837 20.8447 7.1875 20.8447C6.99664 20.8447 6.81359 20.7689 6.67863 20.6339C6.54367 20.499 6.46784 20.3159 6.46784 20.1251C6.46784 19.9342 6.54367 19.7512 6.67863 19.6162L14.7962 11.5001L6.67863 3.38394C6.61169 3.31717 6.55859 3.23786 6.52235 3.15054C6.48612 3.06322 6.46747 2.9696 6.46747 2.87506C6.46747 2.78052 6.48612 2.68691 6.52235 2.59959C6.55859 2.51227 6.61169 2.43295 6.67863 2.36619Z"
+                      fill="#3366FF"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Past Events -->
+    <div
+      class="h-[770px] md:h-[800px] lg:h-[820px] w-full -mt-14 md:-mt-10 lg:-mt-5 bg-cover"
+      style="background-image: url(./Images/pasteventsbluebg.png)"
+    >
+      <!-- Content -->
+      <div class="md:py-32 py-36">
+        <!-- Heading -->
+        <ul
+          class="place-content-center flex gap-6 md:gap-7 lg:gap-8 items-center text-white text-center mb-6"
+        >
+          <li>
+            <img
+              src="./Images/Layout element.svg"
+              alt="Layout element svg"
+              class="w-[26px] md:w-[31px] lg:w-[33px]"
+            />
+          </li>
+          <li
+            class="font-medium font-montserrat gap-1 grid grid-cols-1"
+            style="font-size: clamp(12px, 1.9vw, 16px)"
+          >
+            PAST EVENTS
+            <span
+              style="font-size: clamp(21px, 5vw, 25px)"
+              class="font-bold font-dmsans text-2xl leading-none"
+              >Highlights</span
+            >
+          </li>
+          <li>
+            <img
+              src="./Images/BookmarkX element.svg"
+              alt="bookmark svg"
+              class="w-[26px] md:w-[31px] lg:w-[33px]"
+            />
+          </li>
+        </ul>
+        <!-- Carousel -->
+        <div id="indicators-carousel " class="py-5 relative w-full">
+          <!-- GUBLI CODE -->
+          <!-- Carousel Wrapper -->
+          <div
+            id="carouselItems"
+            style="
+              width: clamp(300px, 80vw, 1200px);
+              overflow-x: auto;
+              -webkit-overflow-scrolling: touch;
+              scrollbar-width: none;
+              -ms-overflow-style: none;
+            "
+            class="carousel-items relative mx-auto gap-4 flex overflow-x-scroll scroll-smooth transition-transform ease-in-out duration-500"
+          >
+            <!-- Carousel Items -->
+            <!-- Item 1 -->
+            <!-- Techpreneurship -->
+            <div
+              style="width: clamp(220px, 33vw, 276px)"
+              class="w-fit flex-shrink-0 carousel-item"
+              data-carousel-item
+            >
+              <a
+                href="https://drive.google.com/drive/folders/1bPqGOP5W8J8VoU1tiqV9wm-zL5tT3K4H?usp=sharing"
+                target="_blank"
+                class="relative"
+              >
+                <!-- Img and overlay -->
+                <ul class="relative">
+                  <li>
+                    <img
+                      src="./Images/Techneurship.png"
+                      alt="Techpreneurship img"
+                      class="overflow-hidden"
+                    />
+                  </li>
+                  <li
+                    class="absolute bg-black inset-0 bg-opacity-10 rounded-[25px] hover:bg-opacity-15"
+                  ></li>
+                </ul>
+                <!-- Text content -->
+                <ul
+                  class="absolute bottom-4 md:bottom-7 left-4 text-[#f0f0f0] w-fit"
+                >
+                  <!-- date -->
+                  <li
+                    style="font-size: clamp(12px, 2vw, 18px)"
+                    class="leading-none mb-2 font-montserrat font-medium"
+                  >
+                    Fri. 1 Jul
+                  </li>
+                  <!-- Event name -->
+                  <li
+                    style="font-size: clamp(20px, 3vw, 24.5px)"
+                    class="w-fit leading-none font-dmsans font-semibold grid grid-cols-1 gap-1"
+                  >
+                    Techpreneurship
+                    <span>(Summit)</span>
+                  </li>
+                </ul>
+              </a>
+            </div>
+            <!-- Item 2 -->
+            <!-- Hive -->
+            <div
+              style="width: clamp(220px, 33vw, 276px)"
+              class="w-fit flex-shrink-0 carousel-item"
+              data-carousel-item
+            >
+              <a
+                href="https://drive.google.com/drive/folders/1fisBalMipycyyv2B9QiEIfJsdrmHsyE5?usp=sharing"
+                target="_blank"
+                class="relative"
+              >
+                <!-- Img and overlay -->
+                <ul class="relative">
+                  <li>
+                    <img
+                      src="./Images/Hive.png"
+                      alt="Hive img"
+                      class="overflow-hidden"
+                    />
+                  </li>
+                  <li
+                    class="absolute bg-black inset-0 bg-opacity-5 rounded-[25px] hover:bg-opacity-10"
+                  ></li>
+                </ul>
+                <!-- Text content -->
+                <ul
+                  class="absolute bottom-4 md:bottom-7 left-4 text-[#f0f0f0] w-fit"
+                >
+                  <!-- date -->
+                  <li
+                    style="font-size: clamp(12px, 2vw, 18px)"
+                    class="leading-none mb-2 font-montserrat font-medium"
+                  >
+                    Sat 20 Jun
+                  </li>
+                  <!-- Event name -->
+                  <li
+                    style="font-size: clamp(20px, 3vw, 24.5px)"
+                    class="w-fit leading-none font-dmsans font-semibold grid grid-cols-1 gap-1"
+                  >
+                    Hive
+                    <span>(The New Internet)</span>
+                  </li>
+                </ul>
+              </a>
+            </div>
+            <!-- Item 3 -->
+            <!-- Official Monday -->
+            <div
+              style="width: clamp(220px, 33vw, 276px)"
+              class="w-fit flex-shrink-0 carousel-item"
+              data-carousel-item
+            >
+              <a
+                href="https://drive.google.com/drive/folders/1Tb-b2KsOrlUODMM8Whxi-kt7ZBw4opE1?usp=sharing"
+                target="_blank"
+                class="relative"
+              >
+                <!-- Img and overlay -->
+                <ul class="relative">
+                  <li>
+                    <img
+                      src="./Images/eventsofficialmonday.png"
+                      alt="CSS Official monday img"
+                      class="overflow-hidden"
+                    />
+                  </li>
+                  <li
+                    class="absolute bg-black inset-0 bg-opacity-5 rounded-[25px] hover:bg-opacity-10"
+                  ></li>
+                </ul>
+                <!-- Text content -->
+                <ul
+                  class="absolute bottom-4 md:bottom-7 left-4 text-[#f0f0f0] w-fit"
+                >
+                  <!-- date -->
+                  <li
+                    style="font-size: clamp(12px, 2vw, 18px)"
+                    class="leading-none mb-2 font-montserrat font-medium"
+                  >
+                    Mon. 10 Jul
+                  </li>
+                  <!-- Event name -->
+                  <li
+                    style="font-size: clamp(20px, 3vw, 24.5px)"
+                    class="w-fit leading-none font-dmsans font-semibold grid grid-cols-1 gap-1"
+                  >
+                    CSS Official
+                    <span>Monday</span>
+                  </li>
+                </ul>
+              </a>
+            </div>
+            <!-- Item 4 -->
+            <!-- Fiest Y Premios -->
+            <div
+              style="width: clamp(220px, 33vw, 276px)"
+              class="w-fit flex-shrink-0 carousel-item"
+              data-carousel-item="active"
+            >
+              <a
+                href="https://drive.google.com/drive/folders/1HOVjyJx16gPD0EZXY2QXqonowb2I-jSQ?usp=sharing"
+                target="_blank"
+              >
+                <ul class="relative">
+                  <img
+                    src="./Images/dinnernight.png"
+                    alt="dinner night img"
+                    class="overflow-hidden"
+                  />
+                  <li
+                    class="absolute bg-black inset-0 bg-opacity-0 hover:bg-opacity-5 rounded-[25px]"
+                  ></li>
+                </ul>
+              </a>
+            </div>
+            <!-- Item 5 -->
+            <!-- Rep Your School -->
+            <div
+              style="width: clamp(220px, 33vw, 276px)"
+              class="w-fit flex-shrink-0 carousel-item"
+              data-carousel-item
+            >
+              <a
+                href="https://drive.google.com/drive/folders/1MDPX_lED74O82wk4Wikf-KPg5axvQKrg?usp=sharing"
+                target="_blank"
+                class="relative"
+              >
+                <!-- Img and overlay -->
+                <ul class="relative">
+                  <li>
+                    <img
+                      src="./Images/RepYourSchool.png"
+                      alt="Rep your school img"
+                      class="overflow-hidden"
+                    />
+                  </li>
+                  <li
+                    class="absolute bg-black inset-0 bg-opacity-5 hover:bg-opacity-10 rounded-[25px]"
+                  ></li>
+                </ul>
+                <!-- Text content -->
+                <ul
+                  class="absolute bottom-4 md:bottom-7 left-4 text-[#f0f0f0] w-fit"
+                >
+                  <!-- date -->
+                  <li
+                    style="font-size: clamp(12px, 2vw, 18px)"
+                    class="leading-none mb-2 font-montserrat font-medium"
+                  >
+                    Thurs. 13 Jul
+                  </li>
+                  <!-- Event name -->
+                  <li
+                    style="font-size: clamp(20px, 3vw, 24.5px)"
+                    class="w-fit leading-none font-dmsans font-bold grid grid-cols-1 gap-1"
+                  >
+                    Rep Your
+                    <span>School</span>
+                  </li>
+                </ul>
+              </a>
+            </div>
+            <!-- Item 6 -->
+            <!-- Rep Your Jersey -->
+            <div
+              style="width: clamp(220px, 33vw, 276px)"
+              class="w-fit flex-shrink-0 carousel-item"
+              data-carousel-item
+            >
+              <a
+                href="https://drive.google.com/drive/folders/16Q96uJpFLLOZ1Xgim670npUtBSfC6UL_?usp=sharing"
+                target="_blank"
+                class="relative"
+              >
+                <!-- Img and overlay -->
+                <ul class="relative">
+                  <li>
+                    <img
+                      src="./Images/RepYourJersey.png"
+                      alt="Rep your jersey img"
+                      class="overflow-hidden"
+                    />
+                  </li>
+                  <li
+                    class="absolute bg-black inset-0 bg-opacity-5 hover:bg-opacity-10 rounded-[25px]"
+                  ></li>
+                </ul>
+                <!-- Text content -->
+                <ul
+                  class="absolute bottom-4 md:bottom-7 left-4 text-[#f0f0f0] w-fit"
+                >
+                  <!-- date -->
+                  <li
+                    style="font-size: clamp(12px, 2vw, 18px)"
+                    class="leading-none mb-2 font-montserrat font-medium"
+                  >
+                    Wed. 12 Jul
+                  </li>
+                  <!-- Event name -->
+                  <li
+                    style="font-size: clamp(20px, 3vw, 24.5px)"
+                    class="w-fit leading-none font-dmsans font-bold grid grid-cols-1 gap-1"
+                  >
+                    Rep Your
+                    <span>Jersey</span>
+                  </li>
+                </ul>
+              </a>
+            </div>
+            <!-- Item 7 -->
+            <!-- Codefest -->
+            <div
+              style="width: clamp(220px, 33vw, 276px)"
+              class="w-fit flex-shrink-0 carousel-item"
+              data-carousel-item
+            >
+              <a
+                href="https://t.me/+RV6GXIbf8t1hMGRk"
+                target="_blank"
+                class="relative"
+              >
+                <!-- Img and overlay -->
+                <ul class="relative">
+                  <li>
+                    <img
+                      src="./Images/Codefest.png"
+                      alt="codefest img"
+                      class="overflow-hidden"
+                    />
+                  </li>
+                  <li
+                    class="absolute bg-black inset-0 bg-opacity-5 hover:bg-opacity-10 rounded-[25px]"
+                  ></li>
+                </ul>
+                <!-- Text content -->
+                <ul
+                  class="absolute bottom-4 md:bottom-7 left-4 text-[#f0f0f0] w-fit"
+                >
+                  <!-- date -->
+                  <li
+                    style="font-size: clamp(12px, 2vw, 18px)"
+                    class="leading-none mb-2 font-montserrat font-medium"
+                  >
+                    Sat. 15 Jul
+                  </li>
+                  <!-- Event name -->
+                  <li
+                    style="font-size: clamp(20px, 3vw, 26px)"
+                    class="w-fit leading-none font-dmsans font-bold grid grid-cols-1 gap-1"
+                  >
+                    Codefest
+                  </li>
+                </ul>
+              </a>
+            </div>
+          </div>
+          <!-- Navigation Buttons sides of Carousel -->
+          <!-- prev -->
+          <button
+            id="prevButton"
+            class="absolute hidden md:flex top-1/2 left-3 lg:left-16 transform -translate-y-1/2 z-10 focus:outline-none"
+          >
+            <svg
+              width="45"
+              height="45"
+              viewBox="0 0 55 55"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13.2687 30.0885L32.1131 46.5747C34.3337 48.5204 37.8125 46.9391 37.8125 43.9863V11.0138C37.8131 10.353 37.6231 9.70598 37.2655 9.1503C36.9078 8.59463 36.3975 8.15384 35.7957 7.88071C35.194 7.60758 34.5263 7.51369 33.8725 7.61029C33.2188 7.70689 32.6067 7.98988 32.1097 8.42538L13.2722 24.9116C12.9029 25.2343 12.607 25.6322 12.4043 26.0786C12.2015 26.5251 12.0966 27.0097 12.0966 27.5001C12.0966 27.9904 12.2015 28.475 12.4043 28.9215C12.607 29.3679 12.9029 29.7658 13.2722 30.0885H13.2687Z"
+                fill="white"
+                class="hover:fill-[#f0f0f0]/90"
+              />
+            </svg>
+          </button>
+          <!-- next -->
+          <button
+            id="nextButton"
+            class="absolute hidden md:flex top-1/2 right-3 lg:right-16 transform -translate-y-1/2 z-10 focus:outline-none"
+          >
+            <svg
+              width="45"
+              height="45"
+              viewBox="0 0 55 55"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M41.7313 30.0885L22.8869 46.5747C20.6663 48.5204 17.1875 46.9391 17.1875 43.9863V11.0138C17.1869 10.353 17.3769 9.70598 17.7345 9.1503C18.0922 8.59463 18.6025 8.15384 19.2043 7.88071C19.806 7.60758 20.4737 7.51369 21.1275 7.61029C21.7812 7.70689 22.3933 7.98988 22.8903 8.42538L41.7278 24.9116C42.0971 25.2343 42.393 25.6322 42.5957 26.0786C42.7985 26.5251 42.9034 27.0097 42.9034 27.5001C42.9034 27.9904 42.7985 28.475 42.5957 28.9215C42.393 29.3679 42.0971 29.7658 41.7278 30.0885H41.7313Z"
+                fill="white"
+                class="hover:fill-[#f0f0f0]/90"
+              />
+            </svg>
+          </button>
+          <!-- Slider indicators -->
+          <div
+            class="carousel-indicators flex items-center justify-center gap-[6px] mt-5"
+          >
+            <div
+              class="indicator active w-2 h-2 md:h-3 md:w-3 rounded-full"
+              data-index="0"
+            ></div>
+            <div
+              class="indicator w-2 h-2 md:h-3 md:w-3 rounded-full bg-gray-400"
+              data-index="1"
+            ></div>
+            <div
+              class="indicator w-2 h-2 md:h-3 md:w-3 rounded-full bg-gray-400"
+              data-index="2"
+            ></div>
+            <div
+              class="indicator w-2 h-2 md:h-3 md:w-3 rounded-full bg-gray-400"
+              data-index="3"
+            ></div>
+            <div
+              class="indicator w-2 h-2 md:h-3 md:w-3 rounded-full bg-gray-400"
+              data-index="4"
+            ></div>
+            <div
+              class="indicator w-2 h-2 md:h-3 md:w-3 rounded-full bg-gray-400"
+              data-index="5"
+            ></div>
+            <div
+              class="indicator w-2 h-2 md:h-3 md:w-3 rounded-full bg-gray-400"
+              data-index="6"
+            ></div>
+          </div>
+        </div>
+        <!-- CTA button -->
+        <div class="place-self-center">
+          <a href="./html/events.html#pastevents">
+            <button
+              style="
+                font-size: clamp(15px, 2.3vw, 20px);
+                width: clamp(280px, 35vw, 300px);
+              "
+              class="h-[44.5px] font-medium lg:font-semibold flex items-center gap-[2px] justify-center font-dmsans text-center text-primary bg-white hover:bg-whitehover mt-5 rounded-[3px] py-[12px]"
+            >
+              View All
+              <svg
+                width="19"
+                height="19"
+                viewBox="0 0 23 23"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="mt-[2px]"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.67863 2.36619C6.74539 2.29925 6.82471 2.24615 6.91203 2.20991C6.99935 2.17368 7.09296 2.15503 7.1875 2.15503C7.28204 2.15503 7.37566 2.17368 7.46298 2.20991C7.5503 2.24615 7.62961 2.29925 7.69638 2.36619L16.3214 10.9912C16.3883 11.058 16.4414 11.1373 16.4777 11.2246C16.5139 11.3119 16.5325 11.4055 16.5325 11.5001C16.5325 11.5946 16.5139 11.6882 16.4777 11.7755C16.4414 11.8629 16.3883 11.9422 16.3214 12.0089L7.69638 20.6339C7.56142 20.7689 7.37837 20.8447 7.1875 20.8447C6.99664 20.8447 6.81359 20.7689 6.67863 20.6339C6.54367 20.499 6.46784 20.3159 6.46784 20.1251C6.46784 19.9342 6.54367 19.7512 6.67863 19.6162L14.7962 11.5001L6.67863 3.38394C6.61169 3.31717 6.55859 3.23786 6.52235 3.15054C6.48612 3.06322 6.46747 2.9696 6.46747 2.87506C6.46747 2.78052 6.48612 2.68691 6.52235 2.59959C6.55859 2.51227 6.61169 2.43295 6.67863 2.36619Z"
+                  fill="#3366FF"
+                />
+              </svg></button
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Resources -->
+    <div class="my-2 md:my-10 lg:my-14">
+      <!-- Resources intro -->
+      <ul>
+        <li
+          style="font-size: clamp(20px, 5vw, 25px)"
+          class="flex flex-col font-bold font-dmsans text-center text-deepgrey"
+        >
+          Resources
+          <span
+            ><img
+              src="./Images/underlineNavLink.svg"
+              alt="underline svg blue"
+              class="place-self-center -mt-[3.5px]"
+          /></span>
+        </li>
+        <li
+          style="
+            font-size: clamp(12px, 1.823vw, 16px);
+            line-height: clamp(13.41px, 2.3vw, 19.5px);
+          "
+          class="mt-2 mx-auto min-w-[266px] max-w-[534px] font-semibold font-montserrat text-center text-lightgrey"
+        >
+          Just what you need to stay ahead...
+        </li>
+      </ul>
+      <!-- Resources content -->
+      <div
+        class="flex flex-col md:flex-row justify-center mx-auto gap-7 md:gap-0 container items-center py-7"
+      >
+        <img
+          src="./Images/homeResourcesImg.png"
+          alt="home resources img"
+          class="md:order-1"
+          style="width: clamp(230px, 44.128vw, 486px)"
+        />
+        <div class="font-montserrat flex flex-col gap-6 px-3">
+          <ul class="space-y-1">
+            <li
+              style="font-size: clamp(20px, 3.125vw, 26px)"
+              class="text-deepgrey font-semibold"
+            >
+              All You Need In One Place
+            </li>
+            <li
+              style="
+                font-size: clamp(12px, 1.9vw, 16px);
+                line-height: clamp(15px, 2.7vw, 19px);
+                width: clamp(290px, 80vw, 700px);
+              "
+              class="text-lightgrey md:hidden"
+            >
+              Welcome to your ultimate hub for handpicked study resources and
+              materials, carefully curated for effective guide and support
+              throughout your journey in our community.
+            </li>
+            <li
+              style="
+                font-size: clamp(12px, 1.823vw, 16px);
+                line-height: clamp(15px, 2.3vw, 19px);
+                width: clamp(290px, 48vw, 580px);
+              "
+              class="text-lightgrey hidden md:flex"
+            >
+              Welcome to your ultimate hub for handpicked study resources and
+              materials, carefully curated for effective guide and support
+              throughout your journey in our community.
+            </li>
+          </ul>
+          <!-- List for sm to md screens -->
+          <ul
+            style="font-size: clamp(12px, 1.9vw, 16px)"
+            class="text-deepgrey space-y-[8.5px] md:hidden"
+          >
+            <ul class="flex items-center gap-2 h-auto">
+              <svg
+                width="21"
+                height="21"
+                viewBox="0 0 27 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_276_835)">
+                  <path
+                    d="M27 13.5C27 17.0804 25.5777 20.5142 23.0459 23.0459C20.5142 25.5777 17.0804 27 13.5 27C9.91958 27 6.4858 25.5777 3.95406 23.0459C1.42232 20.5142 0 17.0804 0 13.5C0 9.91958 1.42232 6.4858 3.95406 3.95406C6.4858 1.42232 9.91958 0 13.5 0C17.0804 0 20.5142 1.42232 23.0459 3.95406C25.5777 6.4858 27 9.91958 27 13.5ZM20.3006 8.38687C20.1801 8.26676 20.0366 8.17218 19.8786 8.1088C19.7207 8.04542 19.5516 8.01454 19.3815 8.01801C19.2113 8.02147 19.0437 8.05921 18.8884 8.12897C18.7332 8.19873 18.5937 8.29907 18.4781 8.424L12.6174 15.8912L9.0855 12.3576C8.84558 12.134 8.52825 12.0123 8.20037 12.0181C7.87249 12.0239 7.55965 12.1567 7.32776 12.3886C7.09588 12.6205 6.96305 12.9333 6.95727 13.2612C6.95148 13.5891 7.07319 13.9064 7.29675 14.1463L11.7619 18.6131C11.8822 18.7332 12.0254 18.8278 12.183 18.8913C12.3407 18.9548 12.5095 18.9859 12.6794 18.9828C12.8494 18.9796 13.0169 18.9423 13.1721 18.873C13.3273 18.8037 13.4669 18.7038 13.5827 18.5794L20.3192 10.1587C20.5488 9.91997 20.6757 9.60065 20.6726 9.26937C20.6694 8.93808 20.5365 8.62124 20.3023 8.38687H20.3006Z"
+                    fill="#3366FF"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_276_835">
+                    <rect width="27" height="27" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <li>YouTube tutors and course recommendations</li>
+            </ul>
+            <ul class="flex gap-2">
+              <svg
+                width="21"
+                height="21"
+                viewBox="0 0 27 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_276_835)">
+                  <path
+                    d="M27 13.5C27 17.0804 25.5777 20.5142 23.0459 23.0459C20.5142 25.5777 17.0804 27 13.5 27C9.91958 27 6.4858 25.5777 3.95406 23.0459C1.42232 20.5142 0 17.0804 0 13.5C0 9.91958 1.42232 6.4858 3.95406 3.95406C6.4858 1.42232 9.91958 0 13.5 0C17.0804 0 20.5142 1.42232 23.0459 3.95406C25.5777 6.4858 27 9.91958 27 13.5ZM20.3006 8.38687C20.1801 8.26676 20.0366 8.17218 19.8786 8.1088C19.7207 8.04542 19.5516 8.01454 19.3815 8.01801C19.2113 8.02147 19.0437 8.05921 18.8884 8.12897C18.7332 8.19873 18.5937 8.29907 18.4781 8.424L12.6174 15.8912L9.0855 12.3576C8.84558 12.134 8.52825 12.0123 8.20037 12.0181C7.87249 12.0239 7.55965 12.1567 7.32776 12.3886C7.09588 12.6205 6.96305 12.9333 6.95727 13.2612C6.95148 13.5891 7.07319 13.9064 7.29675 14.1463L11.7619 18.6131C11.8822 18.7332 12.0254 18.8278 12.183 18.8913C12.3407 18.9548 12.5095 18.9859 12.6794 18.9828C12.8494 18.9796 13.0169 18.9423 13.1721 18.873C13.3273 18.8037 13.4669 18.7038 13.5827 18.5794L20.3192 10.1587C20.5488 9.91997 20.6757 9.60065 20.6726 9.26937C20.6694 8.93808 20.5365 8.62124 20.3023 8.38687H20.3006Z"
+                    fill="#3366FF"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_276_835">
+                    <rect width="27" height="27" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <li>Free Udemy and Coursera courses</li>
+            </ul>
+            <ul class="flex gap-2">
+              <svg
+                width="21"
+                height="21"
+                viewBox="0 0 27 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_276_835)">
+                  <path
+                    d="M27 13.5C27 17.0804 25.5777 20.5142 23.0459 23.0459C20.5142 25.5777 17.0804 27 13.5 27C9.91958 27 6.4858 25.5777 3.95406 23.0459C1.42232 20.5142 0 17.0804 0 13.5C0 9.91958 1.42232 6.4858 3.95406 3.95406C6.4858 1.42232 9.91958 0 13.5 0C17.0804 0 20.5142 1.42232 23.0459 3.95406C25.5777 6.4858 27 9.91958 27 13.5ZM20.3006 8.38687C20.1801 8.26676 20.0366 8.17218 19.8786 8.1088C19.7207 8.04542 19.5516 8.01454 19.3815 8.01801C19.2113 8.02147 19.0437 8.05921 18.8884 8.12897C18.7332 8.19873 18.5937 8.29907 18.4781 8.424L12.6174 15.8912L9.0855 12.3576C8.84558 12.134 8.52825 12.0123 8.20037 12.0181C7.87249 12.0239 7.55965 12.1567 7.32776 12.3886C7.09588 12.6205 6.96305 12.9333 6.95727 13.2612C6.95148 13.5891 7.07319 13.9064 7.29675 14.1463L11.7619 18.6131C11.8822 18.7332 12.0254 18.8278 12.183 18.8913C12.3407 18.9548 12.5095 18.9859 12.6794 18.9828C12.8494 18.9796 13.0169 18.9423 13.1721 18.873C13.3273 18.8037 13.4669 18.7038 13.5827 18.5794L20.3192 10.1587C20.5488 9.91997 20.6757 9.60065 20.6726 9.26937C20.6694 8.93808 20.5365 8.62124 20.3023 8.38687H20.3006Z"
+                    fill="#3366FF"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_276_835">
+                    <rect width="27" height="27" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <li>CSS Telegram channels</li>
+            </ul>
+            <ul class="flex gap-2">
+              <svg
+                width="21"
+                height="21"
+                viewBox="0 0 27 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_276_835)">
+                  <path
+                    d="M27 13.5C27 17.0804 25.5777 20.5142 23.0459 23.0459C20.5142 25.5777 17.0804 27 13.5 27C9.91958 27 6.4858 25.5777 3.95406 23.0459C1.42232 20.5142 0 17.0804 0 13.5C0 9.91958 1.42232 6.4858 3.95406 3.95406C6.4858 1.42232 9.91958 0 13.5 0C17.0804 0 20.5142 1.42232 23.0459 3.95406C25.5777 6.4858 27 9.91958 27 13.5ZM20.3006 8.38687C20.1801 8.26676 20.0366 8.17218 19.8786 8.1088C19.7207 8.04542 19.5516 8.01454 19.3815 8.01801C19.2113 8.02147 19.0437 8.05921 18.8884 8.12897C18.7332 8.19873 18.5937 8.29907 18.4781 8.424L12.6174 15.8912L9.0855 12.3576C8.84558 12.134 8.52825 12.0123 8.20037 12.0181C7.87249 12.0239 7.55965 12.1567 7.32776 12.3886C7.09588 12.6205 6.96305 12.9333 6.95727 13.2612C6.95148 13.5891 7.07319 13.9064 7.29675 14.1463L11.7619 18.6131C11.8822 18.7332 12.0254 18.8278 12.183 18.8913C12.3407 18.9548 12.5095 18.9859 12.6794 18.9828C12.8494 18.9796 13.0169 18.9423 13.1721 18.873C13.3273 18.8037 13.4669 18.7038 13.5827 18.5794L20.3192 10.1587C20.5488 9.91997 20.6757 9.60065 20.6726 9.26937C20.6694 8.93808 20.5365 8.62124 20.3023 8.38687H20.3006Z"
+                    fill="#3366FF"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_276_835">
+                    <rect width="27" height="27" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <li>Past Question documents</li>
+            </ul>
+            <ul class="flex gap-2">
+              <svg
+                width="21"
+                height="21"
+                viewBox="0 0 27 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_276_835)">
+                  <path
+                    d="M27 13.5C27 17.0804 25.5777 20.5142 23.0459 23.0459C20.5142 25.5777 17.0804 27 13.5 27C9.91958 27 6.4858 25.5777 3.95406 23.0459C1.42232 20.5142 0 17.0804 0 13.5C0 9.91958 1.42232 6.4858 3.95406 3.95406C6.4858 1.42232 9.91958 0 13.5 0C17.0804 0 20.5142 1.42232 23.0459 3.95406C25.5777 6.4858 27 9.91958 27 13.5ZM20.3006 8.38687C20.1801 8.26676 20.0366 8.17218 19.8786 8.1088C19.7207 8.04542 19.5516 8.01454 19.3815 8.01801C19.2113 8.02147 19.0437 8.05921 18.8884 8.12897C18.7332 8.19873 18.5937 8.29907 18.4781 8.424L12.6174 15.8912L9.0855 12.3576C8.84558 12.134 8.52825 12.0123 8.20037 12.0181C7.87249 12.0239 7.55965 12.1567 7.32776 12.3886C7.09588 12.6205 6.96305 12.9333 6.95727 13.2612C6.95148 13.5891 7.07319 13.9064 7.29675 14.1463L11.7619 18.6131C11.8822 18.7332 12.0254 18.8278 12.183 18.8913C12.3407 18.9548 12.5095 18.9859 12.6794 18.9828C12.8494 18.9796 13.0169 18.9423 13.1721 18.873C13.3273 18.8037 13.4669 18.7038 13.5827 18.5794L20.3192 10.1587C20.5488 9.91997 20.6757 9.60065 20.6726 9.26937C20.6694 8.93808 20.5365 8.62124 20.3023 8.38687H20.3006Z"
+                    fill="#3366FF"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_276_835">
+                    <rect width="27" height="27" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <li>Available Bootcamps and registration links</li>
+            </ul>
+          </ul>
+          <!-- List for md to lg screens -->
+          <ul
+            style="font-size: clamp(12px, 1.823vw, 16px)"
+            class="text-deepgrey space-y-3 hidden md:flex flex-col"
+          >
+            <ul class="flex items-center gap-2 h-auto">
+              <svg
+                width="21"
+                height="21"
+                viewBox="0 0 27 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_276_835)">
+                  <path
+                    d="M27 13.5C27 17.0804 25.5777 20.5142 23.0459 23.0459C20.5142 25.5777 17.0804 27 13.5 27C9.91958 27 6.4858 25.5777 3.95406 23.0459C1.42232 20.5142 0 17.0804 0 13.5C0 9.91958 1.42232 6.4858 3.95406 3.95406C6.4858 1.42232 9.91958 0 13.5 0C17.0804 0 20.5142 1.42232 23.0459 3.95406C25.5777 6.4858 27 9.91958 27 13.5ZM20.3006 8.38687C20.1801 8.26676 20.0366 8.17218 19.8786 8.1088C19.7207 8.04542 19.5516 8.01454 19.3815 8.01801C19.2113 8.02147 19.0437 8.05921 18.8884 8.12897C18.7332 8.19873 18.5937 8.29907 18.4781 8.424L12.6174 15.8912L9.0855 12.3576C8.84558 12.134 8.52825 12.0123 8.20037 12.0181C7.87249 12.0239 7.55965 12.1567 7.32776 12.3886C7.09588 12.6205 6.96305 12.9333 6.95727 13.2612C6.95148 13.5891 7.07319 13.9064 7.29675 14.1463L11.7619 18.6131C11.8822 18.7332 12.0254 18.8278 12.183 18.8913C12.3407 18.9548 12.5095 18.9859 12.6794 18.9828C12.8494 18.9796 13.0169 18.9423 13.1721 18.873C13.3273 18.8037 13.4669 18.7038 13.5827 18.5794L20.3192 10.1587C20.5488 9.91997 20.6757 9.60065 20.6726 9.26937C20.6694 8.93808 20.5365 8.62124 20.3023 8.38687H20.3006Z"
+                    fill="#3366FF"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_276_835">
+                    <rect width="27" height="27" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <li>YouTube tutors and course recommendations</li>
+            </ul>
+            <ul class="flex gap-2">
+              <svg
+                width="21"
+                height="21"
+                viewBox="0 0 27 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_276_835)">
+                  <path
+                    d="M27 13.5C27 17.0804 25.5777 20.5142 23.0459 23.0459C20.5142 25.5777 17.0804 27 13.5 27C9.91958 27 6.4858 25.5777 3.95406 23.0459C1.42232 20.5142 0 17.0804 0 13.5C0 9.91958 1.42232 6.4858 3.95406 3.95406C6.4858 1.42232 9.91958 0 13.5 0C17.0804 0 20.5142 1.42232 23.0459 3.95406C25.5777 6.4858 27 9.91958 27 13.5ZM20.3006 8.38687C20.1801 8.26676 20.0366 8.17218 19.8786 8.1088C19.7207 8.04542 19.5516 8.01454 19.3815 8.01801C19.2113 8.02147 19.0437 8.05921 18.8884 8.12897C18.7332 8.19873 18.5937 8.29907 18.4781 8.424L12.6174 15.8912L9.0855 12.3576C8.84558 12.134 8.52825 12.0123 8.20037 12.0181C7.87249 12.0239 7.55965 12.1567 7.32776 12.3886C7.09588 12.6205 6.96305 12.9333 6.95727 13.2612C6.95148 13.5891 7.07319 13.9064 7.29675 14.1463L11.7619 18.6131C11.8822 18.7332 12.0254 18.8278 12.183 18.8913C12.3407 18.9548 12.5095 18.9859 12.6794 18.9828C12.8494 18.9796 13.0169 18.9423 13.1721 18.873C13.3273 18.8037 13.4669 18.7038 13.5827 18.5794L20.3192 10.1587C20.5488 9.91997 20.6757 9.60065 20.6726 9.26937C20.6694 8.93808 20.5365 8.62124 20.3023 8.38687H20.3006Z"
+                    fill="#3366FF"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_276_835">
+                    <rect width="27" height="27" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <li>Free Udemy and Coursera courses</li>
+            </ul>
+            <ul class="flex gap-2">
+              <svg
+                width="21"
+                height="21"
+                viewBox="0 0 27 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_276_835)">
+                  <path
+                    d="M27 13.5C27 17.0804 25.5777 20.5142 23.0459 23.0459C20.5142 25.5777 17.0804 27 13.5 27C9.91958 27 6.4858 25.5777 3.95406 23.0459C1.42232 20.5142 0 17.0804 0 13.5C0 9.91958 1.42232 6.4858 3.95406 3.95406C6.4858 1.42232 9.91958 0 13.5 0C17.0804 0 20.5142 1.42232 23.0459 3.95406C25.5777 6.4858 27 9.91958 27 13.5ZM20.3006 8.38687C20.1801 8.26676 20.0366 8.17218 19.8786 8.1088C19.7207 8.04542 19.5516 8.01454 19.3815 8.01801C19.2113 8.02147 19.0437 8.05921 18.8884 8.12897C18.7332 8.19873 18.5937 8.29907 18.4781 8.424L12.6174 15.8912L9.0855 12.3576C8.84558 12.134 8.52825 12.0123 8.20037 12.0181C7.87249 12.0239 7.55965 12.1567 7.32776 12.3886C7.09588 12.6205 6.96305 12.9333 6.95727 13.2612C6.95148 13.5891 7.07319 13.9064 7.29675 14.1463L11.7619 18.6131C11.8822 18.7332 12.0254 18.8278 12.183 18.8913C12.3407 18.9548 12.5095 18.9859 12.6794 18.9828C12.8494 18.9796 13.0169 18.9423 13.1721 18.873C13.3273 18.8037 13.4669 18.7038 13.5827 18.5794L20.3192 10.1587C20.5488 9.91997 20.6757 9.60065 20.6726 9.26937C20.6694 8.93808 20.5365 8.62124 20.3023 8.38687H20.3006Z"
+                    fill="#3366FF"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_276_835">
+                    <rect width="27" height="27" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <li>CSS Telegram channels</li>
+            </ul>
+            <ul class="flex gap-2">
+              <svg
+                width="21"
+                height="21"
+                viewBox="0 0 27 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_276_835)">
+                  <path
+                    d="M27 13.5C27 17.0804 25.5777 20.5142 23.0459 23.0459C20.5142 25.5777 17.0804 27 13.5 27C9.91958 27 6.4858 25.5777 3.95406 23.0459C1.42232 20.5142 0 17.0804 0 13.5C0 9.91958 1.42232 6.4858 3.95406 3.95406C6.4858 1.42232 9.91958 0 13.5 0C17.0804 0 20.5142 1.42232 23.0459 3.95406C25.5777 6.4858 27 9.91958 27 13.5ZM20.3006 8.38687C20.1801 8.26676 20.0366 8.17218 19.8786 8.1088C19.7207 8.04542 19.5516 8.01454 19.3815 8.01801C19.2113 8.02147 19.0437 8.05921 18.8884 8.12897C18.7332 8.19873 18.5937 8.29907 18.4781 8.424L12.6174 15.8912L9.0855 12.3576C8.84558 12.134 8.52825 12.0123 8.20037 12.0181C7.87249 12.0239 7.55965 12.1567 7.32776 12.3886C7.09588 12.6205 6.96305 12.9333 6.95727 13.2612C6.95148 13.5891 7.07319 13.9064 7.29675 14.1463L11.7619 18.6131C11.8822 18.7332 12.0254 18.8278 12.183 18.8913C12.3407 18.9548 12.5095 18.9859 12.6794 18.9828C12.8494 18.9796 13.0169 18.9423 13.1721 18.873C13.3273 18.8037 13.4669 18.7038 13.5827 18.5794L20.3192 10.1587C20.5488 9.91997 20.6757 9.60065 20.6726 9.26937C20.6694 8.93808 20.5365 8.62124 20.3023 8.38687H20.3006Z"
+                    fill="#3366FF"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_276_835">
+                    <rect width="27" height="27" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <li>Past Question documents</li>
+            </ul>
+            <ul class="flex gap-2">
+              <svg
+                width="21"
+                height="21"
+                viewBox="0 0 27 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_276_835)">
+                  <path
+                    d="M27 13.5C27 17.0804 25.5777 20.5142 23.0459 23.0459C20.5142 25.5777 17.0804 27 13.5 27C9.91958 27 6.4858 25.5777 3.95406 23.0459C1.42232 20.5142 0 17.0804 0 13.5C0 9.91958 1.42232 6.4858 3.95406 3.95406C6.4858 1.42232 9.91958 0 13.5 0C17.0804 0 20.5142 1.42232 23.0459 3.95406C25.5777 6.4858 27 9.91958 27 13.5ZM20.3006 8.38687C20.1801 8.26676 20.0366 8.17218 19.8786 8.1088C19.7207 8.04542 19.5516 8.01454 19.3815 8.01801C19.2113 8.02147 19.0437 8.05921 18.8884 8.12897C18.7332 8.19873 18.5937 8.29907 18.4781 8.424L12.6174 15.8912L9.0855 12.3576C8.84558 12.134 8.52825 12.0123 8.20037 12.0181C7.87249 12.0239 7.55965 12.1567 7.32776 12.3886C7.09588 12.6205 6.96305 12.9333 6.95727 13.2612C6.95148 13.5891 7.07319 13.9064 7.29675 14.1463L11.7619 18.6131C11.8822 18.7332 12.0254 18.8278 12.183 18.8913C12.3407 18.9548 12.5095 18.9859 12.6794 18.9828C12.8494 18.9796 13.0169 18.9423 13.1721 18.873C13.3273 18.8037 13.4669 18.7038 13.5827 18.5794L20.3192 10.1587C20.5488 9.91997 20.6757 9.60065 20.6726 9.26937C20.6694 8.93808 20.5365 8.62124 20.3023 8.38687H20.3006Z"
+                    fill="#3366FF"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_276_835">
+                    <rect width="27" height="27" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <li>Available Bootcamps and registration links</li>
+            </ul>
+          </ul>
+          <ul class="flex items-center gap-3 text-[15px]">
+            <a href="./html/Resouces-1.html"
+              ><button
+                class="text-white font-medium lg:font-semibold font-dmsans rounded-[3px] items-center justify-center bg-primary hover:bg-primaryhover h-[47px] px-3"
+              >
+                Explore Now
+              </button></a
+            ><a href="./html/Resouces-1.html"
+              ><button
+                class="text-primary font-medium lg:font-semibold font-dmsans hover:underline h-auto"
+              >
+                Get Help
+              </button></a
+            >
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Meet Our Executives -->
+    <section class="py-8 w-full">
+      <!-- Intro -->
+      <ul>
+        <li
+          style="font-size: clamp(20px, 5vw, 25px)"
+          class="flex flex-col font-bold font-dmsans text-center text-deepgrey"
+        >
+          Meet Our Executives
+          <span
+            ><img
+              src="./Images/underlineNavLink.svg"
+              alt="underline svg blue"
+              class="place-self-center -mt-[3.5px]"
+          /></span>
+        </li>
+        <li
+          style="
+            font-size: clamp(12px, 1.823vw, 16px);
+            line-height: clamp(15px, 2.3vw, 19.5px);
+            width: clamp(266px, 50vw, 400px);
+          "
+          class="mt-2 mx-auto font-semibold font-montserrat text-center text-lightgrey"
+        >
+          Presenting our visionaries for the 2024/2025 Administration
+        </li>
+      </ul>
+      <div
+        class="w-fit py-8 mx-auto flex justify-center flex-wrap gap-10 md:gap-20 xl:gap-24"
+      >
+        <!-- President -->
+        <div class="space-y-4">
+          <div class="relative">
+            <div class="overflow-hidden mx-auto rounded-b-full">
+              <img
+                src="./Images/executives/Andzie President.png"
+                style="width: 300px; height: 380px"
+                alt="President img"
+                class="relative z-10 object-cover object-top"
+              />
+            </div>
+            <div
+              class="absolute inset-x-0 top-20 bg-primary rounded-full w-[300px] h-[300px] mx-auto"
+            ></div>
+          </div>
+          <ul class="text-center font-montserrat">
+            <li
+              class="text-deepgrey font-semibold"
+              style="font-size: clamp(16px, 2.823vw, 20px)"
+            >
+              Andzie Kelvin Tachie
+            </li>
+
+            <li
+              class="text-lightgrey font-medium text-kdfluid1"
+              style="font-size: clamp(13.5px, 2.823vw, 16px)"
+            >
+              President
+            </li>
+          </ul>
+        </div>
+
+        <!-- General Secretary -->
+        <div class="space-y-4">
+          <div class="relative">
+            <div class="overflow-hidden mx-auto rounded-b-full">
+              <img
+                src="./Images/executives/Eliza Gen.secretary.png"
+                style="width: 300px; height: 380px"
+                alt="General Secretary img"
+                class="relative z-10 object-cover object-top"
+              />
+            </div>
+            <div
+              class="absolute inset-x-0 top-20 bg-primary rounded-full w-[300px] h-[300px] mx-auto"
+            ></div>
+          </div>
+          <ul class="text-center font-montserrat">
+            <li
+              class="text-deepgrey font-semibold"
+              style="font-size: clamp(16px, 2.823vw, 20px)"
+            >
+              Brew Anim Eliza
+            </li>
+
+            <li
+              class="text-lightgrey font-medium text-kdfluid1"
+              style="font-size: clamp(13.5px, 2.823vw, 16px)"
+            >
+              General Secretary
+            </li>
+          </ul>
+        </div>
+
+        <!-- Financial Secretary -->
+        <div class="space-y-4">
+          <div class="relative">
+            <div class="overflow-hidden mx-auto rounded-b-full">
+              <img
+                src="./Images/executives/Addai Fin.secretary.png"
+                style="width: 300px; height: 380px"
+                alt="Financial secretary img"
+                class="relative z-10 object-cover object-top"
+              />
+            </div>
+            <div
+              class="absolute inset-x-0 top-20 bg-primary rounded-full w-[300px] h-[300px] mx-auto"
+            ></div>
+          </div>
+          <ul class="text-center font-montserrat">
+            <li
+              class="text-deepgrey font-semibold"
+              style="font-size: clamp(16px, 2.823vw, 20px)"
+            >
+              Agyei Michael Addai
+            </li>
+
+            <li
+              class="text-lightgrey font-medium text-kdfluid1"
+              style="font-size: clamp(13.5px, 2.823vw, 16px)"
+            >
+              Financial Secretary
+            </li>
+          </ul>
+        </div>
+
+        <!-- Organizing Secretary -->
+        <div class="space-y-4">
+          <div class="relative">
+            <div class="overflow-hidden mx-auto rounded-b-full">
+              <img
+                src="./Images/executives/Emmanuel Org.secretary.png"
+                style="width: 300px; height: 380px"
+                alt="Organizing Secretary img"
+                class="relative z-10 object-cover object-top"
+              />
+            </div>
+            <div
+              class="absolute inset-x-0 top-20 bg-primary rounded-full w-[300px] h-[300px] mx-auto"
+            ></div>
+          </div>
+          <ul class="text-center font-montserrat">
+            <li
+              class="text-deepgrey font-semibold"
+              style="font-size: clamp(16px, 2.823vw, 20px)"
+            >
+              Emmanuel Akomdo
+            </li>
+
+            <li
+              class="text-lightgrey font-medium text-kdfluid1"
+              style="font-size: clamp(13.5px, 2.823vw, 16px)"
+            >
+              Organizing Secretary
+            </li>
+          </ul>
+        </div>
+
+        <!-- Women's Commissioner -->
+        <div class="space-y-4">
+          <div class="relative">
+            <div class="overflow-hidden mx-auto rounded-b-full">
+              <img
+                src="./Images/executives/Gifty Appiah Wocom.png"
+                style="width: 300px; height: 380px"
+                alt="Women's Commissioner img"
+                class="relative z-10 object-cover object-top"
+              />
+            </div>
+            <div
+              class="absolute inset-x-0 top-20 bg-primary rounded-full w-[300px] h-[300px] mx-auto"
+            ></div>
+          </div>
+          <ul class="text-center font-montserrat">
+            <li
+              class="text-deepgrey font-semibold"
+              style="font-size: clamp(16px, 2.823vw, 20px)"
+            >
+              Gifty Appiah
+            </li>
+
+            <li
+              class="text-lightgrey font-medium text-kdfluid1"
+              style="font-size: clamp(13.5px, 2.823vw, 16px)"
+            >
+              Women's Commissioner
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="bg-[#F4F7FF] w-full flex justify-center">
+      <div
+        class="font-montserrat py-16 md:py-24 flex flex-col lg:flex-row lg:gap-5 xl:gap-0 justify-center px-4 mx-auto items-start"
+        style="font-size: clamp(12px, 1.823vw, 16px)"
+      >
+        <!-- Intro -->
+        <ul class="flex flex-col gap-3">
+          <li
+            style="
+              font-size: clamp(20px, 3.90625vw, 32px);
+              width: clamp(200px, 35vw, 450px);
+              line-height: clamp(24px, 4.3vw, 35px);
+            "
+            class="md:hidden lg:block"
+          >
+            Frequently Asked <span class="font-semibold">Questions</span>
+          </li>
+          <li
+            style="
+              font-size: clamp(20px, 3.90625vw, 32px);
+              width: clamp(200px, 65vw, 480px);
+            "
+            class="hidden md:flex mb-2 gap-[6px] lg:hidden leading-6"
+          >
+            Frequently Asked <span class="font-semibold">Questions</span>
+          </li>
+          <li
+            style="
+              width: clamp(280px, 68vw, 600px);
+              line-height: clamp(14px, 2.3vw, 19px);
+            "
+            class="font-medium lg:hidden"
+          >
+            Get quick answers to common questions about our community, events,
+            and resources. If you need more help, feel free to reach out!
+          </li>
+          <li
+            style="width: 350px; line-height: clamp(14px, 2.3vw, 19px)"
+            class="font-medium hidden lg:flex"
+          >
+            Get quick answers to common questions about our community, events,
+            and resources. If you need more help, feel free to reach out!
+          </li>
+        </ul>
+        <!-- Questions -->
+        <div
+          id="accordion-color                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              "
+          data-accordion="collapse"
+          data-active-classes="text-primary"
+          data-inactive-classes="text-deepgrey"
+          class="pt-10 lg:py-0 font-montserrat space-y-7"
+        >
+          <!-- FAQ1 -->
+          <div class="w-fit" style="box-shadow: 0px 4px 9.6px 0px #97aef16b">
+            <!-- Question 1 -->
+            <h2 id="accordion-color-heading-1">
+              <button
+                type="button"
+                style="
+                  width: clamp(290px, 80vw, 550px);
+                  font-size: clamp(11.7px, 1.823vw, 16px);
+                "
+                class="text-deepgrey hover:text-primary transition-all duration-300 ease-in-out hover:cursor-pointer bg-white flex items-center justify-between px-3 h-[56px] font-medium rtl:text-right rounded-[3px] gap-3"
+                data-accordion-target="#accordion-color-body-1"
+                aria-expanded="false"
+                aria-controls="accordion-color-body-1"
+                data-accordion-icon
+              >
+                <span class="flex gap-1">
+                  <span class="text-primary">1.</span> Is Computer Science just
+                  coding?
+                </span>
+                <svg
+                  width="14"
+                  height="20"
+                  viewBox="0 0 23 23"
+                  fill="none"
+                  xmlns="http://  www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M6.67863 2.36619C6.74539 2.29925 6.82471 2.24615 6.91203 2.20991C6.99935 2.17368 7.09296 2.15503 7.1875 2.15503C7.28204 2.15503 7.37566 2.17368 7.46298 2.20991C7.5503 2.24615 7.62961 2.29925 7.69638 2.36619L16.3214 10.9912C16.3883 11.058 16.4414 11.1373 16.4777 11.2246C16.5139 11.3119 16.5325 11.4055 16.5325 11.5001C16.5325 11.5946 16.5139 11.6882 16.4777 11.7755C16.4414 11.8629 16.3883 11.9422 16.3214 12.0089L7.69638 20.6339C7.56142 20.7689 7.37837 20.8447 7.1875 20.8447C6.99664 20.8447 6.81359 20.7689 6.67863 20.6339C6.54367 20.499 6.46784 20.3159 6.46784 20.1251C6.46784 19.9342 6.54367 19.7512 6.67863 19.6162L14.7962 11.5001L6.67863 3.38394C6.61169 3.31717 6.55859 3.23786 6.52235 3.15054C6.48612 3.06322 6.46747 2.9696 6.46747 2.87506C6.46747 2.78052 6.48612 2.68691 6.52235 2.59959C6.55859 2.51227 6.61169 2.43295 6.67863 2.36619Z"
+                    fill="#464555"
+                  />
+                </svg>
+              </button>
+            </h2>
+            <!-- Answer 1 -->
+            <div
+              id="accordion-color-body-1"
+              class="hidden transition-all duration-300 ease-in-out"
+              aria-labelledby="accordion-color-heading-1"
+            >
+              <div
+                class="px-5 bg-white"
+                style="
+                  font-size: clamp(10.5px, 1.823vw, 14.5px);
+                  width: clamp(290px, 80vw, 550px);
+                "
+              >
+                <p class="pb-3 pt-1 text-lightgrey">
+                  No, Computer Science isn’t just coding. It’s about
+                  understanding how computers work, solving problems, and
+                  creating technology. Coding is one part of it, but it also
+                  includes things like designing software, studying data, and
+                  learning about hardware.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- FAQ2 -->
+          <div class="w-fit" style="box-shadow: 0px 4px 9.6px 0px #97aef16b">
+            <!-- Question 2 -->
+            <h2 id="accordion-color-heading-2">
+              <button
+                type="button"
+                style="
+                  width: clamp(290px, 80vw, 550px);
+                  font-size: clamp(11.7px, 1.823vw, 16px);
+                "
+                class="text-deepgrey hover:text-primary transition-all duration-300 ease-in-out hover:cursor-pointer bg-white flex items-center justify-between px-3 h-[56px] font-medium rtl:text-right rounded-[3px] gap-3"
+                data-accordion-target="#accordion-color-body-2"
+                aria-expanded="false"
+                aria-controls="accordion-color-body-2"
+                data-accordion-icon
+              >
+                <span class="flex gap-[3px] text-left">
+                  <span class="text-primary">2.</span> What are some career
+                  opportunities in CS?
+                </span>
+                <svg
+                  width="14"
+                  height="20"
+                  viewBox="0 0 23 23"
+                  fill="none"
+                  xmlns="http://  www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M6.67863 2.36619C6.74539 2.29925 6.82471 2.24615 6.91203 2.20991C6.99935 2.17368 7.09296 2.15503 7.1875 2.15503C7.28204 2.15503 7.37566 2.17368 7.46298 2.20991C7.5503 2.24615 7.62961 2.29925 7.69638 2.36619L16.3214 10.9912C16.3883 11.058 16.4414 11.1373 16.4777 11.2246C16.5139 11.3119 16.5325 11.4055 16.5325 11.5001C16.5325 11.5946 16.5139 11.6882 16.4777 11.7755C16.4414 11.8629 16.3883 11.9422 16.3214 12.0089L7.69638 20.6339C7.56142 20.7689 7.37837 20.8447 7.1875 20.8447C6.99664 20.8447 6.81359 20.7689 6.67863 20.6339C6.54367 20.499 6.46784 20.3159 6.46784 20.1251C6.46784 19.9342 6.54367 19.7512 6.67863 19.6162L14.7962 11.5001L6.67863 3.38394C6.61169 3.31717 6.55859 3.23786 6.52235 3.15054C6.48612 3.06322 6.46747 2.9696 6.46747 2.87506C6.46747 2.78052 6.48612 2.68691 6.52235 2.59959C6.55859 2.51227 6.61169 2.43295 6.67863 2.36619Z"
+                    fill="#464555"
+                  />
+                </svg>
+              </button>
+            </h2>
+            <!-- Answer 2 -->
+            <div
+              id="accordion-color-body-2"
+              class="hidden transition-all duration-300 ease-in-out"
+              aria-labelledby="accordion-color-heading-2"
+            >
+              <div
+                class="px-5 bg-white"
+                style="
+                  font-size: clamp(10.5px, 1.823vw, 14.5px);
+                  width: clamp(290px, 80vw, 550px);
+                "
+              >
+                <p class="pb-3 text-lightgrey">
+                  Computer Science offers many career options like software
+                  development, data analysis, cybersecurity, and AI. You can
+                  also work in exciting fields like robotics and cloud
+                  computing.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ3 -->
+          <div class="w-fit" style="box-shadow: 0px 4px 9.6px 0px #97aef16b">
+            <!-- Question 3 -->
+            <h2 id="accordion-color-heading-3">
+              <button
+                type="button"
+                style="
+                  width: clamp(290px, 80vw, 550px);
+                  font-size: clamp(11.7px, 1.823vw, 16px);
+                "
+                class="text-deepgrey hover:text-primary transition-all duration-300 ease-in-out hover:cursor-pointer bg-white flex items-center justify-between px-3 h-[56px] font-medium rtl:text-right rounded-[3px] gap-3"
+                data-accordion-target="#accordion-color-body-3"
+                aria-expanded="false"
+                aria-controls="accordion-color-body-3"
+                data-accordion-icon
+              >
+                <span class="flex gap-1 text-left">
+                  <span class="text-primary">3.</span>Do I need any coding
+                  experience to learn CS?
+                </span>
+                <svg
+                  width="14"
+                  height="20"
+                  viewBox="0 0 23 23"
+                  fill="none"
+                  xmlns="http://  www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M6.67863 2.36619C6.74539 2.29925 6.82471 2.24615 6.91203 2.20991C6.99935 2.17368 7.09296 2.15503 7.1875 2.15503C7.28204 2.15503 7.37566 2.17368 7.46298 2.20991C7.5503 2.24615 7.62961 2.29925 7.69638 2.36619L16.3214 10.9912C16.3883 11.058 16.4414 11.1373 16.4777 11.2246C16.5139 11.3119 16.5325 11.4055 16.5325 11.5001C16.5325 11.5946 16.5139 11.6882 16.4777 11.7755C16.4414 11.8629 16.3883 11.9422 16.3214 12.0089L7.69638 20.6339C7.56142 20.7689 7.37837 20.8447 7.1875 20.8447C6.99664 20.8447 6.81359 20.7689 6.67863 20.6339C6.54367 20.499 6.46784 20.3159 6.46784 20.1251C6.46784 19.9342 6.54367 19.7512 6.67863 19.6162L14.7962 11.5001L6.67863 3.38394C6.61169 3.31717 6.55859 3.23786 6.52235 3.15054C6.48612 3.06322 6.46747 2.9696 6.46747 2.87506C6.46747 2.78052 6.48612 2.68691 6.52235 2.59959C6.55859 2.51227 6.61169 2.43295 6.67863 2.36619Z"
+                    fill="#464555"
+                  />
+                </svg>
+              </button>
+            </h2>
+            <!-- Answer 3 -->
+            <div
+              id="accordion-color-body-3"
+              class="hidden transition-all duration-300 ease-in-out"
+              aria-labelledby="accordion-color-heading-3"
+            >
+              <div
+                class="px-5 bg-white"
+                style="
+                  font-size: clamp(10.5px, 1.823vw, 14.5px);
+                  width: clamp(290px, 80vw, 550px);
+                "
+              >
+                <p class="pb-3 pt-1 text-lightgrey">
+                  Not at all! You don’t need any coding experience to start
+                  learning Computer Science. Most courses start from the basics
+                  and guide you step by step.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ4 -->
+          <div class="w-fit" style="box-shadow: 0px 4px 9.6px 0px #97aef16b">
+            <!-- Question 4 -->
+            <h2 id="accordion-color-heading-4">
+              <button
+                type="button"
+                style="
+                  width: clamp(290px, 80vw, 550px);
+                  font-size: clamp(11.7px, 1.823vw, 16px);
+                "
+                class="text-deepgrey hover:text-primary transition-all duration-300 ease-in-out hover:cursor-pointer bg-white flex items-center justify-between px-3 h-[56px] font-medium rtl:text-right rounded-[3px] gap-3"
+                data-accordion-target="#accordion-color-body-4"
+                aria-expanded="false"
+                aria-controls="accordion-color-body-4"
+                data-accordion-icon
+              >
+                <span class="flex gap-1 text-left">
+                  <span class="text-primary">4.</span>How can I improve my
+                  coding skills?
+                </span>
+                <svg
+                  width="14"
+                  height="20"
+                  viewBox="0 0 23 23"
+                  fill="none"
+                  xmlns="http://  www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M6.67863 2.36619C6.74539 2.29925 6.82471 2.24615 6.91203 2.20991C6.99935 2.17368 7.09296 2.15503 7.1875 2.15503C7.28204 2.15503 7.37566 2.17368 7.46298 2.20991C7.5503 2.24615 7.62961 2.29925 7.69638 2.36619L16.3214 10.9912C16.3883 11.058 16.4414 11.1373 16.4777 11.2246C16.5139 11.3119 16.5325 11.4055 16.5325 11.5001C16.5325 11.5946 16.5139 11.6882 16.4777 11.7755C16.4414 11.8629 16.3883 11.9422 16.3214 12.0089L7.69638 20.6339C7.56142 20.7689 7.37837 20.8447 7.1875 20.8447C6.99664 20.8447 6.81359 20.7689 6.67863 20.6339C6.54367 20.499 6.46784 20.3159 6.46784 20.1251C6.46784 19.9342 6.54367 19.7512 6.67863 19.6162L14.7962 11.5001L6.67863 3.38394C6.61169 3.31717 6.55859 3.23786 6.52235 3.15054C6.48612 3.06322 6.46747 2.9696 6.46747 2.87506C6.46747 2.78052 6.48612 2.68691 6.52235 2.59959C6.55859 2.51227 6.61169 2.43295 6.67863 2.36619Z"
+                    fill="#464555"
+                  />
+                </svg>
+              </button>
+            </h2>
+            <!-- Answer 4 -->
+            <div
+              id="accordion-color-body-4"
+              class="hidden transition-all duration-300 ease-in-out"
+              aria-labelledby="accordion-color-heading-4"
+            >
+              <div
+                class="px-5 bg-white"
+                style="
+                  font-size: clamp(10.5px, 1.823vw, 14.5px);
+                  width: clamp(290px, 80vw, 550px);
+                "
+              >
+                <p class="text-lightgrey pt-1">
+                  Practice is key! Start with small projects, explore new
+                  challenges, and don’t be afraid to make mistakes; they’re part
+                  of learning. Joining coding communities and studying others’
+                  code can also help a lot!
+                </p>
+
+                <!-- CTA -->
+                <a href="./html/Resources-2.html#learnHowToCode"
+                  ><button
+                    style="font-size: clamp(12px, 1.823vw, 15.5px)"
+                    class="text-white p-3 my-3 font-medium lg:font-semibold font-dmsans rounded-[3px] bg-primary hover:bg-primaryhover"
+                  >
+                    Begin Learning!
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="w-full flex justify-center">
+      <div class="py-14 mx-auto">
+        <!-- Contact intro -->
+        <ul>
+          <li
+            style="font-size: clamp(20px, 5vw, 25px)"
+            class="flex flex-col font-bold font-dmsans text-center text-deepgrey"
+          >
+            Contact
+            <span
+              ><img
+                src="./Images/underlineNavLink.svg"
+                alt="underline svg blue"
+                class="place-self-center -mt-[3.5px]"
+            /></span>
+          </li>
+          <li
+            style="
+              font-size: clamp(12px, 1.823vw, 16px);
+              line-height: clamp(13.41px, 2.3vw, 19.5px);
+              width: clamp(240px, 52vw, 530px);
+            "
+            class="mt-2 md:px-10 mx-auto font-semibold font-montserrat text-center text-lightgrey"
+          >
+            We’re here to help! Reach out to us with your questions or feedback
+          </li>
+        </ul>
+        <!-- Contact Content -->
+        <section class="my-14 space-y-7">
+          <!-- Blue Card & Form -->
+          <div
+            class="contactdiv grid grid-cols-1 md:flex px-3 md:flex-wrap md:flex-row-reverse items-center justify-center"
+          >
+            <!-- FORM -->
+            <div
+              style="
+                box-shadow: 0px 4px 9.6px 0px #00000017;
+                width: clamp(298px, 70vw, 710px);
+                height: clamp(350px, 64vw, 414px);
+              "
+              class="py-[11px] px-[30px] relative bg-white rounded-[2px] flex items-center mx-auto"
+            >
+              <div class="w-full mx-auto">
+                <form id="contactForm" class="space-y-4">
+                  <div
+                    class="grid grid-cols-1 md:grid-cols-2 flex-wrap gap-[12px]"
+                  >
+                    <!-- Full Name -->
+                    <div>
+                      <input
+                        type="text"
+                        name="FullName"
+                        placeholder="Full Name"
+                        required
+                        class="placeholder:text-kdfluid1 placeholder:text-[#C0C0C0] placeholder:font-dmsans block w-full rounded-md border-gray-300 shadow-sm focus:ring-primary focus:border-primary"
+                      />
+                    </div>
+
+                    <!-- Email -->
+                    <div>
+                      <input
+                        type="email"
+                        name="Email"
+                        placeholder="Email"
+                        required
+                        class="placeholder:text-kdfluid1 placeholder:text-[#C0C0C0] placeholder:font-dmsans block w-full rounded-md border-gray-300 shadow-sm focus:ring-primary focus:border-primary"
+                      />
+                    </div>
+                  </div>
+
+                  <!-- Subject -->
+                  <div>
+                    <input
+                      type="text"
+                      id="subject"
+                      name="Subject"
+                      placeholder="Subject"
+                      required
+                      class="placeholder:text-kdfluid1 w-[100%] placeholder:text-[#C0C0C0] placeholder:font-dmsans block md:w-[50%] rounded-md border-gray-300 shadow-sm focus:ring-primary focus:border-primary"
+                    />
+                  </div>
+
+                  <!-- Message -->
+                  <div>
+                    <textarea
+                      name="Message"
+                      placeholder="Tell us something..."
+                      required
+                      class="placeholder:text-kdfluid1 placeholder:text-[#C0C0C0] placeholder:font-dmsans block w-full rounded-md border-gray-300 shadow-sm focus:ring-primary focus:border-primary h-fluid8"
+                      style="height: clamp(76px, 17vw, 160px)"
+                    ></textarea>
+                  </div>
+
+                  <!-- Submit Button -->
+                  <div class="flex justify-center">
+                    <button
+                      type="submit"
+                      style="height: clamp(42px, 8vw, 64px)"
+                      class="w-full md:w-auto md:px-7 mt-3 bg-blue-600 hover:bg-primaryhover transition ease-in-out text-white font-medium py-2 px-4 rounded-[2px]"
+                    >
+                      <span
+                        class="flex flex-row gap-[6px] items-center justify-center"
+                        style="font-size: clamp(14px, 2.3vw, 20px)"
+                        >Send Message
+                        <svg
+                          style="
+                            width: clamp(16px, 2.3vw, 25px);
+                            height: clamp(16px, 2.3vw, 25px);
+                          "
+                          viewBox="0 0 14 14"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g clip-path="url(#clip0_708_1426)">
+                            <path
+                              d="M13.8723 0.127027C13.9329 0.187692 13.9743 0.264817 13.9914 0.348819C14.0085 0.432822 14.0005 0.520001 13.9685 0.599527L8.87691 13.3282C8.83204 13.4402 8.75711 13.5378 8.66037 13.61C8.56363 13.6823 8.44884 13.7265 8.32862 13.7377C8.2084 13.7489 8.08741 13.7267 7.97898 13.6736C7.87054 13.6205 7.77886 13.5385 7.71403 13.4367L4.93328 9.06603L0.562657 6.28528C0.46056 6.22051 0.378339 6.1288 0.325068 6.02026C0.271796 5.91173 0.249545 5.79058 0.260769 5.6702C0.271992 5.54981 0.316255 5.43487 0.388673 5.33805C0.46109 5.24123 0.558847 5.1663 0.671157 5.12153L13.3998 0.0316515C13.4793 -0.000362719 13.5665 -0.00830748 13.6505 0.00880418C13.7345 0.0259158 13.8116 0.0673298 13.8723 0.127902V0.127027ZM5.80653 8.81053L8.22241 12.6063L12.3638 2.25328L5.80653 8.81053ZM11.7452 1.63465L1.39216 5.77603L5.18878 8.19103L11.7452 1.63465Z"
+                              fill="white"
+                            />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_708_1426">
+                              <rect width="14" height="14" fill="white" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                      </span>
+                    </button>
+                  </div>
+                </form>
+
+                <!-- Status Message -->
+                <p
+                  id="contactStatusMessage"
+                  class="text-center mt-4 text-sm"
+                ></p>
+              </div>
+            </div>
+
+            <!-- BLUE CARD -->
+            <div class="place-self-center content-center">
+              <div
+                style="
+                  width: clamp(298px, 50vw 456px);
+                  height: clamp(363px, 40vw, 414px);
+                "
+                class="bg-primary space-y-[30px] flex flex-col justify-center w-full h-full px-7 md:px-12"
+              >
+                <a
+                  href="https://maps.app.goo.gl/wpnfKH4GK8h623wp8"
+                  target="_blank"
+                >
+                  <div
+                    class="bg-[#5881FE] py-[18px] hover:scale-105 w-full transition ease-in-out px-[14px] text-white"
+                  >
+                    <div class="flex space-x-4">
+                      <img src="../Images/Location-Blue.svg" alt="" />
+                      <div class="font-dmsans w-auto">
+                        <h2
+                          class="font-semibold lg:font-bold"
+                          style="font-size: clamp(16px, 1.823vw, 26px)"
+                        >
+                          Location
+                        </h2>
+                        <h3
+                          class="font-medium md:font-semibold lg:font-bold"
+                          style="font-size: clamp(12px, 1.823vw, 16px)"
+                        >
+                          KNUST, College Of Science
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="mailto:thecssknust@gmail.com">
+                  <div
+                    class="bg-[#5881FE] w-full py-[18px] hover:scale-105 transition ease-in-out px-[14px] text-white"
+                  >
+                    <div class="flex space-x-4">
+                      <img src="../Images/Mail-Blue.svg" alt="" />
+                      <div class="font-dmsans w-auto">
+                        <h2
+                          class="font-semibold lg:font-bold"
+                          style="font-size: clamp(16px, 1.823vw, 26px)"
+                        >
+                          Email
+                        </h2>
+                        <h3
+                          class="font-medium md:font-semibold lg:font-bold"
+                          style="font-size: clamp(12px, 1.823vw, 16px)"
+                        >
+                          thecssknust@gmail.com
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="tel:+233592348760">
+                  <div
+                    class="bg-[#5881FE] w-full py-[18px] hover:scale-105 transition ease-in-out px-[14px] text-white"
+                  >
+                    <div class="flex space-x-4">
+                      <img class="" src="../Images/Telephone-Blue.svg" alt="" />
+
+                      <div class="font-dmsans w-auto">
+                        <h2
+                          class="font-semibold lg:font-bold"
+                          style="font-size: clamp(16px, 1.823vw, 26px)"
+                        >
+                          Call Us
+                        </h2>
+                        <h3
+                          class="font-medium md:font-semibold lg:font-bold"
+                          style="font-size: clamp(12px, 1.823vw, 16px)"
+                        >
+                          (+233) 59 234 8760
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <section class="w-full bg-primary">
+      <footer class="text-white w-fit mx-auto">
+        <div
+          class="flex flex-col lg:flex-row gap-12 lg:space-x-24 py-12 md:py-16 px-5 md:mx-10"
+        >
+          <!-- CSS logo and social icons -->
+          <div class="space-y-3 lg:pt-2">
+            <a
+              href="./index.html"
+              class="flex flex-col items-center -space-y-[9px] w-fit"
+            >
+              <img
+                src="./Images/NAVLOGO.svg"
+                alt="CSS Logo"
+                class="w-[110px]"
+              />
+              <p class="text-white text-[12px]">Computer Science Society</p>
+            </a>
+            <ul class="flex items-center space-x-2">
+              <li>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100013812960949"
+                  target="_blank"
+                >
+                  <img src="./Images/footer-facebook.svg" alt="Facebook logo"
+                /></a>
+              </li>
+              <li>
+                <a href="https://x.com/thecssknust?lang=en" target="_blank">
+                  <img src="./Images/footer-x.svg" alt="X logo"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/thecssknust/"
+                  target="_blank"
+                >
+                  <img src="./Images/footer-instagram.svg" alt="Instagram logo"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/company/the-css-knust/"
+                  target="_blank"
+                >
+                  <img src="./Images/footer-linkedin.svg" alt="LinkedIn logo"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <!-- footer features -->
+          <div
+            class="footerfeatures font-dmsans font-light md:font-normal flex flex-col gap-20 md:gap-28 lg:gap-16"
+          >
+            <div class="flex gap-20 md:gap-28 lg:gap-24">
+              <!-- Socials -->
+              <div>
+                <p
+                  class="font-semibold mb-2"
+                  style="font-size: clamp(18px, 2vw, 22px)"
+                >
+                  Socials
+                </p>
+                <ul
+                  class="space-y-1"
+                  style="font-size: clamp(14px, 1.7vw, 16px)"
+                >
+                  <li
+                    class="hover:scale-105 transition ease-in-out duration-300"
+                  >
+                    <a
+                      href="https://www.instagram.com/thecssknust/"
+                      target="_blank"
+                      >Instagram</a
+                    >
+                  </li>
+                  <li
+                    class="hover:scale-105 transition ease-in-out duration-300"
+                  >
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100013812960949"
+                      target="_blank"
+                      >Facebook</a
+                    >
+                  </li>
+                  <li
+                    class="hover:scale-105 transition ease-in-out duration-300"
+                  >
+                    <a
+                      href="https://www.linkedin.com/company/the-css-knust/"
+                      target="_blank"
+                    >
+                      LinkedIn</a
+                    >
+                  </li>
+                  <li
+                    class="hover:scale-105 transition ease-in-out duration-300"
+                  >
+                    <a href="https://t.me/csresourcesbank" target="_blank"
+                      >Telegram</a
+                    >
+                  </li>
+                  <li
+                    class="hover:scale-105 transition ease-in-out duration-300"
+                  >
+                    <a href="https://x.com/thecssknust?lang=en" target="_blank">
+                      X App</a
+                    >
+                  </li>
+                  <li
+                    class="hover:scale-105 transition ease-in-out duration-300"
+                  >
+                    <a
+                      href="https://whatsapp.com/channel/0029VawygOn7dmeiVqDY4f47"
+                      target="_blank"
+                      >WhatsApp</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- Useful links -->
+              <div>
+                <p
+                  class="font-semibold mb-2"
+                  style="font-size: clamp(18px, 2vw, 22px)"
+                >
+                  Useful links
+                </p>
+                <ul
+                  class="space-y-1"
+                  style="font-size: clamp(14px, 1.7vw, 16px)"
+                >
+                  <li
+                    class="hover:scale-105 transition ease-in-out duration-300"
+                  >
+                    <a href="./index.html">Home</a>
+                  </li>
+                  <li
+                    class="hover:scale-105 transition ease-in-out duration-300"
+                  >
+                    <a href="./html/events.html">Events</a>
+                  </li>
+                  <li
+                    class="hover:scale-105 transition ease-in-out duration-300"
+                  >
+                    <a href="./html/Resouces-1.html">Resources</a>
+                  </li>
+                  <li
+                    class="hover:scale-105 transition ease-in-out duration-300"
+                  >
+                    <a href="./html/contact.html">Contact</a>
+                  </li>
+                  <li
+                    class="hover:scale-105 transition ease-in-out duration-300"
+                  >
+                    <a href="./html/membership.html"></a>Membership
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Contact Us -->
+            <div
+              style="font-size: clamp(14px, 1.7vw, 16px)"
+              class="space-y-[10px] w-[243px]"
+            >
+              <p
+                class="font-semibold"
+                style="font-size: clamp(18px, 2vw, 22px)"
+              >
+                Contact Us
+              </p>
+              <ul class="space-y-1">
+                <li>
+                  <a
+                    href="https://maps.app.goo.gl/EYaZyV8LxAptGz4A6"
+                    class="hover:underline"
+                    target="_blank"
+                  >
+                    <span class="font-medium md:font-semibold">KNUST</span>
+                    , College Of Science</a
+                  >
+                </li>
+                <li>Kumasi, Ghana</li>
+              </ul>
+              <ul class="space-y-1 pt-3">
+                <li>
+                  <span class="font-medium md:font-semibold">Phone: </span>
+                  <a href="tel:+233592348760" class="hover:underline"
+                    >+233 59 234 8760</a
+                  >
+                </li>
+                <li>
+                  <span class="font-medium md:font-semibold">Email: </span>
+                  <a href="mailto:thecssknust@gmail.com" class="hover:underline"
+                    >thecssknust@gmail.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tracking-[0.5px] border-t border-opacity-55 border-[#8FABFE] mx-14 md:mx-28 lg:mx-56 py-7 lg:py-5 text-[12px] text-center font-dmsans font-light leading-[13px]"
+        >
+          <p>
+            Designed and developed by <br />
+            BinaryBond
+          </p>
+        </div>
+      </footer>
+      <div class="w-full h-4 bg-white"></div>
+    </section>
 
     <script src="./js/aos.js"></script>
     <script src="./js/flowbite.min.js"></script>
     <script src="./js/scripts.js"></script>
-</body>
-
+  </body>
 </html>
