@@ -124,6 +124,7 @@
   </nav>
 
 
+  <!-- NAV -->
   <!-- END OF NAV -->
   <!-- HERO-SECTION -->
   <section>
@@ -132,8 +133,8 @@
       <div class=" bg-black bg-opacity-50 absolute h-full w-full"></div>
       <div
         class="absolute min-w-[298px]    text-white top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/3 space-y-[10px]   text-center">
-        <h1 class="  font-dmsans w-full font-black text-fluid1">Become A Member</h1>
-        <p class="font-montserrat w-full   text-fluid3 font-semibold leading-[13.41px] ">
+        <h1  data-aos="fade-up" data-aos-delay="100" class="  font-dmsans w-full font-black text-fluid1">Become A Member</h1>
+        <p data-aos="fade-up" data-aos-delay="100" class="font-montserrat w-full   text-fluid3 font-semibold leading-[13.41px] ">
           Be part of a group that cares for you.</p>
       </div>
 
@@ -144,11 +145,11 @@
 
   <!-- END OF HERO SECTION -->
   <!--  -->
-  <section class="relative">
+  <section class="relative mb-[400px]" data-aos="fade-up" data-aos-delay="200">
     <!-- SIGN UP CARD -->
-    <div
+    <div 
       class="w-fluid2  py-8 md:py-12 px-[27px] md:px-[84px] absolute top-1/3 -translate-y-1/3 left-1/2 transform -translate-x-1/2 bg-white rounded-[2px] shadow-custom2 ">
-      <div class="w-fit mx-auto">
+      <div class="w-fit mx-auto" >
         <img class=" mx-auto" src="../Images/css logo-bluewhite.svg" alt="">
         <p class="text-fluid7 text-center w-fluid3 leading-[9px]  text-primary">Computer Science Society</p>
       </div>
@@ -180,19 +181,19 @@
           <div class="flex items-center space-x-4 mt-1">
             <label class="inline-flex items-center">
               <input type="checkbox" name="Year Level" value="100" class="rounded-full year-level  text-blue-500">
-              <span class="ml-2 text-fluid3 text-[#C0C0C0] font-dmsans">100</span>
+              <span class="year-level ml-2 text-fluid3 text-[#C0C0C0] font-dmsans">100</span>
             </label>
             <label class="inline-flex items-center">
               <input type="checkbox" name="Year Level" value="200" class="rounded-full year-level text-blue-500">
-              <span class="ml-2 text-fluid3 text-[#C0C0C0] font-dmsans">200</span>
+              <span class="year-level ml-2 text-fluid3 text-[#C0C0C0] font-dmsans">200</span>
             </label>
             <label class="inline-flex items-center">
               <input type="checkbox" name="Year Level" value="300" class="rounded-full year-level text-blue-500">
-              <span class="ml-2 text-fluid3 text-[#C0C0C0] font-dmsans">300</span>
+              <span class="year-level ml-2 text-fluid3 text-[#C0C0C0] font-dmsans">300</span>
             </label>
             <label class="inline-flex items-center">
               <input type="checkbox" name="Year Level" value="400" class="rounded-full year-level text-blue-500">
-              <span class="ml-2 text-fluid3 text-[#C0C0C0] font-dmsans">400</span>
+              <span class="year-level ml-2 text-fluid3 text-[#C0C0C0] font-dmsans">400</span>
             </label>
           </div>
         </div>
@@ -217,7 +218,7 @@
 
       <p class="text-[#C0C0C0] w-fluid6 text-fluid7 mx-auto text-center ">By Signing Up you agree to accept and
         follow the
-        <span class="text-center text-primary text-fluid7"> <a class="underline" href="">Society
+        <span class="text-center text-primary text-fluid7"> <a class="underline" href="#guidelines">Society
             guidelines</a></span>
       </p>
 
@@ -229,8 +230,8 @@
 
   </section>
   <!--  -->
-  <div
-    class="bg-primary rounded-[17px] text-white text-center relative top-[400px] p-[45px] w-fluid7 h-fluid6 mx-auto space-y-[21px]">
+  <div id="guidelines"
+    class="bg-primary rounded-[17px] text-white text-center relative  p-[45px] w-fluid7 h-fluid6 mx-auto space-y-[21px]">
     <h1 class="text-fluid2 ">Society Guidelines</h1>
     <p class="text-fluid3 mx-auto max-w-[690px] ">Read our community guidelines ensures that all members understand what
       is expected of them in terms of
@@ -251,16 +252,16 @@
   </div>
   <!--  -->
   <section style="background-image: url(../Images/background\ element-socials.png);"
-    class="px-3 space-y-16 top-[400px] py-[60px] text-deepgrey relative">
-    <div class="text-center space-y-[6px]">
+    class=" space-y-16 pt-[60px] relative  text-deepgrey ">
+    <div class="px-3  text-center space-y-[6px]">
       <h1 class="font-dmsans font-black text-fluid2 leading-6 ">Stay Updated With Us</h1>
       <div class=" w-[19.27px] h-[3.39px] bg-primary rounded-full mx-auto"></div>
-      <p class="font-montserrat leading-[13.41px] font-semibold text-fluid3 mx-auto w-[238px]">Follow us on all
+      <p class="font-montserrat text-lightgrey leading-[13.41px] font-semibold text-fluid3 mx-auto w-[238px]">Follow us on all
         our socials for the latest news internally and externally</p>
     </div>
     <div>
       <!-- Cards -->
-      <div class="flex flex-wrap gap-[13px] mx-auto   max-w-[1270px]">
+      <div class="flex px-3 flex-wrap gap-[13px] mx-auto  max-w-[1270px]">
         <!-- 1 -->
         <div class="mx-auto w-[275px] h-fluid1  p-[33px]  bg-white border border-white rounded-[9px] shadow-custom1">
 
@@ -269,7 +270,7 @@
             <h5 class=" text-fluid6 font-semibold leading-[18.29px] font-montserrat text-deepgrey ">
               Instagram</h5>
             <span
-              class="text-fluid3 w-[203px] font-medium leading-[13.41px] text-center text-deepgrey  font-montserrat">Get
+              class="text-fluid3 w-[203px] font-medium leading-[13.41px] text-center text-lightgrey  font-montserrat">Get
               all event highlights,
               community updates,
               and tech inspiration</span>
@@ -288,7 +289,7 @@
             <img src="../Images/social-x.svg" alt="image" />
             <h5 class="  text-fluid6 font-semibold leading-[18.29px] font-montserrat text-deepgrey ">X</h5>
             <span
-              class="text-fluid3 w-[203px] font-medium leading-[13.41px]  text-center text-deepgrey  font-montserrat">Follow
+              class="text-fluid3 w-[203px] font-medium leading-[13.41px]  text-center text-lightgrey  font-montserrat">Follow
               us on X for
               essential daily updates news, and upcoming events</span>
 
@@ -307,7 +308,7 @@
             <h5 class=" text-fluid6 font-semibold leading-[18.29px] font-montserrat text-deepgrey ">LinkedIn
             </h5>
             <span
-              class="text-fluid3 w-[203px] font-medium leading-[13.41px]  text-center text-deepgrey  font-montserrat">Connect
+              class="text-fluid3 w-[203px] font-medium leading-[13.41px]  text-center text-lightgrey  font-montserrat">Connect
               with us for
               professional updates, opportunities, and industry insights</span>
 
@@ -326,7 +327,7 @@
             <h5 class=" text-fluid6 font-semibold leading-[18.29px] font-montserrat text-deepgrey ">Facebook
             </h5>
             <span
-              class="text-fluid3 w-[203px] font-medium leading-[13.41px]  text-center text-deepgrey  font-montserrat">Stay
+              class="text-fluid3 w-[203px] font-medium leading-[13.41px]  text-center text-lightgrey  font-montserrat">Stay
               connected to get live
               and exclusive content.</span>
 
@@ -339,129 +340,129 @@
         </div>
       </div>
     </div>
-  </section>
-<!-- FOOTER -->
-<section class="bg-primary w-full">
-  <footer class="text-white w-fit mx-auto">
-    <section class="w-full h-full self-center">
-      <div class="flex flex-col lg:flex-row gap-12 lg:space-x-24 py-12 md:py-16 px-5 md:mx-10">
-        <!-- CSS logo and social icons -->
-        <div class="space-y-3 lg:pt-2">
-          <a href="../index.html" class="flex flex-col items-center -space-y-[9px] w-fit">
-            <img src="../Images/NAVLOGO.svg" alt="CSS Logo" class="w-[110px]" />
-            <p class="text-white text-[12px]">Computer Science Society</p>
-          </a>
-          <ul class="flex items-center space-x-2">
-            <li>
-              <a href="https://www.facebook.com/profile.php?id=100013812960949" target="_blank">
-                <img src="../Images/footer-facebook.svg" alt="Facebook logo" /></a>
-            </li>
-            <li>
-              <a href="https://x.com/thecssknust?lang=en" target="_blank">
-                <img src="../Images/footer-x.svg" alt="X logo" /></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/thecssknust/" target="_blank">
-                <img src="../Images/footer-instagram.svg" alt="Instagram logo" /></a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/company/the-css-knust/" target="_blank">
-                <img src="../Images/footer-linkedin.svg" alt="LinkedIn logo" /></a>
-            </li>
-          </ul>
-        </div>
-        <!-- footer features -->
-        <div class="footerfeatures font-dmsans font-light md:font-normal flex flex-col gap-20 md:gap-28 lg:gap-16">
-          <div class="flex gap-20 md:gap-28 lg:gap-24">
-            <!-- Socials -->
-            <div>
-              <p class="font-semibold mb-2" style="font-size: clamp(18px, 2vw, 22px)">
-                Socials
-              </p>
-              <ul class="space-y-1" style="font-size: clamp(14px, 1.7vw, 16px)">
-                <li class="hover:scale-105 transition ease-in-out duration-300">
-                  <a href="https://www.instagram.com/thecssknust/" target="_blank">Instagram</a>
+    <section class="bg-primary w-full   ">
+      <footer class="text-white w-fit mx-auto">
+        <section class="w-full h-full self-center">
+          <div class="flex flex-col lg:flex-row gap-12 lg:space-x-24 py-12 md:py-16 px-5 md:mx-10">
+            <!-- CSS logo and social icons -->
+            <div class="space-y-3 lg:pt-2">
+              <a href="../index.html" class="flex flex-col items-center -space-y-[9px] w-fit">
+                <img src="../Images/NAVLOGO.svg" alt="CSS Logo" class="w-[110px]" />
+                <p class="text-white text-[12px]">Computer Science Society</p>
+              </a>
+              <ul class="flex items-center space-x-2">
+                <li>
+                  <a href="https://www.facebook.com/profile.php?id=100013812960949" target="_blank">
+                    <img src="../Images/footer-facebook.svg" alt="Facebook logo" /></a>
                 </li>
-                <li class="hover:scale-105 transition ease-in-out duration-300">
-                  <a href="https://www.facebook.com/profile.php?id=100013812960949" target="_blank">Facebook</a>
-                </li>
-                <li class="hover:scale-105 transition ease-in-out duration-300">
-                  <a href="https://www.linkedin.com/company/the-css-knust/" target="_blank">
-                    LinkedIn</a>
-                </li>
-                <li class="hover:scale-105 transition ease-in-out duration-300">
-                  <a href="https://t.me/csresourcesbank" target="_blank">Telegram</a>
-                </li>
-                <li class="hover:scale-105 transition ease-in-out duration-300">
+                <li>
                   <a href="https://x.com/thecssknust?lang=en" target="_blank">
-                    X App</a>
+                    <img src="../Images/footer-x.svg" alt="X logo" /></a>
                 </li>
-                <li class="hover:scale-105 transition ease-in-out duration-300">
-                  <a href="https://whatsapp.com/channel/0029VawygOn7dmeiVqDY4f47" target="_blank">WhatsApp</a>
+                <li>
+                  <a href="https://www.instagram.com/thecssknust/" target="_blank">
+                    <img src="../Images/footer-instagram.svg" alt="Instagram logo" /></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/company/the-css-knust/" target="_blank">
+                    <img src="../Images/footer-linkedin.svg" alt="LinkedIn logo" /></a>
                 </li>
               </ul>
             </div>
-            <!-- Useful links -->
-            <div class="w-[120px]">
-              <p class="font-semibold mb-2" style="font-size: clamp(18px, 2vw, 22px)">
-                Useful links
-              </p>
-              <ul class="space-y-1" style="font-size: clamp(14px, 1.7vw, 16px)">
-                <li class="hover:scale-105 transition ease-in-out duration-300">
-                  <a href="../index.html">Home</a>
-                </li>
-                <li class="hover:scale-105 transition ease-in-out duration-300">
-                  <a href="./events.html">Events</a>
-                </li>
-                <li class="hover:scale-105 transition ease-in-out duration-300">
-                  <a href="./Resouces-1.html">Resources</a>
-                </li>
-                <li class="hover:scale-105 transition ease-in-out duration-300">
-                  <a href="./contact.html">Contact</a>
-                </li>
-                <li class="hover:scale-105 transition ease-in-out duration-300">
-                  <a href="./membership.html"></a>Membership
-                </li>
-              </ul>
+            <!-- footer features -->
+            <div class="footerfeatures font-dmsans font-light md:font-normal flex flex-col gap-20 md:gap-28 lg:gap-16">
+              <div class="flex gap-20 md:gap-28 lg:gap-24">
+                <!-- Socials -->
+                <div>
+                  <p class="font-semibold mb-2" style="font-size: clamp(18px, 2vw, 22px)">
+                    Socials
+                  </p>
+                  <ul class="space-y-1" style="font-size: clamp(14px, 1.7vw, 16px)">
+                    <li class="hover:scale-105 transition ease-in-out duration-300">
+                      <a href="https://www.instagram.com/thecssknust/" target="_blank">Instagram</a>
+                    </li>
+                    <li class="hover:scale-105 transition ease-in-out duration-300">
+                      <a href="https://www.facebook.com/profile.php?id=100013812960949" target="_blank">Facebook</a>
+                    </li>
+                    <li class="hover:scale-105 transition ease-in-out duration-300">
+                      <a href="https://www.linkedin.com/company/the-css-knust/" target="_blank">
+                        LinkedIn</a>
+                    </li>
+                    <li class="hover:scale-105 transition ease-in-out duration-300">
+                      <a href="https://t.me/csresourcesbank" target="_blank">Telegram</a>
+                    </li>
+                    <li class="hover:scale-105 transition ease-in-out duration-300">
+                      <a href="https://x.com/thecssknust?lang=en" target="_blank">
+                        X App</a>
+                    </li>
+                    <li class="hover:scale-105 transition ease-in-out duration-300">
+                      <a href="https://whatsapp.com/channel/0029VawygOn7dmeiVqDY4f47" target="_blank">WhatsApp</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- Useful links -->
+                <div class="w-[120px]">
+                  <p class="font-semibold mb-2" style="font-size: clamp(18px, 2vw, 22px)">
+                    Useful links
+                  </p>
+                  <ul class="space-y-1" style="font-size: clamp(14px, 1.7vw, 16px)">
+                    <li class="hover:scale-105 transition ease-in-out duration-300">
+                      <a href="../index.html">Home</a>
+                    </li>
+                    <li class="hover:scale-105 transition ease-in-out duration-300">
+                      <a href="./events.html">Events</a>
+                    </li>
+                    <li class="hover:scale-105 transition ease-in-out duration-300">
+                      <a href="./Resouces-1.html">Resources</a>
+                    </li>
+                    <li class="hover:scale-105 transition ease-in-out duration-300">
+                      <a href="./contact.html">Contact</a>
+                    </li>
+                    <li class="hover:scale-105 transition ease-in-out duration-300">
+                      <a href="./membership.html"></a>Membership
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Contact Us -->
+              <div style="font-size: clamp(14px, 1.7vw, 16px)" class="space-y-[10px] w-[243px]">
+                <p class="font-semibold" style="font-size: clamp(18px, 2vw, 22px)">
+                  Contact Us
+                </p>
+                <ul class="space-y-1">
+                  <li>
+                    <a href="https://maps.app.goo.gl/EYaZyV8LxAptGz4A6" class="hover:underline" target="_blank">
+                      <span class="font-medium md:font-semibold">KNUST</span>
+                      , College Of Science</a>
+                  </li>
+                  <li>Kumasi, Ghana</li>
+                </ul>
+                <ul class="space-y-1 pt-3">
+                  <li>
+                    <span class="font-medium md:font-semibold">Phone: </span>
+                    <a href="tel:+233592348760" class="hover:underline">+233 59 234 8760</a>
+                  </li>
+                  <li>
+                    <span class="font-medium md:font-semibold">Email: </span>
+                    <a href="mailto:thecssknust@gmail.com" class="hover:underline">thecssknust@gmail.com</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-          <!-- Contact Us -->
-          <div style="font-size: clamp(14px, 1.7vw, 16px)" class="space-y-[10px] w-[243px]">
-            <p class="font-semibold" style="font-size: clamp(18px, 2vw, 22px)">
-              Contact Us
+          <div
+            class="tracking-[0.5px] border-t border-opacity-55 border-[#8FABFE] mx-14 md:mx-28 lg:mx-56 py-7 lg:py-5 text-[12px] text-center font-dmsans font-light leading-[13px]">
+            <p>
+              Designed and developed by <br />
+              BinaryBond
             </p>
-            <ul class="space-y-1">
-              <li>
-                <a href="https://maps.app.goo.gl/EYaZyV8LxAptGz4A6" class="hover:underline" target="_blank">
-                  <span class="font-medium md:font-semibold">KNUST</span>
-                  , College Of Science</a>
-              </li>
-              <li>Kumasi, Ghana</li>
-            </ul>
-            <ul class="space-y-1 pt-3">
-              <li>
-                <span class="font-medium md:font-semibold">Phone: </span>
-                <a href="tel:+233592348760" class="hover:underline">+233 59 234 8760</a>
-              </li>
-              <li>
-                <span class="font-medium md:font-semibold">Email: </span>
-                <a href="mailto:thecssknust@gmail.com" class="hover:underline">thecssknust@gmail.com</a>
-              </li>
-            </ul>
           </div>
-        </div>
-      </div>
-      <div
-        class="tracking-[0.5px] border-t border-opacity-55 border-[#8FABFE] mx-14 md:mx-28 lg:mx-56 py-7 lg:py-5 text-[12px] text-center font-dmsans font-light leading-[13px]">
-        <p>
-          Designed and developed by <br />
-          BinaryBond
-        </p>
-      </div>
+        </section>
+      </footer>
+      <div class="w-full h-4 bg-white"></div>
     </section>
-  </footer>
-  <div class="w-full h-4 bg-white"></div>
-</section>
+  </section>
+
   <script src="../js/aos.js"></script>
   <script src="../js/flowbite.min.js"></script>
   <script src="../js/scripts.js"></script>
