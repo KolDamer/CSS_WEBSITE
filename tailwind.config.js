@@ -61,7 +61,7 @@ module.exports = {
       width: {
         fluid1: "clamp(91px, 15vw, 107px)",
         fluid2: "clamp(287px, 45vw, 525px)", //sign up card
-        fluid3: "clamp(62px, 45vw, 82px)", //css logo base textbox
+        fluid3: "clamp(82px, 15vw, 140px)", //css logo base textbox
         fluid4: "clamp(62px, 15vw, 77px)",
         fluid5: "clamp(19px, 2vw, 24px)", //form button svg
         fluid6: "clamp(232px, 15vw, 334px)",
