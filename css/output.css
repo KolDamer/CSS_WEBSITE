@@ -1422,10 +1422,6 @@ input:checked + .toggle-bg {
   top: 217px;
 }
 
-.top-\[400px\] {
-  top: 400px;
-}
-
 .-z-0 {
   z-index: 0;
 }
@@ -2584,7 +2580,7 @@ input:checked + .toggle-bg {
 }
 
 .w-fluid3 {
-  width: clamp(62px, 45vw, 82px);
+  width: clamp(82px, 15vw, 140px);
 }
 
 .w-fluid5 {
@@ -2716,10 +2712,6 @@ input:checked + .toggle-bg {
   max-width: 384px;
 }
 
-.max-w-\[456px\] {
-  max-width: 456px;
-}
-
 .max-w-\[460px\] {
   max-width: 460px;
 }
@@ -2738,10 +2730,6 @@ input:checked + .toggle-bg {
 
 .max-w-\[580px\] {
   max-width: 580px;
-}
-
-.max-w-\[646px\] {
-  max-width: 646px;
 }
 
 .max-w-\[678px\] {
@@ -2798,6 +2786,14 @@ input:checked + .toggle-bg {
 
 .max-w-xs {
   max-width: 20rem;
+}
+
+.max-w-\[456px\] {
+  max-width: 456px;
+}
+
+.max-w-\[646px\] {
+  max-width: 646px;
 }
 
 .flex-1 {
@@ -5791,12 +5787,12 @@ input:checked + .toggle-bg {
   padding-top: 30px;
 }
 
-.pt-\[81px\] {
-  padding-top: 81px;
-}
-
 .pt-\[60px\] {
   padding-top: 60px;
+}
+
+.pt-\[81px\] {
+  padding-top: 81px;
 }
 
 .text-left {
@@ -7369,11 +7365,6 @@ input:checked + .toggle-bg {
     padding-right: 3rem;
   }
 
-  .md\:px-14 {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
-  }
-
   .md\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -7437,6 +7428,11 @@ input:checked + .toggle-bg {
   .md\:py-\[93px\] {
     padding-top: 93px;
     padding-bottom: 93px;
+  }
+
+  .md\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
   }
 
   .md\:pb-3 {
