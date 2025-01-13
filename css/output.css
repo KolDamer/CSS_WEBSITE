@@ -2788,6 +2788,14 @@ input:checked + .toggle-bg {
   max-width: 20rem;
 }
 
+.max-w-\[456px\] {
+  max-width: 456px;
+}
+
+.max-w-\[646px\] {
+  max-width: 646px;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -7279,6 +7287,22 @@ input:checked + .toggle-bg {
     min-width: 294px;
   }
 
+  .md\:min-w-\[456px\] {
+    min-width: 456px;
+  }
+
+  .md\:min-w-\[646px\] {
+    min-width: 646px;
+  }
+
+  .md\:max-w-\[456px\] {
+    max-width: 456px;
+  }
+
+  .md\:max-w-\[710px\] {
+    max-width: 710px;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -7404,6 +7428,11 @@ input:checked + .toggle-bg {
   .md\:py-\[93px\] {
     padding-top: 93px;
     padding-bottom: 93px;
+  }
+
+  .md\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
   }
 
   .md\:pb-3 {
