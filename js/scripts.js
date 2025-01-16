@@ -1,3 +1,5 @@
+
+
 AOS.init();
 // Scroll effect on navbar
 document.addEventListener("scroll", () => {
@@ -10,6 +12,7 @@ document.addEventListener("scroll", () => {
     navbar.classList.remove("bg-[#161616]");
   }
 });
+
 
 // when outside is clicked the nav menu vanishes
 const toggleButton = document.getElementById("menu-toggle");
@@ -98,8 +101,8 @@ document.addEventListener("DOMContentLoaded", () => {
       const result = await response.json();
 
       if (result.result === "success") {
-        contactStatusMessage.textContent =
-          "Thank you for contacting us! We'll respond soon.";
+  alert("Thank you for contacting us! We'll respond soon.");
+       
         contactStatusMessage.className =
           "text-center mt-4 text-green-600 text-sm";
         contactForm.reset(); // Reset the form
@@ -145,8 +148,8 @@ form.addEventListener("submit", async (event) => {
     const result = await response.json();
 
     if (result.result === "success") {
-      statusMessage.textContent =
-        "Congratulations!! You are now a member of the KNUST CSS";
+      alert("Congratulations!! You are now a member of the KNUST CSS");
+      
       statusMessage.className = "text-center mt-4 text-green-600 text-sm";
       form.reset(); // Reset form fields
     } else {
