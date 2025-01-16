@@ -170,11 +170,6 @@ html {
     align-items: start;
   }
 }
-.carousel-indicators .active {
-  background-color: white;
-  height: 10px;
-  width: 10px;
-}
 
 /* FAQ */
 [data-accordion-icon] > svg {
@@ -252,44 +247,94 @@ html {
   gap: 40px;
 }
 
-.commbutton:hover{
-background-color: #5ACF87;
+.commbutton:hover {
+  background-color: #5acf87;
 }
-.commbutton{
-    background-color: #22BA5C;
+.commbutton {
+  background-color: #22ba5c;
 }
-.teleButton{
-    background-color: #22A4C8;
+.teleButton {
+  background-color: #22a4c8;
 }
-.teleButton:hover{
-    background-color: #5CB8D1;
-}
-
-.binarybtn{
-    background-color: black;
-}
-.binarybtn:hover{
-    background-color: #343434;
-}
-.zaptekbtn{
-    background-color: #A272FF;
-}
-.zaptekbtn:hover{
-    background-color:#A97DFF ;
-}
-.whatsappbtn{
-    background-color: #22BA5C;
-}
-.whatsappbtn:hover{
-    background-color: #5ACF87;
-}
-.Telegrambtn{
-    background-color: #22A4C8;
-}
-.Telegrambtn:hover{
-    background-color: #5CB8D1;
+.teleButton:hover {
+  background-color: #5cb8d1;
 }
 
+.binarybtn {
+  background-color: black;
+}
+.binarybtn:hover {
+  background-color: #343434;
+}
+.zaptekbtn {
+  background-color: #a272ff;
+}
+.zaptekbtn:hover {
+  background-color: #a97dff;
+}
+.whatsappbtn {
+  background-color: #22ba5c;
+}
+.whatsappbtn:hover {
+  background-color: #5acf87;
+}
+.Telegrambtn {
+  background-color: #22a4c8;
+}
+.Telegrambtn:hover {
+  background-color: #5cb8d1;
+}
+
+/* CAROUSEL */
+.slider {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: clamp(330px, 55vw, 450px);
+}
+
+.item {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+  left: calc(50% - 110px);
+  top: 0;
+}
+
+@media (min-width: 1024px) {
+  .item {
+    left: calc(50% - 140px);
+  }
+}
+#next,
+#prev {
+  position: absolute;
+  top: 40%;
+  left: 3%;
+}
+@media (min-width: 600px) {
+  #next,
+  #prev {
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 3%;
+  }
+  #nextsm,
+  #prevsm {
+    display: none;
+  }
+  .slider {
+    width: 80%;
+  }
+}
+
+#next {
+  left: unset;
+  right: 3%;
+}
 .sidebarbtn{
   background-color: #161616;
   opacity: 0.6;
