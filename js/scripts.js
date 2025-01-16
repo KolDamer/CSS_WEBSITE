@@ -22,114 +22,58 @@ document.addEventListener("click", (event) => {
   }
 });
 
-// Carousel JS Code
-const carouselItems = document.getElementById("carouselItems");
-const prevButton = document.getElementById("prevButton");
-const nextButton = document.getElementById("nextButton");
+// Carousel JS code
+let items = document.querySelectorAll(".slider .item");
+let next = document.getElementById("next");
+let prev = document.getElementById("prev");
+let nextsm = document.getElementById("nextsm");
+let prevsm = document.getElementById("prevsm");
 
-let currentIndex = 0;
-let itemsToShow = 1;
-
-// Determine items to show based on screen width
-function updateItemsToShow() {
-  if (window.innerWidth >= 1024) {
-    // large screens
-    itemsToShow = 3;
-  } else if (window.innerWidth >= 768) {
-    // medium screens
-    itemsToShow = 2;
-  } else {
-    // small screens
-    itemsToShow = 1;
+let active = 3;
+function loadShow() {
+  let stt = 0;
+  items[active].style.transform = `none`;
+  items[active].style.zIndex = 1;
+  items[active].style.filter = "none";
+  items[active].style.opacity = 1;
+  for (var i = active + 1; i < items.length; i++) {
+    stt++;
+    items[i].style.transform = `translateX(${180 * stt}px) scale(${
+      1 - 0.2 * stt
+    }) perspective(16px) rotateY(0deg)`;
+    items[i].style.zIndex = -stt;
+    items[i].style.filter = "blur(1px)";
+    items[i].style.opacity = stt > 2 ? 0 : 0.6;
   }
-  moveCarousel();
-  updateButtonColors();
-}
-
-// Update button colors based on the current index
-function updateButtonColors() {
-  const totalItems = carouselItems.children.length;
-
-  if (currentIndex === 0) {
-    prevButton.classList.add();
-    prevButton.classList.remove();
-  } else {
-    prevButton.classList.remove();
-    prevButton.classList.add();
-  }
-
-  if (currentIndex >= totalItems - itemsToShow) {
-    nextButton.classList.add();
-    nextButton.classList.remove();
-  } else {
-    nextButton.classList.remove();
-    nextButton.classList.add();
+  stt = 0;
+  for (var i = active - 1; i >= 0; i--) {
+    stt++;
+    items[i].style.transform = `translateX(${-180 * stt}px) scale(${
+      1 - 0.2 * stt
+    }) perspective(16px) rotateY(0deg)`;
+    items[i].style.zIndex = -stt;
+    items[i].style.filter = "blur(1px)";
+    items[i].style.opacity = stt > 2 ? 0 : 0.6;
   }
 }
+loadShow();
+next.onclick = function () {
+  active = active + 1 < items.length ? active + 1 : active;
+  loadShow();
+};
+prev.onclick = function () {
+  active = active - 1 >= 0 ? active - 1 : active;
+  loadShow();
+};
 
-// Move carousel based on current index and items to show
-function moveCarousel() {
-  const width = carouselItems.children[0].offsetWidth;
-  carouselItems.style.transform = `translateX(-${currentIndex * width}px)`;
-}
-
-// Looping functionality in Button click events
-prevButton.addEventListener("click", () => {
-  const totalItems = carouselItems.children.length;
-  currentIndex = currentIndex > 0 ? currentIndex - 1 : totalItems - itemsToShow;
-  moveCarousel();
-  updateButtonColors();
-});
-
-nextButton.addEventListener("click", () => {
-  const totalItems = carouselItems.children.length;
-  currentIndex = currentIndex < totalItems - itemsToShow ? currentIndex + 1 : 0;
-  moveCarousel();
-  updateButtonColors();
-});
-
-// Resize listener to update items to show on window resize
-window.addEventListener("resize", updateItemsToShow);
-
-// Initialize the carousel
-updateItemsToShow();
-
-// indicators
-const items = document.querySelectorAll(".carousel-item");
-const indicators = document.querySelectorAll(".indicator");
-
-let recentIndex = 0;
-
-function updateCarousel(index) {
-  // Update active class on carousel items
-  items.forEach((item, i) => {
-    item.classList.toggle("active", i === index);
-  });
-
-  // Update active class on indicators
-  indicators.forEach((indicator, i) => {
-    indicator.classList.toggle("active", i === index);
-    // Remove active class from all
-    indicator.classList.remove("active");
-
-    // Add active class only to the current index
-    if (i === index) {
-      indicator.classList.add("active");
-    }
-  });
-
-  // Slide to the selected item
-  const carouselItems = document.querySelector(".carousel-items");
-  carouselItems.style.transform = `translateX(-${index * 100}%)`;
-}
-
-// Add click event to indicators
-indicators.forEach((indicator, index) => {
-  indicator.addEventListener("click", () => {
-    recentIndex = index;
-    updateCarousel(recentIndex);
-  });
-});
+nextsm.onclick = function () {
+  active = active + 1 < items.length ? active + 1 : active;
+  loadShow();
+};
+prevsm.onclick = function () {
+  active = active - 1 >= 0 ? active - 1 : active;
+  loadShow();
+};
 
 // **//
 document.addEventListener("DOMContentLoaded", () => {
@@ -171,8 +115,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
-
-
 
 //  /////////////////////////////////////////////////
 const form = document.getElementById("membershipForm");
