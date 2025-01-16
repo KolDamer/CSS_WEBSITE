@@ -289,3 +289,8 @@ background-color: #5ACF87;
 .Telegrambtn:hover{
     background-color: #5CB8D1;
 }
+
+.sidebarbtn{
+  background-color: #161616;
+  opacity: 0.6;
+}

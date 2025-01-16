@@ -11,6 +11,7 @@ document.addEventListener("scroll", () => {
   }
 });
 
+
 // when outside is clicked the nav menu vanishes
 const toggleButton = document.getElementById("menu-toggle");
 const navMenu = document.getElementById("navbar-sticky");
