@@ -15,15 +15,18 @@
     />
   </head>
 
-<body class=" lg:pl-96 bg-[#F4F7FF]">
-
-<button data-drawer-target="logo-sidebar" data-drawer-toggle="logo-sidebar" aria-controls="logo-sidebar" type="button"
-    class="inline-flex fixed sidebarbtn  z-40 top-[72px] rounded-tr-lg rounded-br-lg   items-center py-2 mt-2 pl-5 pr-3 md:ml-6  text-sm text-gray-500  lg:hidden  hover:bg-gray-100  ">
-    <span class="sr-only">Open sidebar</span>
-    <i class="fa-solid fa-chevron-right text-white text-xl"></i>
-    <!-- <i class="fa-solid fa-list-ul text-white text-2xl"></i> -->
-
-</button>
+  <body class="bg-[#F4F7FF]">
+    <button
+      data-drawer-target="logo-sidebar"
+      data-drawer-toggle="logo-sidebar"
+      aria-controls="logo-sidebar"
+      type="button"
+      class="inline-flex fixed sidebarbtn z-40 top-[82px] rounded-tr-full rounded-br-full items-center py-2 mt-2 pl-5 pr-3 text-sm text-gray-500 lg:hidden hover:bg-gray-700"
+    >
+      <span class="sr-only">Open sidebar</span>
+      <i class="fa-solid fa-chevron-right text-white text-xl"></i>
+      <!-- <i class="fa-solid fa-list-ul text-white text-2xl"></i> -->
+    </button>
 
     <aside
       id="logo-sidebar"
@@ -94,7 +97,7 @@
       </div>
     </aside>
 
-    <div class="bg-[#F4F7FF] relative">
+    <div class="lg:w-[calc(100%-24rem)] relative lg:float-right">
       <!-- NAVBAR -->
       <nav
         class="navbar bg-transparent bg-opacity-60 backdrop-blur-[1px] fixed w-[100%] lg:w-[calc(100%-24rem)] lg:right-0 z-10 top-0 md:px-5"
@@ -102,12 +105,23 @@
         <div
           class="navinner max-w-screen-xl p-4 min-w-[320px] flex flex-wrap items-center justify-between mx-auto py-4"
         >
-          <a href="../index.html" class="flex items-center space-x-3">
-            <img
-              src="../Images/csslogo.svg"
-              alt="CSS Logo"
-              class="items-center w-14"
-          /></a>
+        <!-- navlogo -->
+        <a
+          href="../index.html"
+          class="h-full rtl:space-x-reverse"
+        >
+          <img
+            src="../Images/NAVLOGO.svg"
+            alt="CSS Logo"
+            class="items-center w-14 md:hidden"
+          />
+          <img
+            src="../Images/NAVLOGO.svg"
+            alt="CSS Logo"
+            class="items-center w-[68px] hidden md:flex"
+          />
+        </a>
+          
           <!-- dark mode, join us & button -->
           <div
             class="flex items-center lg:order-2 space-x-2 md:space-x-4 lg:space-x-0 rtl:space-x-reverse"
@@ -152,13 +166,13 @@
             id="navbar-sticky"
           >
             <ul
-              class="rounded-md navlinks text-white text-[14px] md:text-[16px] lg:text-[16.5px] space-y-3 font-dmsans text-center flex flex-col p-4 mt-4 font-normal bg-primary rtl:space-x-reverse"
+              class="rounded-md navlinks text-white text-[14px] md:text-[16px] lg:text-[16.5px] font-dmsans text-center flex flex-col p-4 mt-4 font-normal bg-primary rtl:space-x-reverse"
             >
               <!-- Home -->
-              <li>
+            <li class="w-full">
                 <a
                   href="../index.html"
-                  class="block w-fit mx-auto transition ease-in-out hover:scale-110 lg:hover:scale-105 py-2 px-3 lg:p-0 rounded"
+                  class="block mx-auto hover:scale-110 transition ease-in-out py-2 px-3 rounded"
                   >Home
                   <svg
                     width="16"
@@ -176,10 +190,10 @@
                 </a>
               </li>
               <!-- Events -->
-              <li>
+            <li class="w-full">
                 <a
                   href="./events.html"
-                  class="block lg:flex lg:flex-col items-center w-fit mx-auto scale-110 lg:scale-100 py-2 px-3 lg:p-0 lg:bg-transparent"
+                  class="block lg:flex hover:scale-110 lg:flex-col items-center mx-auto py-2 px-3"
                   aria-current="page"
                   >Events
                   <svg
@@ -198,10 +212,10 @@
                 </a>
               </li>
               <!-- Resources -->
-              <li>
+            <li class="w-full">
                 <a
                   href="./Resouces-1.html"
-                  class="block w-fit mx-auto transition ease-in-out hover:scale-110 lg:hover:scale-105 py-2 px-3 lg:p-0"
+                  class="block mx-auto transition ease-in-out scale-110 py-2 px-3"
                   >Resources
                   <svg
                     width="16"
@@ -219,10 +233,10 @@
                 </a>
               </li>
               <!-- Contact -->
-              <li>
+            <li class="w-full">
                 <a
                   href="./contact.html"
-                  class="block w-fit mx-auto transition ease-in-out hover:scale-110 lg:hover:scale-105 py-2 px-3 lg:p-0"
+                  class="block mx-auto hover:scale-110 transition ease-in-out py-2 px-3"
                   >Contact
                   <svg
                     width="16"
@@ -240,10 +254,10 @@
                 </a>
               </li>
               <!-- Membership -->
-              <li>
+            <li class="w-full">
                 <a
                   href="./membership.html"
-                  class="block w-fit mx-auto transition ease-in-out hover:scale-110 lg:hover:scale-105 py-2 px-3 lg:p-0 rounded"
+                  class="block mx-auto hover:scale-110 transition ease-in-out py-2 px-3 rounded"
                   >Membership
                   <svg
                     width="16"
@@ -279,7 +293,7 @@
         </div>
       </nav>
       <!-- HERO-SECTION -->
-      <section class="">
+      <section>
         <div class="h-[387px] relative">
           <div class="bg-black bg-opacity-50 absolute h-full w-full"></div>
           <div
@@ -288,14 +302,14 @@
             <h1
               data-aos="fade-up"
               data-aos-delay="100"
-              class="font-dmsans min-w-[298px] font-bold text-fluid1"
+              class="font-dmsans min-w-[298px] lg:w-[450px] font-extrabold text-fluid1"
             >
               Resources Hub
             </h1>
             <p
               data-aos="fade-up"
               data-aos-delay="100"
-              class="font-montserrat w-[228px] mx-auto md:w-full text-fluid3 font-medium leading-[15px] md:leading-[17px]"
+              class="font-montserrat w-[228px] mx-auto md:w-[320px] text-fluid3 font-medium leading-[15px] md:leading-[17px]"
             >
               Simplifying your learning journey with easy-to-use tools and
               guides
@@ -313,9 +327,9 @@
       <!-- END OF HERO SECTION -->
       <!--  -->
       <section
-        class="py-[63px] md:py-[93px] lg:pl-[2%] w-fit xl:pl-[10%] text-deepgrey space-y-[59px]"
+        class="py-[63px] md:py-[93px] w-fit px-[12px] mx-auto text-deepgrey space-y-[59px]"
       >
-        <div class="max-w-[523px] px-[16px] space-y-[9px]">
+        <div class="max-w-[523px] pl-3 space-y-[9px]">
           <span>
             <h1 class="text-fluid10 font-medium text-primary font-montserrat">
               Udemy Courses
@@ -330,7 +344,7 @@
             that at your own pace.
           </p>
         </div>
-        <div class="space-y-[4px] px-[16px] max-w-[678px]">
+        <div class="space-y-[4px] pl-3 max-w-[678px]">
           <div class="space-y-1">
             <div class="w-[19.27px] h-[3.39px] rounded-full bg-primary"></div>
             <h1 class="font-black font-dmsans text-fluid11">
@@ -349,18 +363,20 @@
           </p>
         </div>
         <div
-          class="w-fluid18 mx-auto rounded-[28px] bg-white"
+          style="width: clamp(290px, 60vw, 912px)"
+          class="mx-auto rounded-[28px] bg-white"
           style="background-image: url(../Images/commCardsBg.png)"
         >
           <!-- Cards -->
           <div
-            class="grid grid-cols-1 mt-[67px] gap-[78px] w-fit mx-auto md:mx-0 py-[67px] px-[16px]"
+            class="grid grid-cols-1 mt-[67px] gap-[78px] w-fit mx-auto md:mx-0 py-[67px]"
           >
             <!-- 1 -->
             <div
               data-aos="fade-up"
               data-aos-delay="100"
-              class="w-fluid16 flex flex-col mx-auto rounded-[23px] shadow-custom2 text-center overflow-clip pb-[40px] bg-white"
+              style="width: clamp(280px, 55vw, 674px)"
+              class="flex flex-col mx-auto rounded-[23px] shadow-custom2 text-center overflow-clip pb-[40px] bg-white"
             >
               <div class="w-full h-[248px] mb-[37px]">
                 <img
@@ -369,7 +385,10 @@
                   alt=""
                 />
               </div>
-              <div class="w-fluid15 space-y-2 mx-auto mb-[11px]">
+              <div
+                style="width: clamp(220px, 50vw, 580px)"
+                class="w-fluid15 space-y-2 mx-auto mb-[11px]"
+              >
                 <div class="space-y-[11px]">
                   <h1 class="text-fluid2 font-montserrat font-bold">
                     UDEMY COUPON CODES || Free Courses
@@ -430,7 +449,8 @@
             <div
               data-aos="fade-up"
               data-aos-delay="200"
-              class="w-fluid16 flex flex-col mx-auto rounded-[23px] shadow-custom2 text-center overflow-clip pb-[40px] bg-white"
+              style="width: clamp(280px, 55vw, 674px)"
+              class="flex flex-col mx-auto rounded-[23px] shadow-custom2 text-center overflow-clip pb-[40px] bg-white"
             >
               <div class="w-full h-[248px] mb-[37px]">
                 <img
@@ -439,7 +459,10 @@
                   alt=""
                 />
               </div>
-              <div class="w-fluid15 space-y-2 mx-auto mb-[11px]">
+              <div
+                style="width: clamp(220px, 50vw, 580px)"
+                class="space-y-2 mx-auto mb-[11px]"
+              >
                 <div class="space-y-[11px]">
                   <h1 class="text-fluid2 font-montserrat font-bold">
                     Skill Up With AgyemangDev
@@ -501,7 +524,7 @@
           </div>
           <!--  -->
           <div class="w-fit mx-auto text-center px-5 pb-[33px]">
-            <p class="text-lightgrey font-montserrat font-medium text-fluid5">
+            <p class="text-lightgrey font-montserratn font-medium text-fluid5">
               <span class="text-primary underline"
                 ><a href="./contact.html">Need Help?</a></span
               >
@@ -511,14 +534,15 @@
         </div>
       </section>
     </div>
+
+    <!-- FOOTER -->
     <section class="bg-primary w-full">
-      <footer class="text-white w-fit mx-auto">
-        <section class="w-full h-full self-center">
+      <footer class="text-white w-fit lg:w-[calc(100%-24rem)] bg-primary mx-auto lg:float-right">
           <div
-            class="flex flex-col lg:flex-row gap-12 lg:space-x-24 py-12 md:py-16 px-5 md:mx-10"
+            class="resourcefooter gap-12 w-fit mx-auto xl:flex-row py-12 md:py-16 lg:px-14 md:mx-10"
           >
             <!-- CSS logo and social icons -->
-            <div class="space-y-3 lg:pt-2">
+            <div class="space-y-3 lg:pt-2 w-fit">
               <a
                 href="../index.html"
                 class="flex flex-col items-center -space-y-[9px] w-fit"
@@ -572,9 +596,9 @@
             </div>
             <!-- footer features -->
             <div
-              class="footerfeatures font-dmsans font-light md:font-normal flex flex-col gap-20 md:gap-28 lg:gap-16"
+              class="footerfeatures lg:flex-wrap font-dmsans font-light md:font-normal flex flex-col gap-20 md:gap-28 lg:gap-8"
             >
-              <div class="flex gap-20 md:gap-28 lg:gap-24">
+              <div class="flex gap-20 md:gap-28 lg:gap-16">
                 <!-- Socials -->
                 <div>
                   <p
@@ -726,6 +750,7 @@
               </div>
             </div>
           </div>
+          
           <div
             class="tracking-[0.5px] border-t border-opacity-55 border-[#8FABFE] mx-14 md:mx-28 lg:mx-56 py-7 lg:py-5 text-[12px] text-center font-dmsans font-light leading-[13px]"
           >
@@ -734,7 +759,6 @@
               BinaryBond
             </p>
           </div>
-        </section>
       </footer>
       <div class="w-full h-4 bg-white"></div>
     </section>
