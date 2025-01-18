@@ -120,45 +120,32 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 //  /////////////////////////////////////////////////
-const form = document.getElementById("membershipForm");
-const statusMessage = document.getElementById("statusMessage");
+document.addEventListener("DOMContentLoaded", () => {
+  const membershipForm = document.getElementById("membershipForm");
 
-form.addEventListener("submit", async (event) => {
-  event.preventDefault(); // Prevent form redirection
+  membershipForm.addEventListener("submit", async (event) => {
+    event.preventDefault(); // Prevent form redirection
 
-  // Validate year-level input
-  const yearInputs = document.querySelectorAll('input[name="Year Level"]');
-  const isYearChecked = Array.from(yearInputs).some((input) => input.checked);
+    const formData = new FormData(membershipForm);
+    const actionUrl = membershipForm.getAttribute("action"); // The Google Apps Script URL
 
-  if (!isYearChecked) {
-    statusMessage.textContent = "Please select your year level.";
-    statusMessage.className = "text-center mt-4 text-red-600 text-sm";
-    return; // Stop form submission
-  }
+    try {
+      const response = await fetch(actionUrl, {
+        method: "POST",
+        body: formData,
+      });
 
-  // Collect form data
-  const formData = new FormData(form);
+      const result = await response.json(); // Parse the JSON response
 
-  try {
-    const response = await fetch(form.action, {
-      method: "POST",
-      body: formData,
-    });
-
-    const result = await response.json();
-
-    if (result.result === "success") {
-      alert("Congratulations!! You are now a member of the KNUST CSS");
-      
-      statusMessage.className = "text-center mt-4 text-green-600 text-sm";
-      form.reset(); // Reset form fields
-    } else {
-      statusMessage.textContent = `Error: ${result.error}`;
-      statusMessage.className = "text-center mt-4 text-red-600 text-sm";
+      // Check if the form was successfully submitted
+      if (result.result === "success") {
+        alert("Congratulations!! You are now a member of the KNUST CSS.");
+        membershipForm.reset(); // Reset the form
+      } else {
+        alert(`Error: ${result.error}`);
+      }
+    } catch (error) {
+      alert("An unexpected error occurred. Please try again.");
     }
-  } catch (error) {
-    statusMessage.textContent =
-      "An unexpected error occurred. Please try again.";
-    statusMessage.className = "text-center mt-4 text-red-600 text-sm";
-  }
+  });
 });
