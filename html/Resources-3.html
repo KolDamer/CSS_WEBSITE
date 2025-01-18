@@ -105,23 +105,20 @@
         <div
           class="navinner max-w-screen-xl p-4 min-w-[320px] flex flex-wrap items-center justify-between mx-auto py-4"
         >
-        <!-- navlogo -->
-        <a
-          href="../index.html"
-          class="h-full rtl:space-x-reverse"
-        >
-          <img
-            src="../Images/NAVLOGO.svg"
-            alt="CSS Logo"
-            class="items-center w-14 md:hidden"
-          />
-          <img
-            src="../Images/NAVLOGO.svg"
-            alt="CSS Logo"
-            class="items-center w-[68px] hidden md:flex"
-          />
-        </a>
-          
+          <!-- navlogo -->
+          <a href="../index.html" class="h-full rtl:space-x-reverse">
+            <img
+              src="../Images/NAVLOGO.svg"
+              alt="CSS Logo"
+              class="items-center w-14 md:hidden"
+            />
+            <img
+              src="../Images/NAVLOGO.svg"
+              alt="CSS Logo"
+              class="items-center w-[68px] hidden md:flex"
+            />
+          </a>
+
           <!-- dark mode, join us & button -->
           <div
             class="flex items-center lg:order-2 space-x-2 md:space-x-4 lg:space-x-0 rtl:space-x-reverse"
@@ -169,7 +166,7 @@
               class="rounded-md navlinks text-white text-[14px] md:text-[16px] lg:text-[16.5px] font-dmsans text-center flex flex-col p-4 mt-4 font-normal bg-primary rtl:space-x-reverse"
             >
               <!-- Home -->
-            <li class="w-full">
+              <li class="w-full">
                 <a
                   href="../index.html"
                   class="block mx-auto hover:scale-110 transition ease-in-out py-2 px-3 rounded"
@@ -190,7 +187,7 @@
                 </a>
               </li>
               <!-- Events -->
-            <li class="w-full">
+              <li class="w-full">
                 <a
                   href="./events.html"
                   class="block lg:flex hover:scale-110 lg:flex-col items-center mx-auto py-2 px-3"
@@ -212,7 +209,7 @@
                 </a>
               </li>
               <!-- Resources -->
-            <li class="w-full">
+              <li class="w-full">
                 <a
                   href="./Resouces-1.html"
                   class="block mx-auto transition ease-in-out scale-110 py-2 px-3"
@@ -233,7 +230,7 @@
                 </a>
               </li>
               <!-- Contact -->
-            <li class="w-full">
+              <li class="w-full">
                 <a
                   href="./contact.html"
                   class="block mx-auto hover:scale-110 transition ease-in-out py-2 px-3"
@@ -254,7 +251,7 @@
                 </a>
               </li>
               <!-- Membership -->
-            <li class="w-full">
+              <li class="w-full">
                 <a
                   href="./membership.html"
                   class="block mx-auto hover:scale-110 transition ease-in-out py-2 px-3 rounded"
@@ -375,7 +372,7 @@
             <div
               data-aos="fade-up"
               data-aos-delay="100"
-              style="width: clamp(280px, 55vw, 674px)"
+              style="width: clamp(280px, 45vw, 674px)"
               class="flex flex-col mx-auto rounded-[23px] shadow-custom2 text-center overflow-clip pb-[40px] bg-white"
             >
               <div class="w-full h-[248px] mb-[37px]">
@@ -386,7 +383,7 @@
                 />
               </div>
               <div
-                style="width: clamp(220px, 50vw, 580px)"
+                style="width: clamp(220px, 40vw, 580px)"
                 class="w-fluid15 space-y-2 mx-auto mb-[11px]"
               >
                 <div class="space-y-[11px]">
@@ -449,7 +446,7 @@
             <div
               data-aos="fade-up"
               data-aos-delay="200"
-              style="width: clamp(280px, 55vw, 674px)"
+              style="width: clamp(280px, 45vw, 674px)"
               class="flex flex-col mx-auto rounded-[23px] shadow-custom2 text-center overflow-clip pb-[40px] bg-white"
             >
               <div class="w-full h-[248px] mb-[37px]">
@@ -460,11 +457,14 @@
                 />
               </div>
               <div
-                style="width: clamp(220px, 50vw, 580px)"
+                style="width: clamp(220px, 42vw, 580px)"
                 class="space-y-2 mx-auto mb-[11px]"
               >
                 <div class="space-y-[11px]">
-                  <h1 class="text-fluid2 font-montserrat font-bold">
+                  <h1
+                    style="font-size: clamp(20px, 2.5vw, 32px)"
+                    class="font-montserrat font-bold"
+                  >
                     Skill Up With AgyemangDev
                   </h1>
                   <p
@@ -537,228 +537,221 @@
 
     <!-- FOOTER -->
     <section class="bg-primary w-full">
-      <footer class="text-white w-fit lg:w-[calc(100%-24rem)] bg-primary mx-auto lg:float-right">
+      <footer
+        class="text-white w-fit lg:w-[calc(100%-24rem)] bg-primary mx-auto lg:float-right"
+      >
+        <div
+          class="resourcefooter gap-12 w-fit mx-auto xl:flex-row py-12 md:py-16 lg:px-14 md:mx-10"
+        >
+          <!-- CSS logo and social icons -->
+          <div class="space-y-3 lg:pt-2 w-fit">
+            <a
+              href="../index.html"
+              class="flex flex-col items-center -space-y-[9px] w-fit"
+            >
+              <img
+                src="../Images/NAVLOGO.svg"
+                alt="CSS Logo"
+                class="w-[110px]"
+              />
+              <p class="text-white text-[12px] font-dmsans text-center">
+                Computer Science Society
+              </p>
+            </a>
+            <ul class="flex items-center space-x-2">
+              <li>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100013812960949"
+                  target="_blank"
+                >
+                  <img src="../Images/footer-facebook.svg" alt="Facebook logo"
+                /></a>
+              </li>
+              <li>
+                <a href="https://x.com/thecssknust?lang=en" target="_blank">
+                  <img src="../Images/footer-x.svg" alt="X logo"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/thecssknust/"
+                  target="_blank"
+                >
+                  <img
+                    src="../Images/footer-instagram.svg"
+                    alt="Instagram logo"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/company/the-css-knust/"
+                  target="_blank"
+                >
+                  <img src="../Images/footer-linkedin.svg" alt="LinkedIn logo"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <!-- footer features -->
           <div
-            class="resourcefooter gap-12 w-fit mx-auto xl:flex-row py-12 md:py-16 lg:px-14 md:mx-10"
+            class="footerfeatures lg:flex-wrap font-dmsans font-light md:font-normal flex flex-col gap-20 md:gap-28 lg:gap-8"
           >
-            <!-- CSS logo and social icons -->
-            <div class="space-y-3 lg:pt-2 w-fit">
-              <a
-                href="../index.html"
-                class="flex flex-col items-center -space-y-[9px] w-fit"
-              >
-                <img
-                  src="../Images/NAVLOGO.svg"
-                  alt="CSS Logo"
-                  class="w-[110px]"
-                />
-                <p class="text-white text-[12px] font-dmsans text-center">
-                  Computer Science Society
+            <div class="flex gap-20 md:gap-28 lg:gap-16">
+              <!-- Socials -->
+              <div>
+                <p
+                  class="font-semibold mb-2"
+                  style="font-size: clamp(18px, 2vw, 22px)"
+                >
+                  Socials
                 </p>
-              </a>
-              <ul class="flex items-center space-x-2">
+                <ul
+                  class="space-y-1"
+                  style="font-size: clamp(14px, 1.7vw, 16px)"
+                >
+                  <li
+                    class="hover:scale-105 transition ease-in-out duration-300"
+                  >
+                    <a
+                      href="https://www.instagram.com/thecssknust/"
+                      target="_blank"
+                      >Instagram</a
+                    >
+                  </li>
+                  <li
+                    class="hover:scale-105 transition ease-in-out duration-300"
+                  >
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100013812960949"
+                      target="_blank"
+                      >Facebook</a
+                    >
+                  </li>
+                  <li
+                    class="hover:scale-105 transition ease-in-out duration-300"
+                  >
+                    <a
+                      href="https://www.linkedin.com/company/the-css-knust/"
+                      target="_blank"
+                    >
+                      LinkedIn</a
+                    >
+                  </li>
+                  <li
+                    class="hover:scale-105 transition ease-in-out duration-300"
+                  >
+                    <a href="https://t.me/csresourcesbank" target="_blank"
+                      >Telegram</a
+                    >
+                  </li>
+                  <li
+                    class="hover:scale-105 transition ease-in-out duration-300"
+                  >
+                    <a href="https://x.com/thecssknust?lang=en" target="_blank">
+                      X App</a
+                    >
+                  </li>
+                  <li
+                    class="hover:scale-105 transition ease-in-out duration-300"
+                  >
+                    <a
+                      href="https://whatsapp.com/channel/0029VawygOn7dmeiVqDY4f47"
+                      target="_blank"
+                      >WhatsApp</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- Useful links -->
+              <div class="w-[120px]">
+                <p
+                  class="font-semibold mb-2"
+                  style="font-size: clamp(18px, 2vw, 22px)"
+                >
+                  Useful links
+                </p>
+                <ul
+                  class="space-y-1"
+                  style="font-size: clamp(14px, 1.7vw, 16px)"
+                >
+                  <li
+                    class="hover:scale-105 transition ease-in-out duration-300"
+                  >
+                    <a href="../index.html">Home</a>
+                  </li>
+                  <li
+                    class="hover:scale-105 transition ease-in-out duration-300"
+                  >
+                    <a href="./events.html">Events</a>
+                  </li>
+                  <li
+                    class="hover:scale-105 transition ease-in-out duration-300"
+                  >
+                    <a href="./Resouces-1.html">Resources</a>
+                  </li>
+                  <li
+                    class="hover:scale-105 transition ease-in-out duration-300"
+                  >
+                    <a href="./contact.html">Contact</a>
+                  </li>
+                  <li
+                    class="hover:scale-105 transition ease-in-out duration-300"
+                  >
+                    <a href="./membership.html">Membership</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Contact Us -->
+            <div
+              style="font-size: clamp(14px, 1.7vw, 16px)"
+              class="space-y-[10px] w-[243px]"
+            >
+              <p
+                class="font-semibold"
+                style="font-size: clamp(18px, 2vw, 22px)"
+              >
+                Contact Us
+              </p>
+              <ul class="space-y-1">
                 <li>
                   <a
-                    href="https://www.facebook.com/profile.php?id=100013812960949"
+                    href="https://maps.app.goo.gl/EYaZyV8LxAptGz4A6"
+                    class="hover:underline"
                     target="_blank"
                   >
-                    <img
-                      src="../Images/footer-facebook.svg"
-                      alt="Facebook logo"
-                  /></a>
-                </li>
-                <li>
-                  <a href="https://x.com/thecssknust?lang=en" target="_blank">
-                    <img src="../Images/footer-x.svg" alt="X logo"
-                  /></a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/thecssknust/"
-                    target="_blank"
+                    <span class="font-medium md:font-semibold">KNUST</span>
+                    , College Of Science</a
                   >
-                    <img
-                      src="../Images/footer-instagram.svg"
-                      alt="Instagram logo"
-                  /></a>
+                </li>
+                <li>Kumasi, Ghana</li>
+              </ul>
+              <ul class="space-y-1 pt-3">
+                <li>
+                  <span class="font-medium md:font-semibold">Phone: </span>
+                  <a href="tel:+233592348760" class="hover:underline"
+                    >+233 59 234 8760</a
+                  >
                 </li>
                 <li>
-                  <a
-                    href="https://www.linkedin.com/company/the-css-knust/"
-                    target="_blank"
+                  <span class="font-medium md:font-semibold">Email: </span>
+                  <a href="mailto:thecssknust@gmail.com" class="hover:underline"
+                    >thecssknust@gmail.com</a
                   >
-                    <img
-                      src="../Images/footer-linkedin.svg"
-                      alt="LinkedIn logo"
-                  /></a>
                 </li>
               </ul>
             </div>
-            <!-- footer features -->
-            <div
-              class="footerfeatures lg:flex-wrap font-dmsans font-light md:font-normal flex flex-col gap-20 md:gap-28 lg:gap-8"
-            >
-              <div class="flex gap-20 md:gap-28 lg:gap-16">
-                <!-- Socials -->
-                <div>
-                  <p
-                    class="font-semibold mb-2"
-                    style="font-size: clamp(18px, 2vw, 22px)"
-                  >
-                    Socials
-                  </p>
-                  <ul
-                    class="space-y-1"
-                    style="font-size: clamp(14px, 1.7vw, 16px)"
-                  >
-                    <li
-                      class="hover:scale-105 transition ease-in-out duration-300"
-                    >
-                      <a
-                        href="https://www.instagram.com/thecssknust/"
-                        target="_blank"
-                        >Instagram</a
-                      >
-                    </li>
-                    <li
-                      class="hover:scale-105 transition ease-in-out duration-300"
-                    >
-                      <a
-                        href="https://www.facebook.com/profile.php?id=100013812960949"
-                        target="_blank"
-                        >Facebook</a
-                      >
-                    </li>
-                    <li
-                      class="hover:scale-105 transition ease-in-out duration-300"
-                    >
-                      <a
-                        href="https://www.linkedin.com/company/the-css-knust/"
-                        target="_blank"
-                      >
-                        LinkedIn</a
-                      >
-                    </li>
-                    <li
-                      class="hover:scale-105 transition ease-in-out duration-300"
-                    >
-                      <a href="https://t.me/csresourcesbank" target="_blank"
-                        >Telegram</a
-                      >
-                    </li>
-                    <li
-                      class="hover:scale-105 transition ease-in-out duration-300"
-                    >
-                      <a
-                        href="https://x.com/thecssknust?lang=en"
-                        target="_blank"
-                      >
-                        X App</a
-                      >
-                    </li>
-                    <li
-                      class="hover:scale-105 transition ease-in-out duration-300"
-                    >
-                      <a
-                        href="https://whatsapp.com/channel/0029VawygOn7dmeiVqDY4f47"
-                        target="_blank"
-                        >WhatsApp</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-                <!-- Useful links -->
-                <div class="w-[120px]">
-                  <p
-                    class="font-semibold mb-2"
-                    style="font-size: clamp(18px, 2vw, 22px)"
-                  >
-                    Useful links
-                  </p>
-                  <ul
-                    class="space-y-1"
-                    style="font-size: clamp(14px, 1.7vw, 16px)"
-                  >
-                    <li
-                      class="hover:scale-105 transition ease-in-out duration-300"
-                    >
-                      <a href="../index.html">Home</a>
-                    </li>
-                    <li
-                      class="hover:scale-105 transition ease-in-out duration-300"
-                    >
-                      <a href="./events.html">Events</a>
-                    </li>
-                    <li
-                      class="hover:scale-105 transition ease-in-out duration-300"
-                    >
-                      <a href="./Resouces-1.html">Resources</a>
-                    </li>
-                    <li
-                      class="hover:scale-105 transition ease-in-out duration-300"
-                    >
-                      <a href="./contact.html">Contact</a>
-                    </li>
-                    <li
-                      class="hover:scale-105 transition ease-in-out duration-300"
-                    >
-                      <a href="./membership.html">Membership</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <!-- Contact Us -->
-              <div
-                style="font-size: clamp(14px, 1.7vw, 16px)"
-                class="space-y-[10px] w-[243px]"
-              >
-                <p
-                  class="font-semibold"
-                  style="font-size: clamp(18px, 2vw, 22px)"
-                >
-                  Contact Us
-                </p>
-                <ul class="space-y-1">
-                  <li>
-                    <a
-                      href="https://maps.app.goo.gl/EYaZyV8LxAptGz4A6"
-                      class="hover:underline"
-                      target="_blank"
-                    >
-                      <span class="font-medium md:font-semibold">KNUST</span>
-                      , College Of Science</a
-                    >
-                  </li>
-                  <li>Kumasi, Ghana</li>
-                </ul>
-                <ul class="space-y-1 pt-3">
-                  <li>
-                    <span class="font-medium md:font-semibold">Phone: </span>
-                    <a href="tel:+233592348760" class="hover:underline"
-                      >+233 59 234 8760</a
-                    >
-                  </li>
-                  <li>
-                    <span class="font-medium md:font-semibold">Email: </span>
-                    <a
-                      href="mailto:thecssknust@gmail.com"
-                      class="hover:underline"
-                      >thecssknust@gmail.com</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
           </div>
-          
-          <div
-            class="tracking-[0.5px] border-t border-opacity-55 border-[#8FABFE] mx-14 md:mx-28 lg:mx-56 py-7 lg:py-5 text-[12px] text-center font-dmsans font-light leading-[13px]"
-          >
-            <p>
-              Designed and developed by <br />
-              BinaryBond
-            </p>
-          </div>
+        </div>
+
+        <div
+          class="tracking-[0.5px] border-t border-opacity-55 border-[#8FABFE] mx-14 md:mx-28 lg:mx-56 py-7 lg:py-5 text-[12px] text-center font-dmsans font-light leading-[13px]"
+        >
+          <p>
+            Designed and developed by <br />
+            BinaryBond
+          </p>
+        </div>
       </footer>
       <div class="w-full h-4 bg-white"></div>
     </section>
