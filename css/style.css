@@ -335,7 +335,19 @@ html {
   left: unset;
   right: 3%;
 }
-.sidebarbtn{
+.sidebarbtn {
   background-color: #161616;
   opacity: 0.6;
+}
+
+/* resources */
+.resourcefooter{
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width:1280px) {
+  .resourcefooter{
+    flex-direction: row;
+  }  
 }
