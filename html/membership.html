@@ -317,14 +317,14 @@
 
           <!-- Year Level -->
           <div>
-            <label class="block text-fluid3 text-[#C0C0C0] font-dmsans"
+            <label class="block text-fluid3 text-[#C0C0C0] font-dmsans" for="year"
               >Year</label
             >
             <div class="flex items-center space-x-4 mt-1">
               <label class="inline-flex items-center">
                 <input
                   type="radio"
-                  name="year"
+                 name="Year Level"
                   value="100"
                   class="rounded-full year-level text-blue-500"
                 />
@@ -336,7 +336,7 @@
               <label class="inline-flex items-center">
                 <input
                   type="radio"
-                  name="year"
+                  name="Year Level"
                   value="200"
                   class="rounded-full year-level text-blue-500"
                 />
@@ -348,7 +348,7 @@
               <label class="inline-flex items-center">
                 <input
                   type="radio"
-                  name="year"
+                  name="Year Level"
                   value="300"
                   class="rounded-full year-level text-blue-500"
                 />
@@ -360,7 +360,7 @@
               <label class="inline-flex items-center">
                 <input
                   type="radio"
-                  name="year"
+                  name="Year Level"
                   value="400"
                   class="rounded-full year-level text-blue-500"
                 />
@@ -373,31 +373,21 @@
           </div>
 
           <!-- Submit Button -->
-          <button
-            type="submit"
-            id="submit"
-            class="w-full bg-blue-600 hover:bg-primaryhover transition ease-in-out text-white font-semibold py-2 px-4 rounded-md shadow-custom2"
-          >
+          <button type="submit" id="submit"
+            class="w-full bg-blue-600 hover:bg-primaryhover transition ease-in-out text-white font-semibold py-2 px-4 rounded-md shadow-custom2">
             <span class="flex items-center mx-auto w-fit text-fluid8">
-              <svg
-                class="mr-1 md:mt-1 w-fluid5 h-fluid5"
-                viewBox="0 0 20 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+              <svg class="mr-1 md:mt-1 w-fluid5 h-fluid5" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M4.0625 17.1055C4.0625 17.1055 2.875 17.1055 2.875 15.918C2.875 14.7305 4.0625 11.168 10 11.168C15.9375 11.168 17.125 14.7305 17.125 15.918C17.125 17.1055 15.9375 17.1055 15.9375 17.1055H4.0625ZM10 9.98047C10.9448 9.98047 11.851 9.60513 12.5191 8.93704C13.1872 8.26894 13.5625 7.3628 13.5625 6.41797C13.5625 5.47313 13.1872 4.567 12.5191 3.8989C11.851 3.2308 10.9448 2.85547 10 2.85547C9.05517 2.85547 8.14903 3.2308 7.48093 3.8989C6.81283 4.567 6.4375 5.47313 6.4375 6.41797C6.4375 7.3628 6.81283 8.26894 7.48093 8.93704C8.14903 9.60513 9.05517 9.98047 10 9.98047Z"
-                  fill="white"
-                />
+                  fill="white" />
               </svg>
-
-              Sign Up</span
-            >
+              Sign Up
+            </span>
           </button>
         </form>
 
         <!-- Status Message -->
-        <p id="statusMessage" class="text-center mt-4 text-sm"></p>
+        <p id="membershipStatusMessage" class="text-center mt-4 text-sm"></p>
 
         <p
           class="text-[#C0C0C0] w-fluid6 mx-auto text-center"
